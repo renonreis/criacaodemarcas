@@ -1,0 +1,130 @@
+@charset 'utf-8';
+
+@import 'settings';
+
+@import "~foundation-sites/scss/foundation";
+
+// Global styles
+@include foundation-global-styles;
+@include foundation-forms;
+@include foundation-typography;
+
+// Grids (choose one)
+@include foundation-xy-grid-classes;
+// @include foundation-grid;
+// @include foundation-flex-grid;
+
+// Generic components
+@include foundation-button;
+@include foundation-button-group;
+@include foundation-close-button;
+@include foundation-label;
+@include foundation-progress-bar;
+@include foundation-slider;
+@include foundation-switch;
+@include foundation-table;
+// Basic components
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-callout;
+@include foundation-card;
+@include foundation-dropdown;
+@include foundation-pagination;
+@include foundation-tooltip;
+
+// Containers
+@include foundation-accordion;
+@include foundation-media-object;
+@include foundation-orbit;
+@include foundation-responsive-embed;
+@include foundation-tabs;
+@include foundation-thumbnail;
+// Menu-based containers
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-accordion-menu;
+@include foundation-drilldown-menu;
+@include foundation-dropdown-menu;
+
+// Layout components
+@include foundation-off-canvas;
+@include foundation-reveal;
+@include foundation-sticky;
+@include foundation-title-bar;
+@include foundation-top-bar;
+
+// Helpers
+@include foundation-float-classes;
+@include foundation-flex-classes;
+@include foundation-visibility-classes;
+// @include foundation-prototype-classes;
+
+//LOAD FONTS
+@font-face {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Product Sans Regular"),
+    url("../fonts/ProductSans-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Product Sans Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Product Sans"),
+    url("../fonts/ProductSans-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Product Sans Thin";
+  font-style: normal;
+  font-weight: thin;
+  src: local("Product Sans Thin"),
+    url("../fonts/ProductSans-Thin.woff") format("woff");
+}
+@font-face {
+  font-family: "Product Sans Medium";
+  font-style: normal;
+  font-weight: medium;
+  src: local("Product Sans Medium"),
+    url("../fonts/ProductSans-Medium.woff") format("woff");
+}
+
+$thin: "Product Sans Thin";
+$normal: "Product Sans";
+$medium: "Product Sans Medium";
+$bold: "Product Sans Bold";
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.nomargin {
+  margin: 0;
+}
+
+.white {
+  color: $white;
+}
+
+a,
+a:hover {
+  transition: all 0.3s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -1px;
+}
+
+.btn {
+  border-radius: 6px;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 50px;
+  margin: 0 0 10px;
+  width: 200px;
+}
