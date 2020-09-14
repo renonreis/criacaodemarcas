@@ -21,8 +21,8 @@
     <div class="sticky" data-sticky-container>
       <div data-sticky data-margin-top="0">
         <div class="grid-container">
-          <div class="grid-x grid-margin-x align-middle">
-            <div class="cell small-8 medium-6 large-4">
+          <div class="grid-x align-middle">
+            <div class="cell small-8 medium-6 large-3">
               <a href="/">
                 <picture>
                   <source srcset="~/assets/img/webp/logo-criacao-marcas.webp" type="image/webp" />
@@ -31,29 +31,26 @@
                 </picture>
               </a>
             </div>
-            <div class="cell small-4 medium-6 large-4 text-right hide-for-large">
+            <div class="cell small-4 medium-6 large-3 text-right hide-for-large">
               <button type="button" class="button" data-toggle="offCanvasRightPush">MENU</button>
             </div>
-            <div class="cell medium-8 large-8 show-for-large">
+            <div class="cell medium-8 large-9 show-for-large">
               <nav>
                 <ul class="menu align-right">
                   <li>
-                    <a href="/">Home</a>
+                    <n-link to="/">Criação de marcas</n-link>
                   </li>
                   <li>
-                    <a href="#">Cartão de visita</a>
+                    <n-link to="/cartao-de-visita">Cartão de visita</n-link>
                   </li>
                   <li>
-                    <a href="#">Criação de nomes</a>
+                    <n-link to="/servicos-de-papelaria">Serviços de papelaria</n-link>
                   </li>
                   <li>
-                    <a href="#">Papelaria</a>
+                    <n-link to="/contato">Contato</n-link>
                   </li>
                   <li>
-                    <a href="#">Contato</a>
-                  </li>
-                  <li>
-                    <a href="#" class="client-area">Área do cliente</a>
+                    <n-link to="/area-do-cliente" class="client-area" title="Acompanhe o trabalho de criação em tempo real">Área do cliente</n-link>
                   </li>
                 </ul>
               </nav>
@@ -65,10 +62,13 @@
   </header>
 </template>
 
+<script>
+export default {};
+</script>
+
 <style lang="scss">
 header {
   background-color: #613aa0;
-
   .topbar {
     background-color: #613aa0;
     color: #e4d3ff;
@@ -98,6 +98,10 @@ header {
         &:hover {
           color: #55ffc5;
         }
+        &.nuxt-link-exact-active {
+          color: #55ffc5;
+          opacity: 0.75;
+        }
       }
       .client-area {
         border: 2px solid #ffffff;
@@ -106,9 +110,9 @@ header {
         margin-left: 20px;
         padding: 0 25px;
         &:hover {
-          background-color: #613aa0;
-          border-color: #613aa0;
-          color: #ffffff;
+          background-color: #ffffff;
+          border-color: #ffffff;
+          color: #412176;
         }
       }
     }

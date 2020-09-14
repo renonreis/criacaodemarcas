@@ -5,19 +5,13 @@
         <div class="grid-x grid-padding-x">
           <div class="cell small-12 medium-5 large-5">
             <picture>
-              <source
-                srcset="~/assets/img/webp/logo-criacao-marcas-default.webp"
-                type="image/webp"
-              />
-              <source
-                srcset="~/assets/img/logo-criacao-marcas-default.png"
-                type="image/png"
-              />
+              <source srcset="~/assets/img/webp/logo-criacao-marcas-default.webp" type="image/webp" />
+              <source srcset="~/assets/img/logo-criacao-marcas-default.png" type="image/png" />
               <img
                 class="logo-footer"
                 loading="lazy"
                 src="~/assets/img/logo-criacao-marcas-default.png"
-                alt=""
+                alt
               />
             </picture>
             <p>
@@ -29,36 +23,14 @@
             </p>
             <div class="selo">
               <picture>
-                <source
-                  srcset="~/assets/img/webp/selo-ummense.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="~/assets/img/selo-ummense.png"
-                  type="image/png"
-                />
-                <img
-                  class="ummense"
-                  loading="lazy"
-                  src="~/assets/img/selo-ummense.png"
-                  alt=""
-                />
+                <source srcset="~/assets/img/webp/selo-ummense.webp" type="image/webp" />
+                <source srcset="~/assets/img/selo-ummense.png" type="image/png" />
+                <img class="ummense" loading="lazy" src="~/assets/img/selo-ummense.png" alt />
               </picture>
               <picture>
-                <source
-                  srcset="~/assets/img/webp/selo-tratativa.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="~/assets/img/selo-tratativa.png"
-                  type="image/png"
-                />
-                <img
-                  class="tratativa"
-                  loading="lazy"
-                  src="~/assets/img/selo-tratativa.png"
-                  alt=""
-                />
+                <source srcset="~/assets/img/webp/selo-tratativa.webp" type="image/webp" />
+                <source srcset="~/assets/img/selo-tratativa.png" type="image/png" />
+                <img class="tratativa" loading="lazy" src="~/assets/img/selo-tratativa.png" alt />
               </picture>
             </div>
           </div>
@@ -68,88 +40,63 @@
                 <div class="cell medium-4 large-4">
                   <h3>Navegação</h3>
                   <ul>
-                    <li><a href="#">Criação de Marcas</a></li>
-                    <li><a href="#">Cartão de visita</a></li>
-                    <li><a href="#">Criação de nomes</a></li>
-                    <li><a href="#">Papelaria</a></li>
-                    <li><a href="#">Área do cliente</a></li>
-                    <li><a href="#">Fale conosco</a></li>
+                    <li>
+                      <a href="#">Criação de Marcas</a>
+                    </li>
+                    <li>
+                      <a href="#">Cartão de visita</a>
+                    </li>
+                    <li>
+                      <a href="#">Criação de nomes</a>
+                    </li>
+                    <li>
+                      <a href="#">Papelaria</a>
+                    </li>
+                    <li>
+                      <a href="#">Área do cliente</a>
+                    </li>
+                    <li>
+                      <a href="#">Fale conosco</a>
+                    </li>
                   </ul>
                 </div>
                 <div class="cell medium-4 large-4">
                   <h3>Localização</h3>
                   <p>
-                    Rua Augusto de Mari, 3400 <br />
-                    Portão | Curitiba-PR <br />
-                    CEP: 80630-010
+                    Rua Augusto de Mari, 3400
+                    <br />Portão | Curitiba-PR
+                    <br />CEP: 80630-010
                   </p>
                   <h3>Contato</h3>
-                  <a href="#"
-                    ><span
-                      class="iconify"
-                      data-icon="mdi:whatsapp"
-                      data-inline="false"
-                    ></span>
-                    41 99999.9999</a
-                  >
+                  <a href="#">
+                    <span class="iconify" data-icon="mdi:whatsapp" data-inline="false"></span>
+                    41 99999.9999
+                  </a>
                 </div>
                 <div class="cell medium-4 large-4">
                   <h3>Pagamento</h3>
                   <picture>
-                    <source
-                      srcset="~/assets/img/webp/img-pagamentos.webp"
-                      type="image/webp"
-                    />
-                    <source
-                      srcset="~/assets/img/img-pagamentos.png"
-                      type="image/png"
-                    />
-                    <img
-                      loading="lazy"
-                      src="~/assets/img/img-pagamentos.png"
-                      alt=""
-                    />
+                    <source srcset="~/assets/img/webp/img-pagamentos.webp" type="image/webp" />
+                    <source srcset="~/assets/img/img-pagamentos.png" type="image/png" />
+                    <img loading="lazy" src="~/assets/img/img-pagamentos.png" alt />
                   </picture>
                 </div>
                 <div class="cell medium-12 large-12">
                   <div class="box">
-                    <p>
-                      Baixe o nosso App para acompanhar o andamento dos serviços
-                      de criação:
-                    </p>
+                    <p>Deseja acompanhar o andamento em tempo real dos serviços contratados? Baixe nosso App:</p>
                     <p>
                       <a href="#">
                         <picture>
-                          <source
-                            srcset="~/assets/img/webp/apple-store.webp"
-                            type="image/webp"
-                          />
-                          <source
-                            srcset="~/assets/img/apple-store.png"
-                            type="image/png"
-                          />
-                          <img
-                            loading="lazy"
-                            src="~/assets/img/apple-store.png"
-                            alt=""
-                          />
+                          <source srcset="~/assets/img/webp/apple-store.webp" type="image/webp" />
+                          <source srcset="~/assets/img/apple-store.png" type="image/png" />
+                          <img loading="lazy" src="~/assets/img/apple-store.png" alt />
                         </picture>
                       </a>
                       <a href="#">
                         <picture>
-                          <source
-                            srcset="~/assets/img/webp/google-play.webp"
-                            type="image/webp"
-                          />
-                          <source
-                            srcset="~/assets/img/google-play.png"
-                            type="image/png"
-                          />
-                          <img
-                            loading="lazy"
-                            src="~/assets/img/google-play.png"
-                            alt=""
-                          />
+                          <source srcset="~/assets/img/webp/google-play.webp" type="image/webp" />
+                          <source srcset="~/assets/img/google-play.png" type="image/png" />
+                          <img loading="lazy" src="~/assets/img/google-play.png" alt />
                         </picture>
                       </a>
                     </p>
@@ -176,11 +123,7 @@
                 <a href="#">Termos de uso dos aplicativos</a>
               </li>
               <li>
-                <span
-                  class="iconify"
-                  data-icon="icons8:copyright"
-                  data-inline="false"
-                ></span>
+                <span class="iconify" data-icon="icons8:copyright" data-inline="false"></span>
                 2020 - Criação de Marcas
               </li>
             </ul>
@@ -188,27 +131,15 @@
           <div class="cell large-4 text-right social">
             <p>
               Siga-nos
-              <a href=""
-                ><span
-                  class="iconify"
-                  data-icon="ant-design:facebook-filled"
-                  data-inline="false"
-                ></span
-              ></a>
-              <a href=""
-                ><span
-                  class="iconify"
-                  data-icon="ant-design:instagram-outlined"
-                  data-inline="false"
-                ></span
-              ></a>
-              <a href=""
-                ><span
-                  class="iconify"
-                  data-icon="ant-design:linkedin-filled"
-                  data-inline="false"
-                ></span
-              ></a>
+              <a href>
+                <span class="iconify" data-icon="ant-design:facebook-filled" data-inline="false"></span>
+              </a>
+              <a href>
+                <span class="iconify" data-icon="ant-design:instagram-outlined" data-inline="false"></span>
+              </a>
+              <a href>
+                <span class="iconify" data-icon="ant-design:linkedin-filled" data-inline="false"></span>
+              </a>
             </p>
           </div>
         </div>
@@ -220,12 +151,16 @@
 <style lang="scss">
 //FOOTER
 footer {
+  background-image: url("~assets/img/border-footer.png");
+  background-position: top center;
+  background-repeat: no-repeat;
   .footer {
     padding: 95px 0;
   }
   h3 {
     color: #422179;
     font-size: 18px;
+    margin-bottom: 15px;
   }
   ul {
     margin: 0;
@@ -266,6 +201,7 @@ footer {
     min-height: 75px;
     padding: 10px 15px;
     p {
+      font-size: 14px;
       margin: 0;
       padding: 0 15px;
       width: 50%;
@@ -304,6 +240,59 @@ footer {
     a {
       font-size: 21px;
       margin: 0 5px;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  footer {
+    text-align: center;
+    .selo {
+      display: block;
+      .ummense,
+      .tratativa {
+        margin: 10px 0px;
+      }
+    }
+    .box {
+      display: block;
+      p {
+        width: 100%;
+        &:first-child {
+          margin-bottom: 15px;
+        }
+        &:last-child {
+          text-align: center;
+        }
+        a {
+          display: block;
+          margin-bottom: 15px;
+          &:first-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+    .cell {
+      padding: 15px 0;
+    }
+    .footer {
+      padding: 50px 0;
+    }
+    .subfooter {
+      padding: 25px 0;
+      .menu-footer {
+        li {
+          display: block;
+          border: 0;
+          &:last-child {
+            margin-top: 25px;
+          }
+        }
+      }
+      .social {
+        order: -1;
+        text-align: center;
+      }
     }
   }
 }
