@@ -4,7 +4,7 @@
       <div class="grid-container">
         <div class="grid-x grid-margin-x align-middle">
           <div class="cell small-12 medium-6 large-6">
-            <p>Criação de Marcas Profissionais | Logos Criativos</p>
+            <p>Serviço especializado de Criação de Marcas</p>
           </div>
           <div class="cell small-12 medium-6 large-6 text-right">
             <p>
@@ -18,7 +18,7 @@
         </div>
       </div>
     </div>
-    <div class="sticky" data-sticky-container>
+    <div class="sticky">
       <div data-sticky data-margin-top="0">
         <div class="grid-container">
           <div class="grid-x align-middle">
@@ -50,7 +50,18 @@
                     <n-link to="/contato">Contato</n-link>
                   </li>
                   <li>
-                    <n-link to="/area-do-cliente" class="client-area" title="Acompanhe o trabalho de criação em tempo real">Área do cliente</n-link>
+                    <n-link
+                      to="/area-do-cliente"
+                      class="client-area"
+                      title="Acompanhe o trabalho de criação em tempo real"
+                    >
+                      Área do cliente
+                      <picture>
+                        <source srcset="~/assets/img/webp/img-area-cliente.webp" type="image/webp" />
+                        <source srcset="~/assets/img/img-area-cliente.png" type="image/png" />
+                        <img loading="lazy" src="~/assets/img/img-area-cliente.png" alt />
+                      </picture>
+                    </n-link>
                   </li>
                 </ul>
               </nav>
@@ -99,7 +110,7 @@ header {
           color: #55ffc5;
         }
         &.nuxt-link-exact-active {
-          color: #55ffc5;
+          color: #ffffff;
           opacity: 0.75;
         }
       }
@@ -113,6 +124,15 @@ header {
           background-color: #ffffff;
           border-color: #ffffff;
           color: #412176;
+          img {
+            display: block;
+            position: absolute;
+            top: 45px;
+            right: -30px;
+          }
+        }
+        img {
+          display: none;
         }
       }
     }

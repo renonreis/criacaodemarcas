@@ -99,6 +99,17 @@
             <source srcset="~/assets/img/img-antes-1.jpg" type="image/jpg" />
             <img loading="lazy" src="~/assets/img/img-antes-1.jpg" alt />
           </picture>
+          <div class="box-over">
+            <picture>
+              <source srcset="~/assets/img/webp/icon-antes-1.webp" type="image/webp" />
+              <source srcset="~/assets/img/icon-antes-1.png" type="image/png" />
+              <img loading="lazy" src="~/assets/img/icon-antes-1.png" alt />
+            </picture>
+            <h3>
+              <span>Baixo</span>
+              extímulo de compra
+            </h3>
+          </div>
         </div>
         <div class="cell large-3 box-after">
           <picture>
@@ -113,8 +124,8 @@
               <img loading="lazy" src="~/assets/img/icon-antes-2.png" alt />
             </picture>
             <h3>
-              <span>CUSTO ELEVADO</span>
-              em marketing
+              <span>Menor</span>
+              margem de lucro
             </h3>
           </div>
         </div>
@@ -168,7 +179,7 @@
             </picture>
             <h3>
               <span>Menor</span>
-              margem de lucro
+              fidelização dos clientes
             </h3>
           </div>
         </div>
@@ -178,6 +189,17 @@
             <source srcset="~/assets/img/img-depois-1.jpg" type="image/jpg" />
             <img loading="lazy" src="~/assets/img/img-depois-1.jpg" alt />
           </picture>
+          <div class="box-over">
+            <picture>
+              <source srcset="~/assets/img/webp/icon-depois-1.webp" type="image/webp" />
+              <source srcset="~/assets/img/icon-depois-1.png" type="image/png" />
+              <img loading="lazy" src="~/assets/img/icon-depois-1.png" alt />
+            </picture>
+            <h3>
+              <span>alto</span>
+              extímulo de compra
+            </h3>
+          </div>
         </div>
         <div class="cell large-3 box-before">
           <picture>
@@ -192,8 +214,8 @@
               <img loading="lazy" src="~/assets/img/icon-depois-2.png" alt />
             </picture>
             <h3>
-              <span>Menor investimento</span>
-              em marketing
+              <span>Maior</span>
+              margem de lucro
             </h3>
           </div>
         </div>
@@ -210,8 +232,8 @@
               <img loading="lazy" src="~/assets/img/icon-depois-3.png" alt />
             </picture>
             <h3>
-              Revela ao consumidor
-              <span>profissionalismo</span>
+              <span>Menor investimento</span>
+              em marketing
             </h3>
           </div>
         </div>
@@ -385,7 +407,7 @@
         <div class="grid-x align-middle text-center">
           <div class="cell files">
             <h2 class="nomargin">Como trabalhamos</h2>
-            <p>Nosso processo criativo é eficiente e isso nos possibilita criar sua marca com agilidade e profissionalismo.</p>
+            <p>Nosso processo criativo é eficiente e isso nos possibilita criar sua marca com agilidade e profissionalismo. Nosso compromisso é apresentar sua marca em até 72 horas úteis, caso aprovado faremos os fechamentos dos arquivos para entrega em até 48 horas.</p>
           </div>
           <div class="cell">
             <ul class="steps hide-for-small-only">
@@ -427,11 +449,8 @@
     <div class="grid-container diferenca">
       <div class="grid-x grid-padding-x">
         <div class="cell text-center">
-          <h2 class="nomargin">Detalhes que fazem toda a diferença</h2>
-          <p>
-            Quando os detalhes são escolhidos minuciosamente, eles geram um
-            impacto visual transformador em seus clientes.
-          </p>
+          <h2 class="nomargin">Elementos e conceitos para impactar seus clientes</h2>
+          <p>Ao criar a marca da sua empresa ou do seu produto cuidamos de cada detalhe para gerar um impacto positivo em seus clientes e equipe.</p>
         </div>
         <div class="cell large-3">
           <h3>
@@ -559,15 +578,15 @@
           <h3>
             <picture>
               <source
-                srcset="~/assets/img/webp/icon-diferenciais-diferenciacao.webp"
+                srcset="~/assets/img/webp/icon-diferenciais-legibilidade.webp"
                 type="image/webp"
               />
-              <source srcset="~/assets/img/icon-diferenciais-diferenciacao.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-diferenciais-diferenciacao.png" alt />
+              <source srcset="~/assets/img/icon-diferenciais-legibilidade.png" type="image/png" />
+              <img loading="lazy" src="~/assets/img/icon-diferenciais-legibilidade.png" alt />
             </picture>
-            Diferenciação
+            Legibilidade
           </h3>
-          <p>Receba também sua marca pronta para usar nas medidas exigidas.</p>
+          <p>Os elementos precisam ser simples e objetivos para oferecer clareza na leitura</p>
         </div>
         <div class="cell large-3">
           <h3>
@@ -580,7 +599,6 @@
           </h3>
           <p>Para alcançar ótimos resultados a marca precisa impactar seu público alvo</p>
         </div>
-        <div class="cell large-3 hide-for-small-only"></div>
         <div class="cell large-3">
           <h3>
             <picture>
@@ -598,18 +616,42 @@
         <div class="cell large-3">
           <h3>
             <picture>
+              <source srcset="~/assets/img/webp/icon-diferenciais-contraste.webp" type="image/webp" />
+              <source srcset="~/assets/img/icon-diferenciais-contraste.png" type="image/png" />
+              <img loading="lazy" src="~/assets/img/icon-diferenciais-contraste.png" alt />
+            </picture>
+            Contraste
+          </h3>
+          <p>O contraste ajuda destacar informações importantes e facilitar leitura</p>
+        </div>
+        <div class="cell large-3">
+          <h3>
+            <picture>
               <source
-                srcset="~/assets/img/webp/icon-diferenciais-legibilidade.webp"
+                srcset="~/assets/img/webp/icon-diferenciais-alinhamento.webp"
                 type="image/webp"
               />
-              <source srcset="~/assets/img/icon-diferenciais-legibilidade.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-diferenciais-legibilidade.png" alt />
+              <source srcset="~/assets/img/icon-diferenciais-alinhamento.png" type="image/png" />
+              <img loading="lazy" src="~/assets/img/icon-diferenciais-alinhamento.png" alt />
             </picture>
-            Legibilidade
+            Alinhamento
           </h3>
-          <p>Os elementos precisam ser simples e objetivos para oferecer clareza na leitura</p>
+          <p>Alinhar corretamente os elementos melhora a percepção do consumidor</p>
         </div>
-        <div class="cell large-3 hide-for-small-only"></div>
+        <div class="cell large-3">
+          <h3>
+            <picture>
+              <source
+                srcset="~/assets/img/webp/icon-diferenciais-equilibrio.webp"
+                type="image/webp"
+              />
+              <source srcset="~/assets/img/icon-diferenciais-equilibrio.png" type="image/png" />
+              <img loading="lazy" src="~/assets/img/icon-diferenciais-equilibrio.png" alt />
+            </picture>
+            Equilíbrio
+          </h3>
+          <p>Equilibrar o peso das informações é chave para representar estabilidade</p>
+        </div>
       </div>
     </div>
     <div class="duvidas">
@@ -761,10 +803,7 @@
       <div class="grid-x text-center">
         <div class="cell">
           <h2 class="nomargin">Qual o valor do investimento?</h2>
-          <p>
-            Neste período de COVID19 estamos oferecendo um preço diferenciado
-            para as empresas que desejam criar ou reformular sua marca.
-          </p>
+          <p>Neste período de Pandemia estamos oferecendo um preço diferenciado para ajudar as empresas que desejam criar ou reformular sua marca.</p>
         </div>
         <div class="cell condicao">
           <h2>
@@ -829,7 +868,8 @@
               <span>Ganhe um bônus:</span> Ao adquirir a criação da sua marca,
               você terá acesso completo ao
               <a
-                href="#"
+                href="https://www.coachingwalking.com.br/"
+                target="_blank"
               >Treinamento Coaching Walking</a>
             </p>
           </div>
@@ -975,7 +1015,7 @@ main {
   list-style: none;
   margin: 25px 0 0;
   li {
-    border-right: 1px solid #6943a6;
+    border-right: 1px solid #e6e1ef;
     color: #e4d3ff;
     font-size: 13px;
     line-height: 16px;
@@ -1072,18 +1112,18 @@ main {
       display: flex;
       font-size: 16px;
       flex-direction: column;
-      margin-right: 4%;
-      max-width: 100px;
-      text-align: left;
+      width: 12%;
+      text-align: center;
+      span {
+        max-width: 100px;
+        margin: 0 auto;
+        text-align: left;
+      }
       &:after {
         content: url("~assets/img/icon-arrow.png");
         display: block;
         margin-top: 10px;
         z-index: 1;
-      }
-      &:last-child {
-        margin-right: 0;
-        text-align: right;
       }
     }
   }

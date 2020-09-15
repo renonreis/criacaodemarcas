@@ -14,13 +14,8 @@
                 alt
               />
             </picture>
-            <p>
-              Texto sobre a empresa. Nunca é demais lembrar o peso e o
-              significado destes problemas, uma vez que o acompanhamento das
-              preferências de consumo. Pensando mais a longo prazo, a expansão
-              dos mercados mundiais representa uma abertura para a melhoria da
-              gestão inovadora da qual fazemos parte.
-            </p>
+            <p>Nós da CriaçãodeMarcas.com somos especializados em criação de marcas para empresas, produtos e serviços. Nosso trabalho é proporcionar um serviço de qualidade para impactar e estimular seu público alvo na geração de novos negócios.</p>
+            <a href="#" class="btn">Solicitar criação de marca</a>
             <div class="selo">
               <picture>
                 <source srcset="~/assets/img/webp/selo-ummense.webp" type="image/webp" />
@@ -41,22 +36,23 @@
                   <h3>Navegação</h3>
                   <ul>
                     <li>
-                      <a href="#">Criação de Marcas</a>
+                      <n-link to="/">Criação de marcas</n-link>
                     </li>
                     <li>
-                      <a href="#">Cartão de visita</a>
+                      <n-link to="/cartao-de-visita">Cartão de visita</n-link>
                     </li>
                     <li>
-                      <a href="#">Criação de nomes</a>
+                      <n-link to="/servicos-de-papelaria">Serviços de papelaria</n-link>
                     </li>
                     <li>
-                      <a href="#">Papelaria</a>
+                      <n-link to="/contato">Contato</n-link>
                     </li>
                     <li>
-                      <a href="#">Área do cliente</a>
-                    </li>
-                    <li>
-                      <a href="#">Fale conosco</a>
+                      <n-link
+                        to="/area-do-cliente"
+                        class="client-area"
+                        title="Acompanhe o trabalho de criação em tempo real"
+                      >Área do cliente</n-link>
                     </li>
                   </ul>
                 </div>
@@ -114,17 +110,14 @@
           <div class="cell large-8">
             <ul class="menu-footer">
               <li>
-                <a href="#">Termos de uso</a>
-              </li>
-              <li>
-                <a href="#">Políticas de Privacidade</a>
-              </li>
-              <li>
-                <a href="#">Termos de uso dos aplicativos</a>
-              </li>
-              <li>
                 <span class="iconify" data-icon="icons8:copyright" data-inline="false"></span>
                 2020 - Criação de Marcas
+              </li>
+              <li>
+                <a href="#">Termos de Prestação de Serviço</a>
+              </li>
+              <li>
+                <a href="#">Termos de Privacidade</a>
               </li>
             </ul>
           </div>
@@ -144,6 +137,15 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="whats-float">
+      <a href="#" target="_blank">
+        <picture>
+          <source srcset="~/assets/img/webp/img-whats.webp" type="image/webp" />
+          <source srcset="~/assets/img/img-whats.png" type="image/png" />
+          <img loading="lazy" src="~/assets/img/img-whats.png" alt />
+        </picture>
+      </a>
     </div>
   </footer>
 </template>
@@ -169,6 +171,9 @@ footer {
       list-style: none;
       a {
         color: #484848;
+        &.nuxt-link-exact-active {
+          opacity: 0.75;
+        }
       }
     }
   }
@@ -215,6 +220,15 @@ footer {
     }
   }
 }
+
+.whats-float {
+  bottom: 0;
+  position: fixed;
+  right: 0;
+  z-index: 99;
+  text-align: right;
+}
+
 .subfooter {
   background-color: #fbf8f1;
   .grid-x {
@@ -225,8 +239,14 @@ footer {
       display: inline-block;
       border-right: 1px solid;
       padding: 0 10px;
-      &:last-child() {
+      a {
+        color: #43237a;
+      }
+      &:last-child {
         border-right: none;
+      }
+      &.nuxt-link-exact-active {
+        opacity: 0.75;
       }
     }
   }
@@ -240,6 +260,9 @@ footer {
     a {
       font-size: 21px;
       margin: 0 5px;
+      &:hover {
+        color: #613aa0;
+      }
     }
   }
 }
@@ -293,6 +316,11 @@ footer {
         order: -1;
         text-align: center;
       }
+    }
+  }
+  .whats-float {
+    img {
+      width: 50%;
     }
   }
 }
