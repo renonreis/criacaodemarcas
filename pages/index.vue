@@ -93,184 +93,194 @@
             <br />Quando criada com critério sua marca proporciona grandes benefícios para seu negócio.
           </p>
         </div>
-        <div class="cell large-3 box-after">
-          <picture>
-            <source srcset="~/assets/img/webp/img-antes-1.webp" type="image/webp" />
-            <source srcset="~/assets/img/img-antes-1.jpg" type="image/jpg" />
-            <img loading="lazy" src="~/assets/img/img-antes-1.jpg" alt />
-          </picture>
-          <div class="box-over">
+        <div class="cell large-3 box-vantagens">
+          <div class="box-after">
             <picture>
-              <source srcset="~/assets/img/webp/icon-antes-1.webp" type="image/webp" />
-              <source srcset="~/assets/img/icon-antes-1.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-antes-1.png" alt />
+              <source srcset="~/assets/img/webp/img-antes-1.webp" type="image/webp" />
+              <source srcset="~/assets/img/img-antes-1.jpg" type="image/jpg" />
+              <img loading="lazy" src="~/assets/img/img-antes-1.jpg" alt />
             </picture>
-            <h3>
-              <span>Baixo</span>
-              extímulo de compra
-            </h3>
+            <div class="box-over">
+              <picture>
+                <source srcset="~/assets/img/webp/icon-antes-1.webp" type="image/webp" />
+                <source srcset="~/assets/img/icon-antes-1.png" type="image/png" />
+                <img loading="lazy" src="~/assets/img/icon-antes-1.png" alt />
+              </picture>
+              <h3>
+                <span>Baixo</span>
+                extímulo de compra
+              </h3>
+            </div>
+          </div>
+          <div class="box-before">
+            <picture>
+              <source srcset="~/assets/img/webp/img-depois-1.webp" type="image/webp" />
+              <source srcset="~/assets/img/img-depois-1.jpg" type="image/jpg" />
+              <img loading="lazy" src="~/assets/img/img-depois-1.jpg" alt />
+            </picture>
+            <div class="box-over">
+              <picture>
+                <source srcset="~/assets/img/webp/icon-depois-1.webp" type="image/webp" />
+                <source srcset="~/assets/img/icon-depois-1.png" type="image/png" />
+                <img loading="lazy" src="~/assets/img/icon-depois-1.png" alt />
+              </picture>
+              <h3>
+                <span>alto</span>
+                extímulo de compra
+              </h3>
+            </div>
           </div>
         </div>
-        <div class="cell large-3 box-after">
-          <picture>
-            <source srcset="~/assets/img/webp/img-antes-2.webp" type="image/webp" />
-            <source srcset="~/assets/img/img-antes-2.jpg" type="image/jpg" />
-            <img loading="lazy" src="~/assets/img/img-antes-2.jpg" alt />
-          </picture>
-          <div class="box-over">
+        <div class="cell large-3 box-vantagens">
+          <div class="box-after">
             <picture>
-              <source srcset="~/assets/img/webp/icon-antes-2.webp" type="image/webp" />
-              <source srcset="~/assets/img/icon-antes-2.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-antes-2.png" alt />
+              <source srcset="~/assets/img/webp/img-antes-2.webp" type="image/webp" />
+              <source srcset="~/assets/img/img-antes-2.jpg" type="image/jpg" />
+              <img loading="lazy" src="~/assets/img/img-antes-2.jpg" alt />
             </picture>
-            <h3>
-              <span>Menor</span>
-              margem de lucro
-            </h3>
+            <div class="box-over">
+              <picture>
+                <source srcset="~/assets/img/webp/icon-antes-2.webp" type="image/webp" />
+                <source srcset="~/assets/img/icon-antes-2.png" type="image/png" />
+                <img loading="lazy" src="~/assets/img/icon-antes-2.png" alt />
+              </picture>
+              <h3>
+                <span>Menor</span>
+                margem de lucro
+              </h3>
+            </div>
+          </div>
+          <div class="box-before">
+            <picture>
+              <source srcset="~/assets/img/webp/img-depois-2.webp" type="image/webp" />
+              <source srcset="~/assets/img/img-depois-2.jpg" type="image/jpg" />
+              <img loading="lazy" src="~/assets/img/img-depois-2.jpg" alt />
+            </picture>
+            <div class="box-over">
+              <picture>
+                <source srcset="~/assets/img/webp/icon-depois-2.webp" type="image/webp" />
+                <source srcset="~/assets/img/icon-depois-2.png" type="image/png" />
+                <img loading="lazy" src="~/assets/img/icon-depois-2.png" alt />
+              </picture>
+              <h3>
+                <span>Maior</span>
+                margem de lucro
+              </h3>
+            </div>
           </div>
         </div>
-        <div class="cell large-3 box-after">
-          <picture>
-            <source srcset="~/assets/img/webp/img-antes-3.webp" type="image/webp" />
-            <source srcset="~/assets/img/img-antes-3.jpg" type="image/jpg" />
-            <img loading="lazy" src="~/assets/img/img-antes-3.jpg" alt />
-          </picture>
-          <div class="box-over">
+        <div class="cell large-3 box-vantagens">
+          <div class="box-after">
             <picture>
-              <source srcset="~/assets/img/webp/icon-antes-3.webp" type="image/webp" />
-              <source srcset="~/assets/img/icon-antes-3.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-antes-3.png" alt />
+              <source srcset="~/assets/img/webp/img-antes-3.webp" type="image/webp" />
+              <source srcset="~/assets/img/img-antes-3.jpg" type="image/jpg" />
+              <img loading="lazy" src="~/assets/img/img-antes-3.jpg" alt />
             </picture>
-            <h3>
-              <span>CUSTO ELEVADO</span>
-              em marketing
-            </h3>
+            <div class="box-over">
+              <picture>
+                <source srcset="~/assets/img/webp/icon-antes-3.webp" type="image/webp" />
+                <source srcset="~/assets/img/icon-antes-3.png" type="image/png" />
+                <img loading="lazy" src="~/assets/img/icon-antes-3.png" alt />
+              </picture>
+              <h3>
+                <span>CUSTO ELEVADO</span>
+                em marketing
+              </h3>
+            </div>
+          </div>
+          <div class="box-before">
+            <picture>
+              <source srcset="~/assets/img/webp/img-depois-3.webp" type="image/webp" />
+              <source srcset="~/assets/img/img-depois-3.jpg" type="image/jpg" />
+              <img loading="lazy" src="~/assets/img/img-depois-3.jpg" alt />
+            </picture>
+            <div class="box-over">
+              <picture>
+                <source srcset="~/assets/img/webp/icon-depois-3.webp" type="image/webp" />
+                <source srcset="~/assets/img/icon-depois-3.png" type="image/png" />
+                <img loading="lazy" src="~/assets/img/icon-depois-3.png" alt />
+              </picture>
+              <h3>
+                <span>Menor investimento</span>
+                em marketing
+              </h3>
+            </div>
           </div>
         </div>
-        <div class="cell large-3 box-after">
-          <picture>
-            <source srcset="~/assets/img/webp/img-antes-4.webp" type="image/webp" />
-            <source srcset="~/assets/img/img-antes-4.jpg" type="image/jpg" />
-            <img loading="lazy" src="~/assets/img/img-antes-4.jpg" alt />
-          </picture>
-          <div class="box-over">
+        <div class="cell large-3 box-vantagens">
+          <div class="box-after">
             <picture>
-              <source srcset="~/assets/img/webp/icon-antes-4.webp" type="image/webp" />
-              <source srcset="~/assets/img/icon-antes-4.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-antes-4.png" alt />
+              <source srcset="~/assets/img/webp/img-antes-4.webp" type="image/webp" />
+              <source srcset="~/assets/img/img-antes-4.jpg" type="image/jpg" />
+              <img loading="lazy" src="~/assets/img/img-antes-4.jpg" alt />
             </picture>
-            <h3>
-              Revela ao consumidor
-              <span>Baixa qualidade</span>
-            </h3>
+            <div class="box-over">
+              <picture>
+                <source srcset="~/assets/img/webp/icon-antes-4.webp" type="image/webp" />
+                <source srcset="~/assets/img/icon-antes-4.png" type="image/png" />
+                <img loading="lazy" src="~/assets/img/icon-antes-4.png" alt />
+              </picture>
+              <h3>
+                Revela ao consumidor
+                <span>Baixa qualidade</span>
+              </h3>
+            </div>
+          </div>
+          <div class="box-before">
+            <picture>
+              <source srcset="~/assets/img/webp/img-depois-4.webp" type="image/webp" />
+              <source srcset="~/assets/img/img-depois-4.jpg" type="image/jpg" />
+              <img loading="lazy" src="~/assets/img/img-depois-4.jpg" alt />
+            </picture>
+            <div class="box-over">
+              <picture>
+                <source srcset="~/assets/img/webp/icon-depois-4.webp" type="image/webp" />
+                <source srcset="~/assets/img/icon-depois-4.png" type="image/png" />
+                <img loading="lazy" src="~/assets/img/icon-depois-4.png" alt />
+              </picture>
+              <h3>
+                Revela ao consumidor
+                <span>profissionalismo</span>
+              </h3>
+            </div>
           </div>
         </div>
-        <div class="cell large-3 box-after">
-          <picture>
-            <source srcset="~/assets/img/webp/img-antes-5.webp" type="image/webp" />
-            <source srcset="~/assets/img/img-antes-5.jpg" type="image/jpg" />
-            <img loading="lazy" src="~/assets/img/img-antes-5.jpg" alt />
-          </picture>
-          <div class="box-over">
+        <div class="cell large-3 box-vantagens">
+          <div class="box-after">
             <picture>
-              <source srcset="~/assets/img/webp/icon-antes-5.webp" type="image/webp" />
-              <source srcset="~/assets/img/icon-antes-5.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-antes-5.png" alt />
+              <source srcset="~/assets/img/webp/img-antes-5.webp" type="image/webp" />
+              <source srcset="~/assets/img/img-antes-5.jpg" type="image/jpg" />
+              <img loading="lazy" src="~/assets/img/img-antes-5.jpg" alt />
             </picture>
-            <h3>
-              <span>Menor</span>
-              fidelização dos clientes
-            </h3>
+            <div class="box-over">
+              <picture>
+                <source srcset="~/assets/img/webp/icon-antes-5.webp" type="image/webp" />
+                <source srcset="~/assets/img/icon-antes-5.png" type="image/png" />
+                <img loading="lazy" src="~/assets/img/icon-antes-5.png" alt />
+              </picture>
+              <h3>
+                <span>Menor</span>
+                fidelização dos clientes
+              </h3>
+            </div>
           </div>
-        </div>
-        <div class="cell large-3 box-before">
-          <picture>
-            <source srcset="~/assets/img/webp/img-depois-1.webp" type="image/webp" />
-            <source srcset="~/assets/img/img-depois-1.jpg" type="image/jpg" />
-            <img loading="lazy" src="~/assets/img/img-depois-1.jpg" alt />
-          </picture>
-          <div class="box-over">
+          <div class="box-before">
             <picture>
-              <source srcset="~/assets/img/webp/icon-depois-1.webp" type="image/webp" />
-              <source srcset="~/assets/img/icon-depois-1.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-depois-1.png" alt />
+              <source srcset="~/assets/img/webp/img-depois-5.webp" type="image/webp" />
+              <source srcset="~/assets/img/img-depois-5.jpg" type="image/jpg" />
+              <img loading="lazy" src="~/assets/img/img-depois-5.jpg" alt />
             </picture>
-            <h3>
-              <span>alto</span>
-              extímulo de compra
-            </h3>
-          </div>
-        </div>
-        <div class="cell large-3 box-before">
-          <picture>
-            <source srcset="~/assets/img/webp/img-depois-2.webp" type="image/webp" />
-            <source srcset="~/assets/img/img-depois-2.jpg" type="image/jpg" />
-            <img loading="lazy" src="~/assets/img/img-depois-2.jpg" alt />
-          </picture>
-          <div class="box-over">
-            <picture>
-              <source srcset="~/assets/img/webp/icon-depois-2.webp" type="image/webp" />
-              <source srcset="~/assets/img/icon-depois-2.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-depois-2.png" alt />
-            </picture>
-            <h3>
-              <span>Maior</span>
-              margem de lucro
-            </h3>
-          </div>
-        </div>
-        <div class="cell large-3 box-before">
-          <picture>
-            <source srcset="~/assets/img/webp/img-depois-3.webp" type="image/webp" />
-            <source srcset="~/assets/img/img-depois-3.jpg" type="image/jpg" />
-            <img loading="lazy" src="~/assets/img/img-depois-3.jpg" alt />
-          </picture>
-          <div class="box-over">
-            <picture>
-              <source srcset="~/assets/img/webp/icon-depois-3.webp" type="image/webp" />
-              <source srcset="~/assets/img/icon-depois-3.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-depois-3.png" alt />
-            </picture>
-            <h3>
-              <span>Menor investimento</span>
-              em marketing
-            </h3>
-          </div>
-        </div>
-        <div class="cell large-3 box-before">
-          <picture>
-            <source srcset="~/assets/img/webp/img-depois-4.webp" type="image/webp" />
-            <source srcset="~/assets/img/img-depois-4.jpg" type="image/jpg" />
-            <img loading="lazy" src="~/assets/img/img-depois-4.jpg" alt />
-          </picture>
-          <div class="box-over">
-            <picture>
-              <source srcset="~/assets/img/webp/icon-depois-4.webp" type="image/webp" />
-              <source srcset="~/assets/img/icon-depois-4.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-depois-4.png" alt />
-            </picture>
-            <h3>
-              Revela ao consumidor
-              <span>profissionalismo</span>
-            </h3>
-          </div>
-        </div>
-        <div class="cell large-3 box-before">
-          <picture>
-            <source srcset="~/assets/img/webp/img-depois-5.webp" type="image/webp" />
-            <source srcset="~/assets/img/img-depois-5.jpg" type="image/jpg" />
-            <img loading="lazy" src="~/assets/img/img-depois-5.jpg" alt />
-          </picture>
-          <div class="box-over">
-            <picture>
-              <source srcset="~/assets/img/webp/icon-depois-5.webp" type="image/webp" />
-              <source srcset="~/assets/img/icon-depois-5.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-depois-5.png" alt />
-            </picture>
-            <h3>
-              <span>Maior</span>
-              fidelização dos clientes
-            </h3>
+            <div class="box-over">
+              <picture>
+                <source srcset="~/assets/img/webp/icon-depois-5.webp" type="image/webp" />
+                <source srcset="~/assets/img/icon-depois-5.png" type="image/png" />
+                <img loading="lazy" src="~/assets/img/icon-depois-5.png" alt />
+              </picture>
+              <h3>
+                <span>Maior</span>
+                fidelização dos clientes
+              </h3>
+            </div>
           </div>
         </div>
       </div>
@@ -942,14 +952,8 @@ main {
 
 .box-before {
   position: relative;
+  opacity: 1;
   transition: all 0.3s;
-  &:hover {
-    transition: all 0.3s;
-    &:after {
-      display: none;
-      transition: all 0.3s;
-    }
-  }
   &:after {
     background-image: url("~assets/img/icon-triangule.png");
     background-position: center -3px;
@@ -968,11 +972,6 @@ main {
 .box-before,
 .box-after {
   position: relative;
-  &:hover {
-    .box-over {
-      display: none;
-    }
-  }
   .box-over {
     background-color: rgba(255, 78, 111, 0.92);
     position: absolute;
@@ -983,6 +982,7 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
+    transition: all 0.3s;
     width: 100%;
     h3 {
       color: #ffffff;
@@ -1005,6 +1005,26 @@ main {
     background-color: rgba(53, 213, 158, 0.92);
     img {
       margin-bottom: 10px;
+    }
+  }
+}
+
+.box-vantagens {
+  position: relative;
+  opacity: 1;
+  &:hover {
+    .box-before,
+    .box-after {
+      .box-over {
+        opacity: 0;
+        transition: all 0.3s;
+      }
+    }
+    .box-before {
+      &:after {
+        opacity: 0;
+        transition: all 0.3s;
+      }
     }
   }
 }
@@ -1081,6 +1101,23 @@ main {
 
 .yellow-bg {
   background-color: #fbf8f1;
+  position: relative;
+  &:before {
+    content: url("~assets/img/webp/img-stars-1.webp");
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: -75px;
+    width: 100%;
+  }
+  &:after {
+    bottom: -75px;
+    content: url("~assets/img/webp/img-stars-2.webp");
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
   .grid-x {
     padding: 100px 0;
   }
@@ -1120,7 +1157,7 @@ main {
         text-align: left;
       }
       &:after {
-        content: url("~assets/img/icon-arrow.png");
+        content: url("~assets/img/webp/icon-arrow.webp");
         display: block;
         margin-top: 10px;
         z-index: 1;
