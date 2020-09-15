@@ -299,16 +299,21 @@ footer {
       padding: 15px 0;
     }
     .footer {
-      padding: 50px 0;
+      padding: 50px 0;      
     }
     .subfooter {
       padding: 25px 0;
       .menu-footer {
+        display: flex;
+        flex-direction: column;
         li {
           display: block;
           border: 0;
+          &:nth-child(1) {
+            order: 1;
+          }
           &:last-child {
-            margin-top: 25px;
+            margin-bottom: 25px;
           }
         }
       }

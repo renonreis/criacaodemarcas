@@ -86,7 +86,7 @@
     </div>
     <div class="new-grid">
       <div class="grid-x align-middle">
-        <div class="cell large-12 text-center" style="padding-bottom: 40px;">
+        <div class="cell large-12 text-center" style="padding: 0 0.9375rem 40px;">
           <h2>Ter uma marca profissional faz toda a diferença</h2>
           <p>
             Sua marca revela ao consumidor o padrão de qualidade dos seus produtos e serviços.
@@ -131,7 +131,7 @@
             </div>
           </div>
         </div>
-        <div class="cell large-3 box-vantagens">
+        <div class="cell small-12 large-3 box-vantagens">
           <div class="box-after">
             <picture>
               <source srcset="~/assets/img/webp/img-antes-2.webp" type="image/webp" />
@@ -971,6 +971,9 @@ main {
 
 .box-before,
 .box-after {
+  margin: 0 auto;
+  max-width: 336px;
+
   position: relative;
   .box-over {
     background-color: rgba(255, 78, 111, 0.92);
@@ -1049,17 +1052,6 @@ main {
     &:last-child {
       border: 0;
     }
-  }
-}
-
-.new-grid {
-  max-width: 1680px;
-  margin: 0 auto;
-  .grid-x {
-    padding: 100px 0;
-  }
-  .cell.large-3 {
-    width: 20%;
   }
 }
 
@@ -1305,6 +1297,10 @@ main {
     }
   }
   .yellow-bg {
+    &:before,
+    &:after {
+      display: none;
+    }
     .steps {
       flex-wrap: wrap;
     }
@@ -1325,6 +1321,16 @@ main {
       background-image: url("~assets/img/bg-home-criacao-marcas.jpg");
       background-position: top center;
       background-repeat: no-repeat;
+    }
+  }
+  .new-grid {
+    max-width: 1680px;
+    margin: 0 auto;
+    .grid-x {
+      padding: 100px 0;
+    }
+    .cell.large-3 {
+      width: 20%;
     }
   }
 }

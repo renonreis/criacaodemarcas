@@ -1247,19 +1247,15 @@ export default {};
   grid-row-end: span 2;
 }
 @media screen and (max-width: 767px) {
-  .secaoPorfolio {
-    .grid-layout {
-      grid-template-columns: repeat(auto-fill, minmax(160px, 0fr));
-      grid-auto-rows: minmax(160px, auto);
-    }
+  .grid-layout {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 0fr));
+    grid-auto-rows: minmax(160px, auto);
   }
 }
 @media screen and (max-width: 479px) {
-  .secaoPorfolio {
-    .grid-layout {
-      grid-template-columns: repeat(auto-fill, minmax(131px, 0fr));
-      grid-auto-rows: minmax(131px, auto);
-    }
+  .grid-layout {
+    grid-template-columns: repeat(auto-fill, minmax(131px, 0fr));
+    grid-auto-rows: minmax(131px, auto);
   }
 }
 </style>
