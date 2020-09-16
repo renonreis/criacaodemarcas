@@ -18,7 +18,7 @@
         </div>
       </div>
     </div>
-    <div class="sticky">
+    <div class="sticky" :class="{ active: scrollPosition > 90 }">
       <div data-sticky data-margin-top="0">
         <div class="grid-container">
           <div class="grid-x align-middle">
@@ -74,7 +74,21 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      scrollPosition: null,
+    };
+  },
+  methods: {
+    updateScroll() {
+      this.scrollPosition = window.scrollY;
+    },
+  },
+  mounted() {
+    window.addEventListener("scroll", this.updateScroll);
+  },
+};
 </script>
 
 <style lang="scss">
@@ -95,9 +109,18 @@ header {
     }
   }
   .sticky {
+    transition: all 0.3s;
     &.is-stuck {
       background-color: #412176;
       box-shadow: 0 0 10px 5px #00000070;
+    }
+    &.active {
+      background: #422179;
+      box-shadow: 0px 0px 10px 5px #2f1f4887;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 99;
     }
     .grid-x {
       min-height: 89px;
