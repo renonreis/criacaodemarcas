@@ -16,18 +16,6 @@
             </picture>
             <p>Nós da CriaçãodeMarcas.com somos especializados em criação de marcas para empresas, produtos e serviços. Nosso trabalho é proporcionar um serviço de qualidade para impactar e estimular seu público alvo na geração de novos negócios.</p>
             <a href="#" class="btn">Solicitar criação de marca</a>
-            <div class="selo">
-              <picture>
-                <source srcset="~/assets/img/webp/selo-ummense.webp" type="image/webp" />
-                <source srcset="~/assets/img/selo-ummense.png" type="image/png" />
-                <img class="ummense" loading="lazy" src="~/assets/img/selo-ummense.png" alt />
-              </picture>
-              <picture>
-                <source srcset="~/assets/img/webp/selo-tratativa.webp" type="image/webp" />
-                <source srcset="~/assets/img/selo-tratativa.png" type="image/png" />
-                <img class="tratativa" loading="lazy" src="~/assets/img/selo-tratativa.png" alt />
-              </picture>
-            </div>
           </div>
           <div class="cell medium-7 large-7">
             <div class="grid-container full">
@@ -77,28 +65,42 @@
                     <img loading="lazy" src="~/assets/img/img-pagamentos.png" alt />
                   </picture>
                 </div>
-                <div class="cell medium-12 large-12">
-                  <div class="box">
-                    <p>Deseja acompanhar o andamento em tempo real dos serviços contratados? Baixe nosso App:</p>
-                    <p>
-                      <a href="#">
-                        <picture>
-                          <source srcset="~/assets/img/webp/apple-store.webp" type="image/webp" />
-                          <source srcset="~/assets/img/apple-store.png" type="image/png" />
-                          <img loading="lazy" src="~/assets/img/apple-store.png" alt />
-                        </picture>
-                      </a>
-                      <a href="#">
-                        <picture>
-                          <source srcset="~/assets/img/webp/google-play.webp" type="image/webp" />
-                          <source srcset="~/assets/img/google-play.png" type="image/png" />
-                          <img loading="lazy" src="~/assets/img/google-play.png" alt />
-                        </picture>
-                      </a>
-                    </p>
-                  </div>
-                </div>
               </div>
+            </div>
+          </div>
+          <div class="cell large-5">
+            <div class="selo">
+              <picture>
+                <source srcset="~/assets/img/webp/selo-ummense.webp" type="image/webp" />
+                <source srcset="~/assets/img/selo-ummense.png" type="image/png" />
+                <img class="ummense" loading="lazy" src="~/assets/img/selo-ummense.png" alt />
+              </picture>
+              <picture>
+                <source srcset="~/assets/img/webp/selo-tratativa.webp" type="image/webp" />
+                <source srcset="~/assets/img/selo-tratativa.png" type="image/png" />
+                <img class="tratativa" loading="lazy" src="~/assets/img/selo-tratativa.png" alt />
+              </picture>
+            </div>
+          </div>
+          <div class="cell medium-7 large-7">
+            <div class="box">
+              <p>Deseja acompanhar o andamento em tempo real dos serviços contratados? Baixe nosso App:</p>
+              <p>
+                <a href="#">
+                  <picture>
+                    <source srcset="~/assets/img/webp/apple-store.webp" type="image/webp" />
+                    <source srcset="~/assets/img/apple-store.png" type="image/png" />
+                    <img loading="lazy" src="~/assets/img/apple-store.png" alt />
+                  </picture>
+                </a>
+                <a href="#">
+                  <picture>
+                    <source srcset="~/assets/img/webp/google-play.webp" type="image/webp" />
+                    <source srcset="~/assets/img/google-play.png" type="image/png" />
+                    <img loading="lazy" src="~/assets/img/google-play.png" alt />
+                  </picture>
+                </a>
+              </p>
             </div>
           </div>
         </div>
@@ -111,7 +113,7 @@
             <ul class="menu-footer">
               <li>
                 <span class="iconify" data-icon="icons8:copyright" data-inline="false"></span>
-                2020 - Criação de Marcas
+                2020 - Criação de Marcas:
               </li>
               <li>
                 <a href="#">Termos de Prestação de Serviço</a>
@@ -151,9 +153,14 @@
 </template>
 
 <style lang="scss">
+$thin: "Product Sans Thin";
+$normal: "Product Sans";
+$medium: "Product Sans Medium";
+$bold: "Product Sans Bold";
+
 //FOOTER
 footer {
-  background-image: url("~assets/img/border-footer.png");
+  background-image: url("~assets/img/detalhe-footer.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   .footer {
@@ -170,9 +177,12 @@ footer {
       line-height: 27px;
       list-style: none;
       a {
-        color: #484848;
+        color: #808080;
+        &:hover {
+          color: #613aa0;
+        }
         &.nuxt-link-exact-active {
-          opacity: 0.75;
+          color: #484848;
         }
       }
     }
@@ -202,7 +212,7 @@ footer {
     background-color: #f1eedd;
     border-radius: 6px;
     display: flex;
-    margin-top: 25px;
+    margin-top: 35px;
     min-height: 75px;
     padding: 10px 15px;
     p {
@@ -240,8 +250,12 @@ footer {
       border-right: 1px solid;
       padding: 0 10px;
       a {
-        color: #43237a;
+        color: #808080;
+        &:hover {
+          color: #613aa0;
+        }
       }
+      &:first-child,
       &:last-child {
         border-right: none;
       }
@@ -261,7 +275,7 @@ footer {
       font-size: 21px;
       margin: 0 5px;
       &:hover {
-        color: #613aa0;
+        opacity: 0.75;
       }
     }
   }
@@ -299,7 +313,7 @@ footer {
       padding: 15px 0;
     }
     .footer {
-      padding: 50px 0;      
+      padding: 50px 0;
     }
     .subfooter {
       padding: 25px 0;
@@ -334,7 +348,6 @@ footer {
     .large-5 {
       max-width: 38.66667%;
       p {
-        max-width: 400px;
       }
     }
     .large-7 {

@@ -84,6 +84,22 @@
         </div>
       </div>
     </div>
+    <div class="portfolio">
+      <div class="new-grid">
+        <div class="grid-x">
+          <div class="cell text-center">
+            <h2>
+              Conheça o potencial da nossa equipe
+              <br />através do nosso portfólio
+            </h2>
+            <p>Materiais de qualidade e design diferenciado para aumentar suas vendas</p>
+          </div>
+          <div class="cell">
+            <Portfolio />
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="new-grid">
       <div class="grid-x align-middle">
         <div class="cell large-12 text-center" style="padding: 0 0.9375rem 40px;">
@@ -285,22 +301,6 @@
         </div>
       </div>
     </div>
-    <div class="portfolio">
-      <div class="new-grid">
-        <div class="grid-x">
-          <div class="cell text-center">
-            <h2>
-              Conheça o potencial da nossa equipe
-              <br />através do nosso portfólio
-            </h2>
-            <p>Materiais de qualidade e design diferenciado para aumentar suas vendas</p>
-          </div>
-          <div class="cell">
-            <Portfolio />
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="purple-bg">
       <div class="grid-container">
         <div class="grid-x">
@@ -417,7 +417,7 @@
         <div class="grid-x align-middle text-center">
           <div class="cell files">
             <h2 class="nomargin">Como trabalhamos</h2>
-            <p>Nosso processo criativo é eficiente e isso nos possibilita criar sua marca com agilidade e profissionalismo. Nosso compromisso é apresentar sua marca em até 72 horas úteis, caso aprovado faremos os fechamentos dos arquivos para entrega em até 48 horas.</p>
+            <p>Nosso processo criativo é eficiente e isso nos possibilita criar sua marca com agilidade e profissionalismo. Nosso compromisso é apresentar sua marca em até 72 horas úteis, caso aprovado faremos os fechamentos dos arquivos para entrega em até 48 horas úteis.</p>
           </div>
           <div class="cell">
             <ul class="steps hide-for-small-only">
@@ -434,7 +434,7 @@
                 <span>Levantar ideias</span>
               </li>
               <li>
-                <span>Criar</span>
+                <span>Criar marca</span>
               </li>
               <li>
                 <span>Apresentar</span>
@@ -671,133 +671,7 @@
             <h2 class="nomargin">Dúvidas frequentes</h2>
           </div>
           <div class="cell large-6">
-            <ul class="accordion" data-accordion>
-              <li class="accordion-item" data-accordion-item>
-                <a href="#" class="accordion-title">Qual o prazo de entrega?</a>
-                <div class="accordion-content" data-tab-content>
-                  <p>
-                    É importante questionar o quanto a execução dos pontos do
-                    programa assume importantes posições no estabelecimento de
-                    todos os recursos funcionais envolvidos.
-                  </p>
-                </div>
-              </li>
-              <li class="accordion-item" data-accordion-item>
-                <a
-                  href="#"
-                  class="accordion-title"
-                >Quais formatos vou receber? Os arquivos são editáveis?</a>
-                <div class="accordion-content" data-tab-content>
-                  <p>
-                    É importante questionar o quanto a execução dos pontos do
-                    programa assume importantes posições no estabelecimento de
-                    todos os recursos funcionais envolvidos.
-                  </p>
-                </div>
-              </li>
-              <li class="accordion-item" data-accordion-item>
-                <a
-                  href="#"
-                  class="accordion-title"
-                >Os direitos dos arquivos são meus? Posso divulgar?</a>
-                <div class="accordion-content" data-tab-content>
-                  <p>
-                    É importante questionar o quanto a execução dos pontos do
-                    programa assume importantes posições no estabelecimento de
-                    todos os recursos funcionais envolvidos.
-                  </p>
-                </div>
-              </li>
-              <li class="accordion-item" data-accordion-item>
-                <a href="#" class="accordion-title">
-                  Como contratar o serviço de criação de marca para minha
-                  empresa?
-                </a>
-                <div class="accordion-content" data-tab-content>
-                  <p>
-                    É importante questionar o quanto a execução dos pontos do
-                    programa assume importantes posições no estabelecimento de
-                    todos os recursos funcionais envolvidos.
-                  </p>
-                </div>
-              </li>
-              <li class="accordion-item" data-accordion-item>
-                <a
-                  href="#"
-                  class="accordion-title"
-                >Se eu não gostar, posso pedir ajustes ou novas opções?</a>
-                <div class="accordion-content" data-tab-content>
-                  <p>
-                    É importante questionar o quanto a execução dos pontos do
-                    programa assume importantes posições no estabelecimento de
-                    todos os recursos funcionais envolvidos.
-                  </p>
-                </div>
-              </li>
-              <li class="accordion-item" data-accordion-item>
-                <a href="#" class="accordion-title">Quantas logos vou receber?</a>
-                <div class="accordion-content" data-tab-content>
-                  <p>
-                    É importante questionar o quanto a execução dos pontos do
-                    programa assume importantes posições no estabelecimento de
-                    todos os recursos funcionais envolvidos.
-                  </p>
-                </div>
-              </li>
-              <li class="accordion-item" data-accordion-item>
-                <a href="#" class="accordion-title">Posso registrar minha marca?</a>
-                <div class="accordion-content" data-tab-content>
-                  <p>
-                    É importante questionar o quanto a execução dos pontos do
-                    programa assume importantes posições no estabelecimento de
-                    todos os recursos funcionais envolvidos.
-                  </p>
-                </div>
-              </li>
-              <li class="accordion-item" data-accordion-item>
-                <a href="#" class="accordion-title">A logo vem em alta resolução?</a>
-                <div class="accordion-content" data-tab-content>
-                  <p>
-                    É importante questionar o quanto a execução dos pontos do
-                    programa assume importantes posições no estabelecimento de
-                    todos os recursos funcionais envolvidos.
-                  </p>
-                </div>
-              </li>
-              <li class="accordion-item" data-accordion-item>
-                <a href="#" class="accordion-title">Quero reformular minha marca, vocês fazem?</a>
-                <div class="accordion-content" data-tab-content>
-                  <p>
-                    É importante questionar o quanto a execução dos pontos do
-                    programa assume importantes posições no estabelecimento de
-                    todos os recursos funcionais envolvidos.
-                  </p>
-                </div>
-              </li>
-              <li class="accordion-item" data-accordion-item>
-                <a
-                  href="#"
-                  class="accordion-title"
-                >Tenho uma ideia de como quero minha logo, posso encaminhar?</a>
-                <div class="accordion-content" data-tab-content>
-                  <p>
-                    É importante questionar o quanto a execução dos pontos do
-                    programa assume importantes posições no estabelecimento de
-                    todos os recursos funcionais envolvidos.
-                  </p>
-                </div>
-              </li>
-              <li class="accordion-item" data-accordion-item>
-                <a href="#" class="accordion-title">Vocês fazem somente marcas?</a>
-                <div class="accordion-content" data-tab-content>
-                  <p>
-                    É importante questionar o quanto a execução dos pontos do
-                    programa assume importantes posições no estabelecimento de
-                    todos os recursos funcionais envolvidos.
-                  </p>
-                </div>
-              </li>
-            </ul>
+            <Accordion />
           </div>
           <div class="cell large-6 align-middle">
             <picture>
@@ -946,7 +820,7 @@ main {
 
 .content-empresa {
   .grid-x {
-    margin: 20px 0 0;
+    margin: 20px 0 60px;
   }
 }
 
@@ -1038,7 +912,7 @@ main {
   list-style: none;
   margin: 25px 0 0;
   li {
-    border-right: 1px solid #e6e1ef;
+    border-right: 1px solid rgba(230, 225, 239, 0.2);
     color: #e4d3ff;
     font-size: 13px;
     line-height: 16px;
@@ -1100,11 +974,12 @@ main {
     position: absolute;
     text-align: center;
     top: -75px;
+    transform: rotateX(180deg);
     width: 100%;
   }
   &:after {
     bottom: -75px;
-    content: url("~assets/img/webp/img-stars-2.webp");
+    content: url("~assets/img/webp/img-stars-1.webp");
     pointer-events: none;
     position: absolute;
     text-align: center;
@@ -1146,7 +1021,6 @@ main {
       span {
         max-width: 100px;
         margin: 0 auto;
-        text-align: left;
       }
       &:after {
         content: url("~assets/img/webp/icon-arrow.webp");
@@ -1318,7 +1192,7 @@ main {
   main {
     padding-top: 42px;
     .home-banner {
-      background-image: url("~assets/img/bg-home-criacao-marcas.jpg");
+      background-image: url("~assets/img/banner-cria-logos.jpg");
       background-position: top center;
       background-repeat: no-repeat;
     }
