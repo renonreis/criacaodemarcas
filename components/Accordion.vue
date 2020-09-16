@@ -1,8 +1,12 @@
 <template>
   <ul class="accordion" data-accordion>
-    <li class="accordion-item" data-accordion-item>
-      <a href="#!" class="accordion-title">Qual o prazo de entrega?</a>
-      <div class="accordion-content" data-tab-content>
+    <li id="tab-1" class="accordion-item" data-accordion-item>
+      <a
+        href="#!"
+        class="accordion-title"
+        v-on:click="openAccordion = !openAccordion"
+      >Qual o prazo de entrega?</a>
+      <div id="tab-1" class="accordion-content" data-tab-content :class="{ active: openAccordion }">
         <p>
           É importante questionar o quanto a execução dos pontos do
           programa assume importantes posições no estabelecimento de
@@ -11,8 +15,12 @@
       </div>
     </li>
     <li class="accordion-item" data-accordion-item>
-      <a href="#!" class="accordion-title">Quais formatos vou receber? Os arquivos são editáveis?</a>
-      <div class="accordion-content" data-tab-content>
+      <a
+        href="#!"
+        class="accordion-title"
+        v-on:click="openAccordion = !openAccordion"
+      >Quais formatos vou receber? Os arquivos são editáveis?</a>
+      <div class="accordion-content" data-tab-content :class="{ active: openAccordion }">
         <p>
           É importante questionar o quanto a execução dos pontos do
           programa assume importantes posições no estabelecimento de
@@ -122,12 +130,16 @@
 <script>
 // import Foundation from '~/plugins/foundation'
 export default {
-  
+  data() {
+    return {
+      openAccordion: false,
+    };
+  },
 };
 </script>
 
 <style lang="scss">
-.is-primary {
+.active {
   display: block;
 }
 </style>
