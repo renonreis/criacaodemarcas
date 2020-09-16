@@ -930,7 +930,7 @@ main {
 }
 
 .portfolio {
-  background-color: #f8f7fa;
+  background-color: #FBF8F1;
   .grid-x {
     padding: 90px 0;
   }
