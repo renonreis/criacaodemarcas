@@ -122,9 +122,7 @@
 <script>
 // import Foundation from '~/plugins/foundation'
 export default {
-  data() {},
-  methods: {},
-  mounted() {},
+  
 };
 </script>
 
