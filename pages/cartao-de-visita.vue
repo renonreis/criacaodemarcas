@@ -31,12 +31,12 @@
 </template>
 
 <script>
-import FAQ from "@/components/FAQ";
+//import FAQ from "@/components/FAQ";
 
 export default {
-  components: {
+  /*components: {
     FAQ,
-  },
+  },*/
   data() {
     return {
       accordions: [
