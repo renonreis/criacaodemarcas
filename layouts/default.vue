@@ -20,10 +20,8 @@
       </nav>
     </div>
     <div class="off-canvas-content" data-off-canvas-content>
-      <!-- off-canvas-content -->
-      <Header />
-      <Nuxt />
-      <Footer />
+      <!-- off-canvas-content -->      
+      <Nuxt />      
     </div>
   </div>
 </template>

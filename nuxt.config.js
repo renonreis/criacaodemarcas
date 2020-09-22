@@ -29,7 +29,7 @@ export default {
         src: "https://code.iconify.design/1/1.0.7/iconify.min.js"
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.png" }]
   },
   /*
    ** Global CSS

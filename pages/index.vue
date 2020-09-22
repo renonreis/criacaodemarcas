@@ -1,5 +1,6 @@
 <template>
   <main>
+    <Header />
     <div class="home-banner">
       <div class="grid-container">
         <div class="grid-x align-bottom text-center">
@@ -13,7 +14,7 @@
               </span>
               <span class="price">R$ 298</span>
             </h2>
-            <a href="#" class="btn">Solicitar criação</a>
+            <a href="/checkout" class="btn">Solicitar criação</a>
             <p>Parcele no cartão em até 12x sem juros</p>
             <ul class="items">
               <li>
@@ -760,6 +761,7 @@
         </div>
       </div>
     </div>
+    <Footer />
   </main>
 </template>
 
@@ -1190,7 +1192,6 @@ main {
 }
 @media screen and (min-width: 768px) {
   main {
-    padding-top: 42px;
     .home-banner {
       background-image: url("~assets/img/banner-cria-logos.jpg");
       background-position: top center;
