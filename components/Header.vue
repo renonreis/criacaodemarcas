@@ -31,22 +31,22 @@
                 </picture>
               </a>
             </div>
-            <div class="cell small-4 medium-6 large-3 text-right hide-for-large">
+            <div class="cell small-4 medium-6 large-3 text-right hide-for-large" v-if="false">
               <button type="button" class="button" data-toggle="offCanvasRightPush">MENU</button>
             </div>
             <div class="cell medium-8 large-9 show-for-large">
               <nav>
                 <ul class="menu align-right">
-                  <li>
+                  <li v-if="false">
                     <n-link to="/">Criação de marcas</n-link>
                   </li>
-                  <li>
+                  <li v-if="false">
                     <n-link to="/cartao-de-visita">Cartão de visita</n-link>
                   </li>
-                  <li>
+                  <li v-if="false">
                     <n-link to="/servicos-de-papelaria">Serviços de papelaria</n-link>
                   </li>
-                  <li>
+                  <li v-if="false">
                     <n-link to="/contato">Contato</n-link>
                   </li>
                   <li>
@@ -62,6 +62,9 @@
                         <img loading="lazy" src="~/assets/img/img-area-cliente.png" alt />
                       </picture>
                     </n-link>
+                  </li>
+                  <li>
+                    <n-link to="#" class="btn-marca">Solicitar criação de marca</n-link>
                   </li>
                 </ul>
               </nav>
@@ -108,6 +111,9 @@ header {
       vertical-align: -3px;
     }
   }
+  .btn-marca {
+    display: none;
+  }
   .sticky {
     transition: all 0.3s;
     &.is-stuck {
@@ -121,6 +127,9 @@ header {
       width: 100%;
       top: 0;
       z-index: 99;
+      .btn-marca {
+        display: block;
+      }
     }
     .grid-x {
       min-height: 89px;
@@ -137,12 +146,27 @@ header {
           opacity: 0.75;
         }
       }
+      .btn-marca {
+        background-color: #55ffc5;    
+        border: 2px solid #55ffc5;
+        border-radius: 6px;
+        color: #43237a;
+        line-height: 38px;
+        margin-left: 20px;
+        padding: 0 25px;
+        &:hover {
+          background-color: #ffffff;
+          border-color: #ffffff;
+          color: #43237a;
+        }
+      }
       .client-area {
         border: 2px solid #ffffff;
         border-radius: 6px;
         line-height: 38px;
         margin-left: 20px;
         padding: 0 25px;
+        position: relative;
         &:hover {
           background-color: #ffffff;
           border-color: #ffffff;

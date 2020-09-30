@@ -1,42 +1,46 @@
 <template>
-  <div class style="padding: 300px 0;">
-    <ul class="accordion" data-accordion>
-      <div v-for="accordion in accordions" :key="accordion.title">
-        <AccordionTabs>
-          <template v-slot:title>{{ accordion.title }}</template>
+  <main>
+    <Header />
+    <div class style="padding: 300px 0;">
+      <ul class="accordion" data-accordion>
+        <div v-for="accordion in accordions" :key="accordion.title">
+          <AccordionTabs>
+            <template v-slot:title>{{ accordion.title }}</template>
+
+            <template v-slot:content>
+              <div>{{ accordion.text }}</div>
+            </template>
+          </AccordionTabs>
+        </div>
+      </ul>
+      <ul class="faqs" data-accordion>
+        <FAQ
+          v-for="(faq, i) in faqs"
+          :faq="faq"
+          :index="i"
+          :key="i"
+          :open="faq.open"
+          @toggleOpen="toggleOpen"
+        >
+          <template v-slot:title>{{ faq.title }}</template>
 
           <template v-slot:content>
-            <div>{{ accordion.text }}</div>
+            <div>{{ faq.text }}</div>
           </template>
-        </AccordionTabs>
-      </div>
-    </ul>
-    <ul class="faqs" data-accordion>
-      <FAQ
-        v-for="(faq, i) in faqs"
-        :faq="faq"
-        :index="i"
-        :key="i"
-        :open="faq.open"
-        @toggleOpen="toggleOpen"
-      >
-        <template v-slot:title>{{ faq.title }}</template>
-
-        <template v-slot:content>
-          <div>{{ faq.text }}</div>
-        </template>
-      </FAQ>
-    </ul>
-  </div>
+        </FAQ>
+      </ul>
+    </div>
+    <Footer />
+  </main>
 </template>
 
 <script>
-//import FAQ from "@/components/FAQ";
+import FAQ from "@/components/FAQ";
 
 export default {
-  /*components: {
+  components: {
     FAQ,
-  },*/
+  },
   data() {
     return {
       accordions: [
@@ -124,7 +128,7 @@ export default {
 .faq.open .question::after {
   transform: translateY(-50%) rotate(90deg);
 }
-.faq .answer {
+.faq .text {
   color: #3c3c3c;
   font-size: 18px;
   opacity: 0;
@@ -132,7 +136,7 @@ export default {
   overflow-y: hidden;
   transition: all 0.4s ease-out;
 }
-.faq.open .answer {
+.faq.open .text {
   opacity: 1;
   max-height: 1000px;
 }

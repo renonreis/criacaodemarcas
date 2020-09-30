@@ -14,7 +14,7 @@
               </span>
               <span class="price">R$ 298</span>
             </h2>
-            <a href="/checkout" class="btn">Solicitar criação</a>
+            <a href="https://sacola.pagseguro.uol.com.br/9bbc277c-de5f-40bd-8da7-b1843a45424e" target="_blank" class="btn">Solicitar criação de marca</a>
             <p>Parcele no cartão em até 12x sem juros</p>
             <ul class="items">
               <li>
@@ -24,6 +24,14 @@
                   <img loading="lazy" src="~/assets/img/icon-banner-1.png" alt />
                 </picture>
                 Ajustes ilimitados
+              </li>
+              <li>
+                <picture>
+                  <source srcset="~/assets/img/webp/icon-banner-7.webp" type="image/webp" />
+                  <source srcset="~/assets/img/icon-banner-7.png" type="image/png" />
+                  <img loading="lazy" src="~/assets/img/icon-banner-7.png" alt />
+                </picture>
+                Versões ilimitadas
               </li>
               <li>
                 <picture>
@@ -109,6 +117,13 @@
             Sua marca revela ao consumidor o padrão de qualidade dos seus produtos e serviços.
             <br />Quando criada com critério sua marca proporciona grandes benefícios para seu negócio.
           </p>
+        </div>
+        <div class="cell large-3 box-vantagens mobile">
+          <picture>
+            <source srcset="~/assets/img/webp/img-diferenciais-mobile.webp" type="image/webp" />
+            <source srcset="~/assets/img/img-diferenciais-mobile.jpg" type="image/jpg" />
+            <img loading="lazy" src="~/assets/img/img-diferenciais-mobile.jpg" alt />
+          </picture>
         </div>
         <div class="cell large-3 box-vantagens">
           <div class="box-after">
@@ -452,7 +467,7 @@
             </ul>
           </div>
           <div class="cell">
-            <a href="#" class="btn">Quero minha marca</a>
+            <a href="https://sacola.pagseguro.uol.com.br/9bbc277c-de5f-40bd-8da7-b1843a45424e" target="_blank" class="btn">Quero minha marca</a>
           </div>
         </div>
       </div>
@@ -698,7 +713,7 @@
             </span>
             <span class="price">R$ 298</span>
           </h2>
-          <a href="#" class="btn">Compre agora</a>
+          <a href="https://sacola.pagseguro.uol.com.br/9bbc277c-de5f-40bd-8da7-b1843a45424e" target="_blank" class="btn">Compre agora</a>
           <p>Parcele no cartão em até 12x sem juros</p>
           <ul class="items">
             <li>
@@ -708,6 +723,14 @@
                 <img loading="lazy" src="~/assets/img/icon-condicao-1.png" alt />
               </picture>
               Ajustes ilimitados
+            </li>
+            <li>
+              <picture>
+                <source srcset="~/assets/img/webp/icon-condicao-7.webp" type="image/webp" />
+                <source srcset="~/assets/img/icon-condicao-7.png" type="image/png" />
+                <img loading="lazy" src="~/assets/img/icon-condicao-7.png" alt />
+              </picture>
+              Versões ilimitadas
             </li>
             <li>
               <picture>
@@ -766,7 +789,7 @@
 </template>
 
 <script>
-export default {};
+
 </script>
 
 <style lang="scss">
@@ -932,7 +955,7 @@ main {
 }
 
 .portfolio {
-  background-color: #FBF8F1;
+  background-color: #fbf8f1;
   .grid-x {
     padding: 90px 0;
   }
@@ -1131,8 +1154,8 @@ main {
       justify-content: center;
       max-width: 925px;
       margin: 0 auto;
-      min-height: 95px;
-      padding: 15px;
+      min-height: 55px;
+      padding: 10px 15px;
     }
     span {
       font-size: 18px;
@@ -1164,6 +1187,14 @@ main {
     }
     .files {
       margin-bottom: 35px;
+    }
+  }
+  .new-grid {
+    .box-vantagens {
+      display: none;
+      &.mobile {
+        display: block;
+      }
     }
   }
   .diferenca {
@@ -1206,6 +1237,11 @@ main {
     }
     .cell.large-3 {
       width: 20%;
+    }
+    .box-vantagens {      
+      &.mobile {
+        display: none;
+      }
     }
   }
 }

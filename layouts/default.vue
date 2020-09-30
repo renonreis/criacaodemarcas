@@ -10,22 +10,36 @@
       <!-- Your menu or Off-canvas content goes here -->
       <nav>
         <ul class="vertical menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">Cartão de visita</a></li>
-          <li><a href="#">Criação de nomes</a></li>
-          <li><a href="#">Papelaria</a></li>
-          <li><a href="#">Contato</a></li>
-          <li><a href="#">Área do cliente</a></li>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">Cartão de visita</a>
+          </li>
+          <li>
+            <a href="#">Criação de nomes</a>
+          </li>
+          <li>
+            <a href="#">Papelaria</a>
+          </li>
+          <li>
+            <a href="#">Contato</a>
+          </li>
+          <li>
+            <a href="#">Área do cliente</a>
+          </li>
         </ul>
       </nav>
     </div>
     <div class="off-canvas-content" data-off-canvas-content>
-      <!-- off-canvas-content -->      
-      <Nuxt />      
+      <!-- off-canvas-content -->
+      <Nuxt />
     </div>
   </div>
 </template>
+<script>
 
+</script>
 <style>
 html {
   font-family: "Product Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",

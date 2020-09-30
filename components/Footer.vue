@@ -23,13 +23,13 @@
                 <div class="cell medium-4 large-4">
                   <h3>Navegação</h3>
                   <ul>
-                    <li>
+                    <li v-if="false">
                       <n-link to="/">Criação de marcas</n-link>
                     </li>
-                    <li>
+                    <li v-if="false">
                       <n-link to="/cartao-de-visita">Cartão de visita</n-link>
                     </li>
-                    <li>
+                    <li v-if="false">
                       <n-link to="/servicos-de-papelaria">Serviços de papelaria</n-link>
                     </li>
                     <li>
@@ -68,7 +68,7 @@
               </div>
             </div>
           </div>
-          <div class="cell large-5">
+          <div class="cell large-5" v-if="false">
             <div class="selo">
               <picture>
                 <source srcset="~/assets/img/webp/selo-ummense.webp" type="image/webp" />
@@ -82,7 +82,7 @@
               </picture>
             </div>
           </div>
-          <div class="cell medium-7 large-7">
+          <div class="cell medium-7 large-7" v-if="false">
             <div class="box">
               <p>Deseja acompanhar o andamento em tempo real dos serviços contratados? Baixe nosso App:</p>
               <p>
@@ -113,18 +113,18 @@
             <ul class="menu-footer">
               <li>
                 <span class="iconify" data-icon="icons8:copyright" data-inline="false"></span>
-                2020 - Criação de Marcas:
+                2020 - Criação de Marcas
               </li>
-              <li>
+              <li v-if="false">
                 <a href="#">Termos de Prestação de Serviço</a>
               </li>
-              <li>
+              <li v-if="false">
                 <a href="#">Termos de Privacidade</a>
               </li>
             </ul>
           </div>
           <div class="cell large-4 text-right social">
-            <p>
+            <p v-if="false">
               Siga-nos
               <a href>
                 <span class="iconify" data-icon="ant-design:facebook-filled" data-inline="false"></span>
@@ -346,9 +346,7 @@ footer {
 @media screen and (min-width: 768px) {
   footer {
     .large-5 {
-      max-width: 38.66667%;
-      p {
-      }
+      max-width: 38.66667%;      
     }
     .large-7 {
       min-width: 61.33333%;
