@@ -14,60 +14,135 @@
               </span>
               <span class="price">R$ 298</span>
             </h2>
-            <a href="https://sacola.pagseguro.uol.com.br/9bbc277c-de5f-40bd-8da7-b1843a45424e" target="_blank" class="btn">Solicitar criação de marca</a>
-            <p>Parcele no cartão em até 12x sem juros</p>
+            <a
+              href="https://sacola.pagseguro.uol.com.br/9bbc277c-de5f-40bd-8da7-b1843a45424e"
+              target="_blank"
+              class="btn"
+              >Solicitar criação de marca</a
+            >
+            <p>Parcele no cartão em até 3x sem juros</p>
             <ul class="items">
               <li>
                 <picture>
-                  <source srcset="~/assets/img/webp/icon-banner-1.webp" type="image/webp" />
-                  <source srcset="~/assets/img/icon-banner-1.png" type="image/png" />
-                  <img loading="lazy" src="~/assets/img/icon-banner-1.png" alt />
+                  <source
+                    srcset="~/assets/img/webp/icon-banner-1.webp"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="~/assets/img/icon-banner-1.png"
+                    type="image/png"
+                  />
+                  <img
+                    loading="lazy"
+                    src="~/assets/img/icon-banner-1.png"
+                    alt
+                  />
                 </picture>
                 Ajustes ilimitados
               </li>
               <li>
                 <picture>
-                  <source srcset="~/assets/img/webp/icon-banner-7.webp" type="image/webp" />
-                  <source srcset="~/assets/img/icon-banner-7.png" type="image/png" />
-                  <img loading="lazy" src="~/assets/img/icon-banner-7.png" alt />
+                  <source
+                    srcset="~/assets/img/webp/icon-banner-7.webp"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="~/assets/img/icon-banner-7.png"
+                    type="image/png"
+                  />
+                  <img
+                    loading="lazy"
+                    src="~/assets/img/icon-banner-7.png"
+                    alt
+                  />
                 </picture>
                 Versões ilimitadas
               </li>
               <li>
                 <picture>
-                  <source srcset="~/assets/img/webp/icon-banner-2.webp" type="image/webp" />
-                  <source srcset="~/assets/img/icon-banner-2.png" type="image/png" />
-                  <img loading="lazy" src="~/assets/img/icon-banner-2.png" alt />
+                  <source
+                    srcset="~/assets/img/webp/icon-banner-2.webp"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="~/assets/img/icon-banner-2.png"
+                    type="image/png"
+                  />
+                  <img
+                    loading="lazy"
+                    src="~/assets/img/icon-banner-2.png"
+                    alt
+                  />
                 </picture>
                 Entrega rápida 72 horas
               </li>
               <li>
                 <picture>
-                  <source srcset="~/assets/img/webp/icon-banner-3.webp" type="image/webp" />
-                  <source srcset="~/assets/img/icon-banner-3.png" type="image/png" />
-                  <img loading="lazy" src="~/assets/img/icon-banner-3.png" alt />
-                </picture>Inclui Manual de marca
+                  <source
+                    srcset="~/assets/img/webp/icon-banner-3.webp"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="~/assets/img/icon-banner-3.png"
+                    type="image/png"
+                  />
+                  <img
+                    loading="lazy"
+                    src="~/assets/img/icon-banner-3.png"
+                    alt
+                  /> </picture
+                >Inclui Manual de marca
               </li>
               <li>
                 <picture>
-                  <source srcset="~/assets/img/webp/icon-banner-4.webp" type="image/webp" />
-                  <source srcset="~/assets/img/icon-banner-4.png" type="image/png" />
-                  <img loading="lazy" src="~/assets/img/icon-banner-4.png" alt />
-                </picture>Design 100% exclusivo
+                  <source
+                    srcset="~/assets/img/webp/icon-banner-4.webp"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="~/assets/img/icon-banner-4.png"
+                    type="image/png"
+                  />
+                  <img
+                    loading="lazy"
+                    src="~/assets/img/icon-banner-4.png"
+                    alt
+                  /> </picture
+                >Design 100% exclusivo
               </li>
               <li>
                 <picture>
-                  <source srcset="~/assets/img/webp/icon-banner-5.webp" type="image/webp" />
-                  <source srcset="~/assets/img/icon-banner-5.png" type="image/png" />
-                  <img loading="lazy" src="~/assets/img/icon-banner-5.png" alt />
-                </picture>Formatos em Alta resolução
+                  <source
+                    srcset="~/assets/img/webp/icon-banner-5.webp"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="~/assets/img/icon-banner-5.png"
+                    type="image/png"
+                  />
+                  <img
+                    loading="lazy"
+                    src="~/assets/img/icon-banner-5.png"
+                    alt
+                  /> </picture
+                >Formatos em Alta resolução
               </li>
               <li>
                 <picture>
-                  <source srcset="~/assets/img/webp/icon-banner-6.webp" type="image/webp" />
-                  <source srcset="~/assets/img/icon-banner-6.png" type="image/png" />
-                  <img loading="lazy" src="~/assets/img/icon-banner-6.png" alt />
-                </picture>Profissionais especialistas
+                  <source
+                    srcset="~/assets/img/webp/icon-banner-6.webp"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="~/assets/img/icon-banner-6.png"
+                    type="image/png"
+                  />
+                  <img
+                    loading="lazy"
+                    src="~/assets/img/icon-banner-6.png"
+                    alt
+                  /> </picture
+                >Profissionais especialistas
               </li>
             </ul>
           </div>
@@ -78,9 +153,19 @@
       <div class="grid-x align-middle">
         <div class="cell large-6 text-center">
           <picture>
-            <source srcset="~/assets/img/webp/img-criacao-marcas-1.webp" type="image/webp" />
-            <source srcset="~/assets/img/img-criacao-marcas-1.jpg" type="image/jpg" />
-            <img loading="lazy" src="~/assets/img/img-criacao-marcas-1.jpg" alt />
+            <source
+              srcset="~/assets/img/webp/img-criacao-marcas-1.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="~/assets/img/img-criacao-marcas-1.jpg"
+              type="image/jpg"
+            />
+            <img
+              loading="lazy"
+              src="~/assets/img/img-criacao-marcas-1.jpg"
+              alt
+            />
           </picture>
         </div>
         <div class="cell large-6">
@@ -88,8 +173,18 @@
             Sua empresa precisa de uma
             <br />marca profissional
           </h2>
-          <p>Uma marca profissional adequada a sua área de atuação e público alvo amplia sua probabilidade de fechamento de negócios. A imagem da sua empresa, produtos e serviços é fortalecido gerando menor custo na aquisição de novos negócios e fidelização de clientes.</p>
-          <p>Uma logo criativa e memorável também aumenta o valor da sua empresa e transmite profissionalismo e motivação para toda sua equipe. Conte com nossa equipe para elaborar ou atualizar a marca da sua empresa, produtos e serviços.</p>
+          <p>
+            Uma marca profissional adequada a sua área de atuação e público alvo
+            amplia sua probabilidade de fechamento de negócios. A imagem da sua
+            empresa, produtos e serviços é fortalecido gerando menor custo na
+            aquisição de novos negócios e fidelização de clientes.
+          </p>
+          <p>
+            Uma logo criativa e memorável também aumenta o valor da sua empresa
+            e transmite profissionalismo e motivação para toda sua equipe. Conte
+            com nossa equipe para elaborar ou atualizar a marca da sua empresa,
+            produtos e serviços.
+          </p>
         </div>
       </div>
     </div>
@@ -101,7 +196,10 @@
               Conheça o potencial da nossa equipe
               <br />através do nosso portfólio
             </h2>
-            <p>Materiais de qualidade e design diferenciado para aumentar suas vendas</p>
+            <p>
+              Materiais de qualidade e design diferenciado para aumentar suas
+              vendas
+            </p>
           </div>
           <div class="cell">
             <Portfolio />
@@ -111,31 +209,55 @@
     </div>
     <div class="new-grid">
       <div class="grid-x align-middle">
-        <div class="cell large-12 text-center" style="padding: 0 0.9375rem 40px;">
+        <div
+          class="cell large-12 text-center"
+          style="padding: 0 0.9375rem 40px"
+        >
           <h2>Ter uma marca profissional faz toda a diferença</h2>
           <p>
-            Sua marca revela ao consumidor o padrão de qualidade dos seus produtos e serviços.
-            <br />Quando criada com critério sua marca proporciona grandes benefícios para seu negócio.
+            Sua marca revela ao consumidor o padrão de qualidade dos seus
+            produtos e serviços.
+            <br />Quando criada com critério sua marca proporciona grandes
+            benefícios para seu negócio.
           </p>
         </div>
         <div class="cell large-3 box-vantagens mobile">
           <picture>
-            <source srcset="~/assets/img/webp/img-diferenciais-mobile.webp" type="image/webp" />
-            <source srcset="~/assets/img/img-diferenciais-mobile.jpg" type="image/jpg" />
-            <img loading="lazy" src="~/assets/img/img-diferenciais-mobile.jpg" alt />
+            <source
+              srcset="~/assets/img/webp/img-diferenciais-mobile.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="~/assets/img/img-diferenciais-mobile.jpg"
+              type="image/jpg"
+            />
+            <img
+              loading="lazy"
+              src="~/assets/img/img-diferenciais-mobile.jpg"
+              alt
+            />
           </picture>
         </div>
         <div class="cell large-3 box-vantagens">
           <div class="box-after">
             <picture>
-              <source srcset="~/assets/img/webp/img-antes-1.webp" type="image/webp" />
+              <source
+                srcset="~/assets/img/webp/img-antes-1.webp"
+                type="image/webp"
+              />
               <source srcset="~/assets/img/img-antes-1.jpg" type="image/jpg" />
               <img loading="lazy" src="~/assets/img/img-antes-1.jpg" alt />
             </picture>
             <div class="box-over">
               <picture>
-                <source srcset="~/assets/img/webp/icon-antes-1.webp" type="image/webp" />
-                <source srcset="~/assets/img/icon-antes-1.png" type="image/png" />
+                <source
+                  srcset="~/assets/img/webp/icon-antes-1.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/icon-antes-1.png"
+                  type="image/png"
+                />
                 <img loading="lazy" src="~/assets/img/icon-antes-1.png" alt />
               </picture>
               <h3>
@@ -146,14 +268,23 @@
           </div>
           <div class="box-before">
             <picture>
-              <source srcset="~/assets/img/webp/img-depois-1.webp" type="image/webp" />
+              <source
+                srcset="~/assets/img/webp/img-depois-1.webp"
+                type="image/webp"
+              />
               <source srcset="~/assets/img/img-depois-1.jpg" type="image/jpg" />
               <img loading="lazy" src="~/assets/img/img-depois-1.jpg" alt />
             </picture>
             <div class="box-over">
               <picture>
-                <source srcset="~/assets/img/webp/icon-depois-1.webp" type="image/webp" />
-                <source srcset="~/assets/img/icon-depois-1.png" type="image/png" />
+                <source
+                  srcset="~/assets/img/webp/icon-depois-1.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/icon-depois-1.png"
+                  type="image/png"
+                />
                 <img loading="lazy" src="~/assets/img/icon-depois-1.png" alt />
               </picture>
               <h3>
@@ -166,14 +297,23 @@
         <div class="cell small-12 large-3 box-vantagens">
           <div class="box-after">
             <picture>
-              <source srcset="~/assets/img/webp/img-antes-2.webp" type="image/webp" />
+              <source
+                srcset="~/assets/img/webp/img-antes-2.webp"
+                type="image/webp"
+              />
               <source srcset="~/assets/img/img-antes-2.jpg" type="image/jpg" />
               <img loading="lazy" src="~/assets/img/img-antes-2.jpg" alt />
             </picture>
             <div class="box-over">
               <picture>
-                <source srcset="~/assets/img/webp/icon-antes-2.webp" type="image/webp" />
-                <source srcset="~/assets/img/icon-antes-2.png" type="image/png" />
+                <source
+                  srcset="~/assets/img/webp/icon-antes-2.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/icon-antes-2.png"
+                  type="image/png"
+                />
                 <img loading="lazy" src="~/assets/img/icon-antes-2.png" alt />
               </picture>
               <h3>
@@ -184,14 +324,23 @@
           </div>
           <div class="box-before">
             <picture>
-              <source srcset="~/assets/img/webp/img-depois-2.webp" type="image/webp" />
+              <source
+                srcset="~/assets/img/webp/img-depois-2.webp"
+                type="image/webp"
+              />
               <source srcset="~/assets/img/img-depois-2.jpg" type="image/jpg" />
               <img loading="lazy" src="~/assets/img/img-depois-2.jpg" alt />
             </picture>
             <div class="box-over">
               <picture>
-                <source srcset="~/assets/img/webp/icon-depois-2.webp" type="image/webp" />
-                <source srcset="~/assets/img/icon-depois-2.png" type="image/png" />
+                <source
+                  srcset="~/assets/img/webp/icon-depois-2.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/icon-depois-2.png"
+                  type="image/png"
+                />
                 <img loading="lazy" src="~/assets/img/icon-depois-2.png" alt />
               </picture>
               <h3>
@@ -204,14 +353,23 @@
         <div class="cell large-3 box-vantagens">
           <div class="box-after">
             <picture>
-              <source srcset="~/assets/img/webp/img-antes-3.webp" type="image/webp" />
+              <source
+                srcset="~/assets/img/webp/img-antes-3.webp"
+                type="image/webp"
+              />
               <source srcset="~/assets/img/img-antes-3.jpg" type="image/jpg" />
               <img loading="lazy" src="~/assets/img/img-antes-3.jpg" alt />
             </picture>
             <div class="box-over">
               <picture>
-                <source srcset="~/assets/img/webp/icon-antes-3.webp" type="image/webp" />
-                <source srcset="~/assets/img/icon-antes-3.png" type="image/png" />
+                <source
+                  srcset="~/assets/img/webp/icon-antes-3.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/icon-antes-3.png"
+                  type="image/png"
+                />
                 <img loading="lazy" src="~/assets/img/icon-antes-3.png" alt />
               </picture>
               <h3>
@@ -222,14 +380,23 @@
           </div>
           <div class="box-before">
             <picture>
-              <source srcset="~/assets/img/webp/img-depois-3.webp" type="image/webp" />
+              <source
+                srcset="~/assets/img/webp/img-depois-3.webp"
+                type="image/webp"
+              />
               <source srcset="~/assets/img/img-depois-3.jpg" type="image/jpg" />
               <img loading="lazy" src="~/assets/img/img-depois-3.jpg" alt />
             </picture>
             <div class="box-over">
               <picture>
-                <source srcset="~/assets/img/webp/icon-depois-3.webp" type="image/webp" />
-                <source srcset="~/assets/img/icon-depois-3.png" type="image/png" />
+                <source
+                  srcset="~/assets/img/webp/icon-depois-3.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/icon-depois-3.png"
+                  type="image/png"
+                />
                 <img loading="lazy" src="~/assets/img/icon-depois-3.png" alt />
               </picture>
               <h3>
@@ -242,14 +409,23 @@
         <div class="cell large-3 box-vantagens">
           <div class="box-after">
             <picture>
-              <source srcset="~/assets/img/webp/img-antes-4.webp" type="image/webp" />
+              <source
+                srcset="~/assets/img/webp/img-antes-4.webp"
+                type="image/webp"
+              />
               <source srcset="~/assets/img/img-antes-4.jpg" type="image/jpg" />
               <img loading="lazy" src="~/assets/img/img-antes-4.jpg" alt />
             </picture>
             <div class="box-over">
               <picture>
-                <source srcset="~/assets/img/webp/icon-antes-4.webp" type="image/webp" />
-                <source srcset="~/assets/img/icon-antes-4.png" type="image/png" />
+                <source
+                  srcset="~/assets/img/webp/icon-antes-4.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/icon-antes-4.png"
+                  type="image/png"
+                />
                 <img loading="lazy" src="~/assets/img/icon-antes-4.png" alt />
               </picture>
               <h3>
@@ -260,14 +436,23 @@
           </div>
           <div class="box-before">
             <picture>
-              <source srcset="~/assets/img/webp/img-depois-4.webp" type="image/webp" />
+              <source
+                srcset="~/assets/img/webp/img-depois-4.webp"
+                type="image/webp"
+              />
               <source srcset="~/assets/img/img-depois-4.jpg" type="image/jpg" />
               <img loading="lazy" src="~/assets/img/img-depois-4.jpg" alt />
             </picture>
             <div class="box-over">
               <picture>
-                <source srcset="~/assets/img/webp/icon-depois-4.webp" type="image/webp" />
-                <source srcset="~/assets/img/icon-depois-4.png" type="image/png" />
+                <source
+                  srcset="~/assets/img/webp/icon-depois-4.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/icon-depois-4.png"
+                  type="image/png"
+                />
                 <img loading="lazy" src="~/assets/img/icon-depois-4.png" alt />
               </picture>
               <h3>
@@ -280,14 +465,23 @@
         <div class="cell large-3 box-vantagens">
           <div class="box-after">
             <picture>
-              <source srcset="~/assets/img/webp/img-antes-5.webp" type="image/webp" />
+              <source
+                srcset="~/assets/img/webp/img-antes-5.webp"
+                type="image/webp"
+              />
               <source srcset="~/assets/img/img-antes-5.jpg" type="image/jpg" />
               <img loading="lazy" src="~/assets/img/img-antes-5.jpg" alt />
             </picture>
             <div class="box-over">
               <picture>
-                <source srcset="~/assets/img/webp/icon-antes-5.webp" type="image/webp" />
-                <source srcset="~/assets/img/icon-antes-5.png" type="image/png" />
+                <source
+                  srcset="~/assets/img/webp/icon-antes-5.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/icon-antes-5.png"
+                  type="image/png"
+                />
                 <img loading="lazy" src="~/assets/img/icon-antes-5.png" alt />
               </picture>
               <h3>
@@ -298,14 +492,23 @@
           </div>
           <div class="box-before">
             <picture>
-              <source srcset="~/assets/img/webp/img-depois-5.webp" type="image/webp" />
+              <source
+                srcset="~/assets/img/webp/img-depois-5.webp"
+                type="image/webp"
+              />
               <source srcset="~/assets/img/img-depois-5.jpg" type="image/jpg" />
               <img loading="lazy" src="~/assets/img/img-depois-5.jpg" alt />
             </picture>
             <div class="box-over">
               <picture>
-                <source srcset="~/assets/img/webp/icon-depois-5.webp" type="image/webp" />
-                <source srcset="~/assets/img/icon-depois-5.png" type="image/png" />
+                <source
+                  srcset="~/assets/img/webp/icon-depois-5.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/icon-depois-5.png"
+                  type="image/png"
+                />
                 <img loading="lazy" src="~/assets/img/icon-depois-5.png" alt />
               </picture>
               <h3>
@@ -322,11 +525,17 @@
         <div class="grid-x">
           <div class="cell text-center files">
             <h2 class="white">Receba sua marca nos principais formatos</h2>
-            <p>Sua marca entregue pronta para ser usada em alta resolução para impressão e para utilização nos meios digitais.</p>
+            <p>
+              Sua marca entregue pronta para ser usada em alta resolução para
+              impressão e para utilização nos meios digitais.
+            </p>
           </div>
           <div class="cell small-6 medium-2 large-2 text-center">
             <picture>
-              <source srcset="~/assets/img/webp/icon-jpg.webp" type="image/webp" />
+              <source
+                srcset="~/assets/img/webp/icon-jpg.webp"
+                type="image/webp"
+              />
               <source srcset="~/assets/img/icon-jpg.png" type="image/png" />
               <img loading="lazy" src="~/assets/img/icon-jpg.png" alt />
             </picture>
@@ -334,7 +543,10 @@
           </div>
           <div class="cell small-6 medium-2 large-2 text-center">
             <picture>
-              <source srcset="~/assets/img/webp/icon-png.webp" type="image/webp" />
+              <source
+                srcset="~/assets/img/webp/icon-png.webp"
+                type="image/webp"
+              />
               <source srcset="~/assets/img/icon-png.png" type="image/png" />
               <img loading="lazy" src="~/assets/img/icon-png.png" alt />
             </picture>
@@ -342,7 +554,10 @@
           </div>
           <div class="cell small-6 medium-2 large-2 text-center">
             <picture>
-              <source srcset="~/assets/img/webp/icon-cdr.webp" type="image/webp" />
+              <source
+                srcset="~/assets/img/webp/icon-cdr.webp"
+                type="image/webp"
+              />
               <source srcset="~/assets/img/icon-cdr.png" type="image/png" />
               <img loading="lazy" src="~/assets/img/icon-cdr.png" alt />
             </picture>
@@ -350,7 +565,10 @@
           </div>
           <div class="cell small-6 medium-2 large-2 text-center">
             <picture>
-              <source srcset="~/assets/img/webp/icon-ai.webp" type="image/webp" />
+              <source
+                srcset="~/assets/img/webp/icon-ai.webp"
+                type="image/webp"
+              />
               <source srcset="~/assets/img/icon-ai.png" type="image/png" />
               <img loading="lazy" src="~/assets/img/icon-ai.png" alt />
             </picture>
@@ -358,7 +576,10 @@
           </div>
           <div class="cell small-6 medium-2 large-2 text-center">
             <picture>
-              <source srcset="~/assets/img/webp/icon-pdf.webp" type="image/webp" />
+              <source
+                srcset="~/assets/img/webp/icon-pdf.webp"
+                type="image/webp"
+              />
               <source srcset="~/assets/img/icon-pdf.png" type="image/png" />
               <img loading="lazy" src="~/assets/img/icon-pdf.png" alt />
             </picture>
@@ -366,7 +587,10 @@
           </div>
           <div class="cell small-6 medium-2 large-2 text-center">
             <picture>
-              <source srcset="~/assets/img/webp/icon-eps.webp" type="image/webp" />
+              <source
+                srcset="~/assets/img/webp/icon-eps.webp"
+                type="image/webp"
+              />
               <source srcset="~/assets/img/icon-eps.png" type="image/png" />
               <img loading="lazy" src="~/assets/img/icon-eps.png" alt />
             </picture>
@@ -386,42 +610,60 @@
         </div>
         <div class="cell small-6 medium-2 large-2 text-center">
           <picture>
-            <source srcset="~/assets/img/webp/img-facebook.webp" type="image/webp" />
+            <source
+              srcset="~/assets/img/webp/img-facebook.webp"
+              type="image/webp"
+            />
             <source srcset="~/assets/img/img-facebook.png" type="image/png" />
             <img loading="lazy" src="~/assets/img/img-facebook.png" alt />
           </picture>
         </div>
         <div class="cell small-6 medium-2 large-2 text-center">
           <picture>
-            <source srcset="~/assets/img/webp/img-instagram.webp" type="image/webp" />
+            <source
+              srcset="~/assets/img/webp/img-instagram.webp"
+              type="image/webp"
+            />
             <source srcset="~/assets/img/img-instagram.png" type="image/png" />
             <img loading="lazy" src="~/assets/img/img-instagram.png" alt />
           </picture>
         </div>
         <div class="cell small-6 medium-2 large-2 text-center">
           <picture>
-            <source srcset="~/assets/img/webp/img-whatsapp.webp" type="image/webp" />
+            <source
+              srcset="~/assets/img/webp/img-whatsapp.webp"
+              type="image/webp"
+            />
             <source srcset="~/assets/img/img-whatsapp.png" type="image/png" />
             <img loading="lazy" src="~/assets/img/img-whatsapp.png" alt />
           </picture>
         </div>
         <div class="cell small-6 medium-2 large-2 text-center">
           <picture>
-            <source srcset="~/assets/img/webp/img-linkedin.webp" type="image/webp" />
+            <source
+              srcset="~/assets/img/webp/img-linkedin.webp"
+              type="image/webp"
+            />
             <source srcset="~/assets/img/img-linkedin.png" type="image/png" />
             <img loading="lazy" src="~/assets/img/img-linkedin.png" alt />
           </picture>
         </div>
         <div class="cell small-6 medium-2 large-2 text-center">
           <picture>
-            <source srcset="~/assets/img/webp/img-twitter.webp" type="image/webp" />
+            <source
+              srcset="~/assets/img/webp/img-twitter.webp"
+              type="image/webp"
+            />
             <source srcset="~/assets/img/img-twitter.png" type="image/png" />
             <img loading="lazy" src="~/assets/img/img-twitter.png" alt />
           </picture>
         </div>
         <div class="cell small-6 medium-2 large-2 text-center">
           <picture>
-            <source srcset="~/assets/img/webp/img-youtube.webp" type="image/webp" />
+            <source
+              srcset="~/assets/img/webp/img-youtube.webp"
+              type="image/webp"
+            />
             <source srcset="~/assets/img/img-youtube.png" type="image/png" />
             <img loading="lazy" src="~/assets/img/img-youtube.png" alt />
           </picture>
@@ -433,7 +675,12 @@
         <div class="grid-x align-middle text-center">
           <div class="cell files">
             <h2 class="nomargin">Como trabalhamos</h2>
-            <p>Nosso processo criativo é eficiente e isso nos possibilita criar sua marca com agilidade e profissionalismo. Nosso compromisso é apresentar sua marca em até 72 horas úteis, caso aprovado faremos os fechamentos dos arquivos para entrega em até 48 horas úteis.</p>
+            <p>
+              Nosso processo criativo é eficiente e isso nos possibilita criar
+              sua marca com agilidade e profissionalismo. Nosso compromisso é
+              apresentar sua marca em até 72 horas úteis, caso aprovado faremos
+              os fechamentos dos arquivos para entrega em até 48 horas úteis.
+            </p>
           </div>
           <div class="cell">
             <ul class="steps hide-for-small-only">
@@ -467,7 +714,12 @@
             </ul>
           </div>
           <div class="cell">
-            <a href="https://sacola.pagseguro.uol.com.br/9bbc277c-de5f-40bd-8da7-b1843a45424e" target="_blank" class="btn">Quero minha marca</a>
+            <a
+              href="https://sacola.pagseguro.uol.com.br/9bbc277c-de5f-40bd-8da7-b1843a45424e"
+              target="_blank"
+              class="btn"
+              >Quero minha marca</a
+            >
           </div>
         </div>
       </div>
@@ -475,8 +727,13 @@
     <div class="grid-container diferenca">
       <div class="grid-x grid-padding-x">
         <div class="cell text-center">
-          <h2 class="nomargin">Elementos e conceitos para impactar seus clientes</h2>
-          <p>Ao criar a marca da sua empresa ou do seu produto cuidamos de cada detalhe para gerar um impacto positivo em seus clientes e equipe.</p>
+          <h2 class="nomargin">
+            Elementos e conceitos para impactar seus clientes
+          </h2>
+          <p>
+            Ao criar a marca da sua empresa ou do seu produto cuidamos de cada
+            detalhe para gerar um impacto positivo em seus clientes e equipe.
+          </p>
         </div>
         <div class="cell large-3">
           <h3>
@@ -485,30 +742,62 @@
                 srcset="~/assets/img/webp/icon-diferenciais-tipografia.webp"
                 type="image/webp"
               />
-              <source srcset="~/assets/img/icon-diferenciais-tipografia.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-diferenciais-tipografia.png" alt />
+              <source
+                srcset="~/assets/img/icon-diferenciais-tipografia.png"
+                type="image/png"
+              />
+              <img
+                loading="lazy"
+                src="~/assets/img/icon-diferenciais-tipografia.png"
+                alt
+              />
             </picture>
             Tipografia
           </h3>
-          <p>A tipografia merece cuidado especial pois é o principal elemento de uma marca</p>
+          <p>
+            A tipografia merece cuidado especial pois é o principal elemento de
+            uma marca
+          </p>
         </div>
         <div class="cell large-3">
           <h3>
             <picture>
-              <source srcset="~/assets/img/webp/icon-diferenciais-cor.webp" type="image/webp" />
-              <source srcset="~/assets/img/icon-diferenciais-cor.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-diferenciais-cor.png" alt />
+              <source
+                srcset="~/assets/img/webp/icon-diferenciais-cor.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="~/assets/img/icon-diferenciais-cor.png"
+                type="image/png"
+              />
+              <img
+                loading="lazy"
+                src="~/assets/img/icon-diferenciais-cor.png"
+                alt
+              />
             </picture>
             Cor
           </h3>
-          <p>É preciso escolher cores adequadas para produzir estímulos corretos</p>
+          <p>
+            É preciso escolher cores adequadas para produzir estímulos corretos
+          </p>
         </div>
         <div class="cell large-3">
           <h3>
             <picture>
-              <source srcset="~/assets/img/webp/icon-diferenciais-formas.webp" type="image/webp" />
-              <source srcset="~/assets/img/icon-diferenciais-formas.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-diferenciais-formas.png" alt />
+              <source
+                srcset="~/assets/img/webp/icon-diferenciais-formas.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="~/assets/img/icon-diferenciais-formas.png"
+                type="image/png"
+              />
+              <img
+                loading="lazy"
+                src="~/assets/img/icon-diferenciais-formas.png"
+                alt
+              />
             </picture>
             Formas
           </h3>
@@ -517,13 +806,25 @@
         <div class="cell large-3">
           <h3>
             <picture>
-              <source srcset="~/assets/img/webp/icon-diferenciais-simbolo.webp" type="image/webp" />
-              <source srcset="~/assets/img/icon-diferenciais-simbolo.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-diferenciais-simbolo.png" alt />
+              <source
+                srcset="~/assets/img/webp/icon-diferenciais-simbolo.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="~/assets/img/icon-diferenciais-simbolo.png"
+                type="image/png"
+              />
+              <img
+                loading="lazy"
+                src="~/assets/img/icon-diferenciais-simbolo.png"
+                alt
+              />
             </picture>
             Símbolo
           </h3>
-          <p>O símbolo é uma representação gráfica para facilitar a identificação</p>
+          <p>
+            O símbolo é uma representação gráfica para facilitar a identificação
+          </p>
         </div>
         <div class="cell large-3">
           <h3>
@@ -532,19 +833,39 @@
                 srcset="~/assets/img/webp/icon-diferenciais-espacamentos.webp"
                 type="image/webp"
               />
-              <source srcset="~/assets/img/icon-diferenciais-espacamentos.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-diferenciais-espacamentos.png" alt />
+              <source
+                srcset="~/assets/img/icon-diferenciais-espacamentos.png"
+                type="image/png"
+              />
+              <img
+                loading="lazy"
+                src="~/assets/img/icon-diferenciais-espacamentos.png"
+                alt
+              />
             </picture>
             Espaçamentos
           </h3>
-          <p>O cuidado com os espaçamentos é essencial para comunicar corretamente</p>
+          <p>
+            O cuidado com os espaçamentos é essencial para comunicar
+            corretamente
+          </p>
         </div>
         <div class="cell large-3">
           <h3>
             <picture>
-              <source srcset="~/assets/img/webp/icon-diferenciais-tamanho.webp" type="image/webp" />
-              <source srcset="~/assets/img/icon-diferenciais-tamanho.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-diferenciais-tamanho.png" alt />
+              <source
+                srcset="~/assets/img/webp/icon-diferenciais-tamanho.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="~/assets/img/icon-diferenciais-tamanho.png"
+                type="image/png"
+              />
+              <img
+                loading="lazy"
+                src="~/assets/img/icon-diferenciais-tamanho.png"
+                alt
+              />
             </picture>
             Tamanho
           </h3>
@@ -553,24 +874,50 @@
         <div class="cell large-3">
           <h3>
             <picture>
-              <source srcset="~/assets/img/webp/icon-diferenciais-textura.webp" type="image/webp" />
-              <source srcset="~/assets/img/icon-diferenciais-textura.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-diferenciais-textura.png" alt />
+              <source
+                srcset="~/assets/img/webp/icon-diferenciais-textura.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="~/assets/img/icon-diferenciais-textura.png"
+                type="image/png"
+              />
+              <img
+                loading="lazy"
+                src="~/assets/img/icon-diferenciais-textura.png"
+                alt
+              />
             </picture>
             Textura
           </h3>
-          <p>A textura é um ótimo recurso quando utilizado com cautela e criatividade</p>
+          <p>
+            A textura é um ótimo recurso quando utilizado com cautela e
+            criatividade
+          </p>
         </div>
         <div class="cell large-3">
           <h3>
             <picture>
-              <source srcset="~/assets/img/webp/icon-diferenciais-harmonia.webp" type="image/webp" />
-              <source srcset="~/assets/img/icon-diferenciais-harmonia.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-diferenciais-harmonia.png" alt />
+              <source
+                srcset="~/assets/img/webp/icon-diferenciais-harmonia.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="~/assets/img/icon-diferenciais-harmonia.png"
+                type="image/png"
+              />
+              <img
+                loading="lazy"
+                src="~/assets/img/icon-diferenciais-harmonia.png"
+                alt
+              />
             </picture>
             Harmonia
           </h3>
-          <p>A harmonia entre os elementos é fundamental para demonstrar profissionalismo.</p>
+          <p>
+            A harmonia entre os elementos é fundamental para demonstrar
+            profissionalismo.
+          </p>
         </div>
         <div class="cell large-3">
           <h3>
@@ -579,12 +926,21 @@
                 srcset="~/assets/img/webp/icon-diferenciais-personalidade.webp"
                 type="image/webp"
               />
-              <source srcset="~/assets/img/icon-diferenciais-personalidade.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-diferenciais-personalidade.png" alt />
+              <source
+                srcset="~/assets/img/icon-diferenciais-personalidade.png"
+                type="image/png"
+              />
+              <img
+                loading="lazy"
+                src="~/assets/img/icon-diferenciais-personalidade.png"
+                alt
+              />
             </picture>
             Personalidade
           </h3>
-          <p>Uma marca precisa de uma personalidade forte para se diferenciar</p>
+          <p>
+            Uma marca precisa de uma personalidade forte para se diferenciar
+          </p>
         </div>
         <div class="cell large-3">
           <h3>
@@ -593,12 +949,22 @@
                 srcset="~/assets/img/webp/icon-diferenciais-exclusividade.webp"
                 type="image/webp"
               />
-              <source srcset="~/assets/img/icon-diferenciais-exclusividade.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-diferenciais-exclusividade.png" alt />
+              <source
+                srcset="~/assets/img/icon-diferenciais-exclusividade.png"
+                type="image/png"
+              />
+              <img
+                loading="lazy"
+                src="~/assets/img/icon-diferenciais-exclusividade.png"
+                alt
+              />
             </picture>
             Exclusividade
           </h3>
-          <p>É preciso de criatividade e autenticidade para diferenciar da concorrência</p>
+          <p>
+            É preciso de criatividade e autenticidade para diferenciar da
+            concorrência
+          </p>
         </div>
         <div class="cell large-3">
           <h3>
@@ -607,23 +973,46 @@
                 srcset="~/assets/img/webp/icon-diferenciais-legibilidade.webp"
                 type="image/webp"
               />
-              <source srcset="~/assets/img/icon-diferenciais-legibilidade.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-diferenciais-legibilidade.png" alt />
+              <source
+                srcset="~/assets/img/icon-diferenciais-legibilidade.png"
+                type="image/png"
+              />
+              <img
+                loading="lazy"
+                src="~/assets/img/icon-diferenciais-legibilidade.png"
+                alt
+              />
             </picture>
             Legibilidade
           </h3>
-          <p>Os elementos precisam ser simples e objetivos para oferecer clareza na leitura</p>
+          <p>
+            Os elementos precisam ser simples e objetivos para oferecer clareza
+            na leitura
+          </p>
         </div>
         <div class="cell large-3">
           <h3>
             <picture>
-              <source srcset="~/assets/img/webp/icon-diferenciais-publico.webp" type="image/webp" />
-              <source srcset="~/assets/img/icon-diferenciais-publico.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-diferenciais-publico.png" alt />
+              <source
+                srcset="~/assets/img/webp/icon-diferenciais-publico.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="~/assets/img/icon-diferenciais-publico.png"
+                type="image/png"
+              />
+              <img
+                loading="lazy"
+                src="~/assets/img/icon-diferenciais-publico.png"
+                alt
+              />
             </picture>
             Adequado ao Público
           </h3>
-          <p>Para alcançar ótimos resultados a marca precisa impactar seu público alvo</p>
+          <p>
+            Para alcançar ótimos resultados a marca precisa impactar seu público
+            alvo
+          </p>
         </div>
         <div class="cell large-3">
           <h3>
@@ -632,23 +1021,46 @@
                 srcset="~/assets/img/webp/icon-diferenciais-memorizacao.webp"
                 type="image/webp"
               />
-              <source srcset="~/assets/img/icon-diferenciais-memorizacao.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-diferenciais-memorizacao.png" alt />
+              <source
+                srcset="~/assets/img/icon-diferenciais-memorizacao.png"
+                type="image/png"
+              />
+              <img
+                loading="lazy"
+                src="~/assets/img/icon-diferenciais-memorizacao.png"
+                alt
+              />
             </picture>
             Memorização
           </h3>
-          <p>Uma marca forte elaborada com critérios favorece a conexão com o consumidor</p>
+          <p>
+            Uma marca forte elaborada com critérios favorece a conexão com o
+            consumidor
+          </p>
         </div>
         <div class="cell large-3">
           <h3>
             <picture>
-              <source srcset="~/assets/img/webp/icon-diferenciais-contraste.webp" type="image/webp" />
-              <source srcset="~/assets/img/icon-diferenciais-contraste.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-diferenciais-contraste.png" alt />
+              <source
+                srcset="~/assets/img/webp/icon-diferenciais-contraste.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="~/assets/img/icon-diferenciais-contraste.png"
+                type="image/png"
+              />
+              <img
+                loading="lazy"
+                src="~/assets/img/icon-diferenciais-contraste.png"
+                alt
+              />
             </picture>
             Contraste
           </h3>
-          <p>O contraste ajuda destacar informações importantes e facilitar leitura</p>
+          <p>
+            O contraste ajuda destacar informações importantes e facilitar
+            leitura
+          </p>
         </div>
         <div class="cell large-3">
           <h3>
@@ -657,12 +1069,21 @@
                 srcset="~/assets/img/webp/icon-diferenciais-alinhamento.webp"
                 type="image/webp"
               />
-              <source srcset="~/assets/img/icon-diferenciais-alinhamento.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-diferenciais-alinhamento.png" alt />
+              <source
+                srcset="~/assets/img/icon-diferenciais-alinhamento.png"
+                type="image/png"
+              />
+              <img
+                loading="lazy"
+                src="~/assets/img/icon-diferenciais-alinhamento.png"
+                alt
+              />
             </picture>
             Alinhamento
           </h3>
-          <p>Alinhar corretamente os elementos melhora a percepção do consumidor</p>
+          <p>
+            Alinhar corretamente os elementos melhora a percepção do consumidor
+          </p>
         </div>
         <div class="cell large-3">
           <h3>
@@ -671,12 +1092,22 @@
                 srcset="~/assets/img/webp/icon-diferenciais-equilibrio.webp"
                 type="image/webp"
               />
-              <source srcset="~/assets/img/icon-diferenciais-equilibrio.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/icon-diferenciais-equilibrio.png" alt />
+              <source
+                srcset="~/assets/img/icon-diferenciais-equilibrio.png"
+                type="image/png"
+              />
+              <img
+                loading="lazy"
+                src="~/assets/img/icon-diferenciais-equilibrio.png"
+                alt
+              />
             </picture>
             Equilíbrio
           </h3>
-          <p>Equilibrar o peso das informações é chave para representar estabilidade</p>
+          <p>
+            Equilibrar o peso das informações é chave para representar
+            estabilidade
+          </p>
         </div>
       </div>
     </div>
@@ -686,14 +1117,24 @@
           <div class="cell text-center title">
             <h2 class="nomargin">Dúvidas frequentes</h2>
           </div>
-          <div class="cell large-6">
+          <div class="cell large-7">
             <Accordion />
           </div>
-          <div class="cell large-6 align-middle">
+          <div class="cell large-5">
             <picture>
-              <source srcset="~/assets/img/webp/img-criacao-marcas-2.webp" type="image/webp" />
-              <source srcset="~/assets/img/img-criacao-marcas-2.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/img-criacao-marcas-2.png" alt />
+              <source
+                srcset="~/assets/img/webp/img-criacao-marcas-2.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="~/assets/img/img-criacao-marcas-2.png"
+                type="image/png"
+              />
+              <img
+                loading="lazy"
+                src="~/assets/img/img-criacao-marcas-2.png"
+                alt
+              />
             </picture>
           </div>
         </div>
@@ -703,7 +1144,10 @@
       <div class="grid-x text-center">
         <div class="cell">
           <h2 class="nomargin">Qual o valor do investimento?</h2>
-          <p>Neste período de Pandemia estamos oferecendo um preço diferenciado para ajudar as empresas que desejam criar ou reformular sua marca.</p>
+          <p>
+            Neste período de Pandemia estamos oferecendo um preço diferenciado
+            para ajudar as empresas que desejam criar ou reformular sua marca.
+          </p>
         </div>
         <div class="cell condicao">
           <h2>
@@ -713,74 +1157,148 @@
             </span>
             <span class="price">R$ 298</span>
           </h2>
-          <a href="https://sacola.pagseguro.uol.com.br/9bbc277c-de5f-40bd-8da7-b1843a45424e" target="_blank" class="btn">Compre agora</a>
-          <p>Parcele no cartão em até 12x sem juros</p>
+          <a
+            href="https://sacola.pagseguro.uol.com.br/9bbc277c-de5f-40bd-8da7-b1843a45424e"
+            target="_blank"
+            class="btn"
+            >Compre agora</a
+          >
+          <p>Parcele no cartão em até 3x sem juros</p>
           <ul class="items">
             <li>
               <picture>
-                <source srcset="~/assets/img/webp/icon-condicao-1.webp" type="image/webp" />
-                <source srcset="~/assets/img/icon-condicao-1.png" type="image/png" />
-                <img loading="lazy" src="~/assets/img/icon-condicao-1.png" alt />
+                <source
+                  srcset="~/assets/img/webp/icon-condicao-1.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/icon-condicao-1.png"
+                  type="image/png"
+                />
+                <img
+                  loading="lazy"
+                  src="~/assets/img/icon-condicao-1.png"
+                  alt
+                />
               </picture>
               Ajustes ilimitados
             </li>
             <li>
               <picture>
-                <source srcset="~/assets/img/webp/icon-condicao-7.webp" type="image/webp" />
-                <source srcset="~/assets/img/icon-condicao-7.png" type="image/png" />
-                <img loading="lazy" src="~/assets/img/icon-condicao-7.png" alt />
+                <source
+                  srcset="~/assets/img/webp/icon-condicao-7.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/icon-condicao-7.png"
+                  type="image/png"
+                />
+                <img
+                  loading="lazy"
+                  src="~/assets/img/icon-condicao-7.png"
+                  alt
+                />
               </picture>
               Versões ilimitadas
             </li>
             <li>
               <picture>
-                <source srcset="~/assets/img/webp/icon-condicao-2.webp" type="image/webp" />
-                <source srcset="~/assets/img/icon-condicao-2.png" type="image/png" />
-                <img loading="lazy" src="~/assets/img/icon-condicao-2.png" alt />
+                <source
+                  srcset="~/assets/img/webp/icon-condicao-2.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/icon-condicao-2.png"
+                  type="image/png"
+                />
+                <img
+                  loading="lazy"
+                  src="~/assets/img/icon-condicao-2.png"
+                  alt
+                />
               </picture>
               Entrega rápida 72 horas
             </li>
             <li>
               <picture>
-                <source srcset="~/assets/img/webp/icon-condicao-3.webp" type="image/webp" />
-                <source srcset="~/assets/img/icon-condicao-3.png" type="image/png" />
-                <img loading="lazy" src="~/assets/img/icon-condicao-3.png" alt />
-              </picture>Inclui Manual de marca
+                <source
+                  srcset="~/assets/img/webp/icon-condicao-3.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/icon-condicao-3.png"
+                  type="image/png"
+                />
+                <img
+                  loading="lazy"
+                  src="~/assets/img/icon-condicao-3.png"
+                  alt
+                /> </picture
+              >Inclui Manual de marca
             </li>
             <li>
               <picture>
-                <source srcset="~/assets/img/webp/icon-condicao-4.webp" type="image/webp" />
-                <source srcset="~/assets/img/icon-condicao-4.png" type="image/png" />
-                <img loading="lazy" src="~/assets/img/icon-condicao-4.png" alt />
-              </picture>Design 100% exclusivo
+                <source
+                  srcset="~/assets/img/webp/icon-condicao-4.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/icon-condicao-4.png"
+                  type="image/png"
+                />
+                <img
+                  loading="lazy"
+                  src="~/assets/img/icon-condicao-4.png"
+                  alt
+                /> </picture
+              >Design 100% exclusivo
             </li>
             <li>
               <picture>
-                <source srcset="~/assets/img/webp/icon-condicao-5.webp" type="image/webp" />
-                <source srcset="~/assets/img/icon-condicao-5.png" type="image/png" />
-                <img loading="lazy" src="~/assets/img/icon-condicao-5.png" alt />
-              </picture>Formatos em Alta resolução
+                <source
+                  srcset="~/assets/img/webp/icon-condicao-5.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/icon-condicao-5.png"
+                  type="image/png"
+                />
+                <img
+                  loading="lazy"
+                  src="~/assets/img/icon-condicao-5.png"
+                  alt
+                /> </picture
+              >Formatos em Alta resolução
             </li>
             <li>
               <picture>
-                <source srcset="~/assets/img/webp/icon-condicao-6.webp" type="image/webp" />
-                <source srcset="~/assets/img/icon-condicao-6.png" type="image/png" />
-                <img loading="lazy" src="~/assets/img/icon-condicao-6.png" alt />
-              </picture>Profissionais especialistas
+                <source
+                  srcset="~/assets/img/webp/icon-condicao-6.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/icon-condicao-6.png"
+                  type="image/png"
+                />
+                <img
+                  loading="lazy"
+                  src="~/assets/img/icon-condicao-6.png"
+                  alt
+                /> </picture
+              >Profissionais especialistas
             </li>
           </ul>
         </div>
         <div class="cell cw">
-          <div class="box">
-            <p class="nomargin">
-              <span>Ganhe um bônus:</span> Ao adquirir a criação da sua marca,
-              você terá acesso completo ao
-              <a
-                href="https://www.coachingwalking.com.br/"
-                target="_blank"
-              >Treinamento Coaching Walking</a>
-            </p>
-          </div>
+          <a href="https://www.coachingwalking.com.br/" target="_blank">
+            <div class="box">
+              <p class="nomargin">
+                <span>Ganhe um bônus:</span> Ao adquirir a criação da sua marca,
+                você terá acesso completo ao
+                <span class="textcw">Treinamento Coaching Walking</span>
+              </p>
+            </div>
+          </a>
         </div>
       </div>
     </div>
@@ -789,7 +1307,6 @@
 </template>
 
 <script>
-
 </script>
 
 <style lang="scss">
@@ -838,8 +1355,9 @@ main {
     }
   }
   p {
-    color: #fff7c4;
-    font-size: 13px;
+    color: #ffffff;
+    opacity: 0.35;
+    font-size: 16px;
   }
 }
 
@@ -872,7 +1390,6 @@ main {
 .box-after {
   margin: 0 auto;
   max-width: 336px;
-
   position: relative;
   .box-over {
     background-color: rgba(255, 78, 111, 0.92);
@@ -924,7 +1441,7 @@ main {
     }
     .box-before {
       &:after {
-        opacity: 0;
+        opacity: 1;
         transition: all 0.3s;
       }
     }
@@ -1156,11 +1673,25 @@ main {
       margin: 0 auto;
       min-height: 55px;
       padding: 10px 15px;
+      transition: all 0.3s linear;
+    }
+    a {      
+      &:hover {
+        .box {
+          opacity: 0.75;
+        }        
+      }
+    }
+    p {
+      color: #484848;
     }
     span {
       font-size: 18px;
       font-family: $bold;
       color: #613aa0;
+    }
+    .textcw {
+      font-family: $normal;
     }
     font-size: 16px;
     margin-top: 50px;
@@ -1238,7 +1769,7 @@ main {
     .cell.large-3 {
       width: 20%;
     }
-    .box-vantagens {      
+    .box-vantagens {
       &.mobile {
         display: none;
       }

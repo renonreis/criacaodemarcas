@@ -15,7 +15,7 @@
               />
             </picture>
             <p>Nós da CriaçãodeMarcas.com somos especializados em criação de marcas para empresas, produtos e serviços. Nosso trabalho é proporcionar um serviço de qualidade para impactar e estimular seu público alvo na geração de novos negócios.</p>
-            <a href="#" class="btn">Solicitar criação de marca</a>
+            <a href="https://sacola.pagseguro.uol.com.br/9bbc277c-de5f-40bd-8da7-b1843a45424e" target="_blank" class="btn">Solicitar criação de marca</a>
           </div>
           <div class="cell medium-7 large-7">
             <div class="grid-container full">
@@ -36,25 +36,25 @@
                       <n-link to="/contato">Contato</n-link>
                     </li>
                     <li>
-                      <n-link
-                        to="/area-do-cliente"
+                      <a href="https://uweb.app/criacaodemarcas"
+                        target="_blank"
                         class="client-area"
                         title="Acompanhe o trabalho de criação em tempo real"
-                      >Área do cliente</n-link>
+                      >Área do cliente</a>
                     </li>
                   </ul>
                 </div>
                 <div class="cell medium-4 large-4">
                   <h3>Localização</h3>
                   <p>
-                    Rua Augusto de Mari, 3400
-                    <br />Portão | Curitiba-PR
-                    <br />CEP: 80630-010
+                    Av. Presidente Kennedy, 3425
+                    <br />Água Verde | Curitiba-PR
+                    <br />CEP: 80610-010
                   </p>
                   <h3>Contato</h3>
-                  <a href="#">
+                  <a href="https://api.whatsapp.com/send?phone=5541988492754" target="_blank">
                     <span class="iconify" data-icon="mdi:whatsapp" data-inline="false"></span>
-                    41 99999.9999
+                    41 98849.2754
                   </a>
                 </div>
                 <div class="cell medium-4 large-4">
@@ -113,7 +113,7 @@
             <ul class="menu-footer">
               <li>
                 <span class="iconify" data-icon="icons8:copyright" data-inline="false"></span>
-                2020 - Criação de Marcas
+                2020 - Criação de Marcas &nbsp;|&nbsp; Atendemos todo o Brasil <span class="iconify" data-icon="twemoji:flag-for-flag-brazil" data-inline="false"></span>
               </li>
               <li v-if="false">
                 <a href="#">Termos de Prestação de Serviço</a>
@@ -141,7 +141,7 @@
       </div>
     </div>
     <div class="whats-float">
-      <a href="#" target="_blank">
+      <a href="https://api.whatsapp.com/send?phone=5541988492754" target="_blank">
         <picture>
           <source srcset="~/assets/img/webp/img-whats.webp" type="image/webp" />
           <source srcset="~/assets/img/img-whats.png" type="image/png" />

@@ -14,14 +14,14 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: "Serviço especializado de Criação de Marcas",
+    title: "Criação de Marcas Profissionais - Criaçãodemarcas.com",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: "Serviço especializado de Criação de Marcas"
+        content: "Somos uma equipe de especialistas apaixonados em criação de marcas. Criamos sua marca 100% exclusiva em até 72 horas úteis com ajustes e versões ilimitadas."
       }
     ],
     script: [

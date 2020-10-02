@@ -4,14 +4,26 @@
       <div class="grid-container">
         <div class="grid-x grid-margin-x align-middle">
           <div class="cell small-12 medium-6 large-6">
-            <p>Serviço especializado de Criação de Marcas</p>
+            <p>
+              Serviço especializado de Criação de Marcas &nbsp;|&nbsp; Atendemos
+              todo o Brasil
+              <span
+                class="iconify"
+                data-icon="twemoji:flag-for-flag-brazil"
+                data-inline="false"
+              ></span>
+            </p>
           </div>
           <div class="cell small-12 medium-6 large-6 text-right">
             <p>
               Fale com nossa equipe:
-              <a href="#">
-                <span class="iconify" data-icon="mdi:whatsapp" data-inline="false"></span>
-                41 99999.9999
+              <a href="https://api.whatsapp.com/send?phone=5541988492754">
+                <span
+                  class="iconify"
+                  data-icon="mdi:whatsapp"
+                  data-inline="false"
+                ></span>
+                41 98849.2754
               </a>
             </p>
           </div>
@@ -25,14 +37,33 @@
             <div class="cell small-8 medium-6 large-3">
               <a href="/">
                 <picture>
-                  <source srcset="~/assets/img/webp/logo-criacao-marcas.webp" type="image/webp" />
-                  <source srcset="~/assets/img/logo-criacao-marcas.png" type="image/png" />
-                  <img loading="lazy" src="~/assets/img/logo-criacao-marcas.png" alt />
+                  <source
+                    srcset="~/assets/img/webp/logo-criacao-marcas.webp"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="~/assets/img/logo-criacao-marcas.png"
+                    type="image/png"
+                  />
+                  <img
+                    loading="lazy"
+                    src="~/assets/img/logo-criacao-marcas.png"
+                    alt
+                  />
                 </picture>
               </a>
             </div>
-            <div class="cell small-4 medium-6 large-3 text-right hide-for-large" v-if="false">
-              <button type="button" class="button" data-toggle="offCanvasRightPush">MENU</button>
+            <div
+              class="cell small-4 medium-6 large-3 text-right hide-for-large"
+              v-if="false"
+            >
+              <button
+                type="button"
+                class="button"
+                data-toggle="offCanvasRightPush"
+              >
+                MENU
+              </button>
             </div>
             <div class="cell medium-8 large-9 show-for-large">
               <nav>
@@ -44,27 +75,44 @@
                     <n-link to="/cartao-de-visita">Cartão de visita</n-link>
                   </li>
                   <li v-if="false">
-                    <n-link to="/servicos-de-papelaria">Serviços de papelaria</n-link>
+                    <n-link to="/servicos-de-papelaria"
+                      >Serviços de papelaria</n-link
+                    >
                   </li>
                   <li v-if="false">
                     <n-link to="/contato">Contato</n-link>
                   </li>
                   <li>
-                    <n-link
-                      to="/area-do-cliente"
+                    <a href="https://uweb.app/criacaodemarcas"
+                      target="_blank"
                       class="client-area"
                       title="Acompanhe o trabalho de criação em tempo real"
                     >
                       Área do cliente
                       <picture>
-                        <source srcset="~/assets/img/webp/img-area-cliente.webp" type="image/webp" />
-                        <source srcset="~/assets/img/img-area-cliente.png" type="image/png" />
-                        <img loading="lazy" src="~/assets/img/img-area-cliente.png" alt />
+                        <source
+                          srcset="~/assets/img/webp/img-area-cliente.webp"
+                          type="image/webp"
+                        />
+                        <source
+                          srcset="~/assets/img/img-area-cliente.png"
+                          type="image/png"
+                        />
+                        <img
+                          loading="lazy"
+                          src="~/assets/img/img-area-cliente.png"
+                          alt
+                        />
                       </picture>
-                    </n-link>
+                    </a>
                   </li>
                   <li>
-                    <n-link to="#" class="btn-marca">Solicitar criação de marca</n-link>
+                    <a
+                      href="https://sacola.pagseguro.uol.com.br/9bbc277c-de5f-40bd-8da7-b1843a45424e"
+                      target="_blank"
+                      class="btn-marca"
+                      >Solicitar criação de marca</a
+                    >
                   </li>
                 </ul>
               </nav>
@@ -118,15 +166,18 @@ header {
     transition: all 0.3s;
     &.is-stuck {
       background-color: #412176;
-      box-shadow: 0 0 10px 5px #00000070;
+      box-shadow: 0 0 15px 5px #00000010;
     }
     &.active {
       background: #422179;
-      box-shadow: 0px 0px 10px 5px #2f1f4887;
+      box-shadow: 0px 0px 10px 5px #2f1f4840;
       position: fixed;
       width: 100%;
       top: 0;
       z-index: 99;
+      .grid-x {
+        min-height: 65px;
+      }
       .btn-marca {
         display: block;
       }
@@ -147,7 +198,7 @@ header {
         }
       }
       .btn-marca {
-        background-color: #55ffc5;    
+        background-color: #55ffc5;
         border: 2px solid #55ffc5;
         border-radius: 6px;
         color: #43237a;
