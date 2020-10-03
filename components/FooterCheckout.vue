@@ -7,17 +7,17 @@
             <ul class="menu-footer">
               <li>
                 <span class="iconify" data-icon="icons8:copyright" data-inline="false"></span>
-                2020 - Criação de Marcas:
+                2020 - Criação de Marcas &nbsp;|&nbsp; Atendemos todo o Brasil <span class="iconify" data-icon="twemoji:flag-for-flag-brazil" data-inline="false"></span>
               </li>
-              <li>
+              <li v-if="false">
                 <a href="#">Termos de Prestação de Serviço</a>
               </li>
-              <li>
+              <li v-if="false">
                 <a href="#">Termos de Privacidade</a>
               </li>
             </ul>
           </div>
-          <div class="cell large-4 text-right social">
+          <div class="cell large-4 text-right social" v-if="false">
             <p>
               Siga-nos
               <a href>
@@ -208,11 +208,12 @@ footer {
         li {
           display: block;
           border: 0;
+          margin: 0;
           &:nth-child(1) {
             order: 1;
           }
           &:last-child {
-            margin-bottom: 25px;
+            margin-bottom: 0;
           }
         }
       }

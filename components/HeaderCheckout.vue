@@ -1,10 +1,10 @@
 <template>
   <header class="checkout">    
-    <div class="sticky" :class="{ active: scrollPosition > 90 }">
+    <div class="sticky">
       <div data-sticky data-margin-top="0">
         <div class="grid-container">
           <div class="grid-x align-middle">
-            <div class="cell small-8 medium-6 large-3">
+            <div class="cell small-12 medium-6 large-3">
               <a href="/">
                 <picture>
                   <source srcset="~/assets/img/webp/logo-criacao-marcas.webp" type="image/webp" />
@@ -13,7 +13,7 @@
                 </picture>
               </a>
             </div>
-            <div class="cell small-4 medium-6 large-3 text-right hide-for-large">
+            <div class="cell small-4 medium-6 large-3 text-right hide">
               <button type="button" class="button" data-toggle="offCanvasRightPush">MENU</button>
             </div>
             <div class="cell medium-8 large-9 show-for-large">
@@ -124,6 +124,13 @@ header.checkout {
   header.checkout {
     background-color: #422179;
     position: relative;
+  }
+}
+@media screen and (max-width: 767px) {
+  header.checkout {
+    background-color: #422179;
+    position: relative;
+    text-align: center;
   }
 }
 </style>

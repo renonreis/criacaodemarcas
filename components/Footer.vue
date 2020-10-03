@@ -327,7 +327,7 @@ footer {
             order: 1;
           }
           &:last-child {
-            margin-bottom: 25px;
+            margin-bottom: 0px;
           }
         }
       }
