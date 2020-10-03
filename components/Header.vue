@@ -108,7 +108,7 @@
                   </li>
                   <li>
                     <a
-                      href="https://sacola.pagseguro.uol.com.br/9bbc277c-de5f-40bd-8da7-b1843a45424e"
+                      href="https://mpago.la/1DRtS2d"
                       target="_blank"
                       class="btn-marca"
                       >Solicitar criação de marca</a

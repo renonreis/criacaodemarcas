@@ -15,7 +15,7 @@
               />
             </picture>
             <p>Nós da CriaçãodeMarcas.com somos especializados em criação de marcas para empresas, produtos e serviços. Nosso trabalho é proporcionar um serviço de qualidade para impactar e estimular seu público alvo na geração de novos negócios.</p>
-            <a href="https://sacola.pagseguro.uol.com.br/9bbc277c-de5f-40bd-8da7-b1843a45424e" target="_blank" class="btn">Solicitar criação de marca</a>
+            <a href="https://mpago.la/1DRtS2d" target="_blank" class="btn">Solicitar criação de marca</a>
           </div>
           <div class="cell medium-7 large-7">
             <div class="grid-container full">

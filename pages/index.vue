@@ -15,7 +15,7 @@
               <span class="price">R$ 298</span>
             </h2>
             <a
-              href="https://sacola.pagseguro.uol.com.br/9bbc277c-de5f-40bd-8da7-b1843a45424e"
+              href="https://mpago.la/1DRtS2d"
               target="_blank"
               class="btn"
               >Solicitar criação de marca</a
@@ -715,7 +715,7 @@
           </div>
           <div class="cell">
             <a
-              href="https://sacola.pagseguro.uol.com.br/9bbc277c-de5f-40bd-8da7-b1843a45424e"
+              href="https://mpago.la/1DRtS2d"
               target="_blank"
               class="btn"
               >Quero minha marca</a
@@ -1158,7 +1158,7 @@
             <span class="price">R$ 298</span>
           </h2>
           <a
-            href="https://sacola.pagseguro.uol.com.br/9bbc277c-de5f-40bd-8da7-b1843a45424e"
+            href="https://mpago.la/1DRtS2d"
             target="_blank"
             class="btn"
             >Compre agora</a
