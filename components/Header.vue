@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header>    
     <div class="topbar hide-for-small-only">
       <div class="grid-container">
         <div class="grid-x grid-margin-x align-middle">

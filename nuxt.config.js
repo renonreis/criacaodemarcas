@@ -44,7 +44,7 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [],
+  plugins: [{ src: '~plugins/ga.js', mode: 'client' }],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
@@ -57,7 +57,18 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: [
+    '@nuxtjs/gtm',
+  ],
+  gtm: {
+    id: 'GTM-N4XQMH8',
+    enabled: true
+  },
+  publicRuntimeConfig: {
+    gtm: {
+      id: process.env.GOOGLE_TAG_MANAGER_ID
+    }
+  },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/

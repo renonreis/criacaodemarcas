@@ -339,7 +339,7 @@ footer {
   }
   .whats-float {
     img {
-      width: 50%;
+      width: 75%;
     }
   }
 }

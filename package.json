@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/gtm": "^2.3.2",
     "foundation-sites": "^6.6.3",
     "jquery": "^3.5.1",
     "nuxt": "^2.14.0"
