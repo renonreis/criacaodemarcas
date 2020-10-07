@@ -1,7 +1,7 @@
 <template>
   <main>
     <Header />
-    <div class="home-banner">
+    <div class="home-contato">
       <div class="grid-container">
         <div class="grid-x align-middle text-center">
           <div class="cell large-12" style>
@@ -12,9 +12,15 @@
       </div>
     </div>
     <div class="grid-container conteudo">
-        <div class="grid-x align-middle text-center">
-          <iframe frameborder="0" scrolling="no" src="https://app.ummense.com/form/9171368d-9f72-469b-bb5a-08e3dfc67836?iframe=1" width="100%" height="560"></iframe>
-        </div>
+      <div class="grid-x align-middle text-center">
+        <iframe
+          frameborder="0"
+          scrolling="no"
+          src="https://app.ummense.com/form/9171368d-9f72-469b-bb5a-08e3dfc67836?iframe=1"
+          width="100%"
+          height="560"
+        ></iframe>
+      </div>
     </div>
     <Footer />
   </main>
@@ -31,16 +37,16 @@ $medium: "Product Sans Medium";
 $bold: "Product Sans Bold";
 
 main {
-  .home-banner {
+  .home-contato {
     background-color: #401e78;
     .grid-x {
-      min-height: 538px;
+      min-height: 358px;
       padding: 80px 0;
       color: #ffffff;
     }
   }
 }
-.home-banner {
+.home-contato {
   h1 {
     font-size: 50px;
     font-weight: 700;
@@ -50,8 +56,8 @@ main {
   h2 {
     font-family: $normal;
     font-size: 17px;
-    letter-spacing: 0;    
-  }  
+    letter-spacing: 0;
+  }
 }
 .conteudo {
   .grid-x {
@@ -60,9 +66,9 @@ main {
 }
 @media screen and (min-width: 768px) {
   main {
-    .home-banner {
+    .home-contato {
       background-image: url("~assets/img/banner-cria-logos.jpg");
-      background-position: top center;
+      background-position: bottom center;
       background-repeat: no-repeat;
     }
   }

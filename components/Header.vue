@@ -78,10 +78,7 @@
                     <n-link to="/servicos-de-papelaria"
                       >Serviços de papelaria</n-link
                     >
-                  </li>
-                  <li v-if="false">
-                    <n-link to="/contato">Contato</n-link>
-                  </li>
+                  </li>                  
                   <li>
                     <a href="https://uweb.app/criacaodemarcas"
                       target="_blank"
@@ -107,10 +104,13 @@
                     </a>
                   </li>
                   <li>
+                    <n-link to="/contato" class="btn-contato">Contato</n-link>
+                  </li>
+                  <li>
                     <a
-                      href="https://mpago.la/1DRtS2d"
+                      href="https://www.mercadopago.com.br/checkout/v1/redirect?preference-id=654225927-36501e75-7dd9-40f8-aa1b-795404545e50"
                       target="_blank"
-                      class="btn-marca"
+                      class="btn-marca solicite-marca"
                       >Solicitar criação de marca</a
                     >
                   </li>
@@ -192,8 +192,7 @@ header {
         &:hover {
           color: #55ffc5;
         }
-        &.nuxt-link-exact-active {
-          color: #ffffff;
+        &.nuxt-link-exact-active {          
           opacity: 0.75;
         }
       }
@@ -231,6 +230,19 @@ header {
         }
         img {
           display: none;
+        }
+      }
+      .btn-contato {
+        background-color: #ffffff;
+        border: 2px solid #ffffff;
+        border-radius: 6px;
+        color: #412176;
+        line-height: 38px;
+        margin-left: 20px;
+        padding: 0 25px;
+        &:hover {
+          background-color: transparent;
+          color: #ffffff;
         }
       }
     }

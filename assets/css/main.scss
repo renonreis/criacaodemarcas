@@ -84,22 +84,21 @@
   src: local("Product Sans Thin"),
     url("../fonts/ProductSans-Thin.woff") format("woff");
 }
-@font-face {
+/*@font-face {
   font-display: swap;
   font-family: "Product Sans Medium";
   font-style: normal;
   font-weight: medium;
   src: local("Product Sans Medium"),
     url("../fonts/ProductSans-Medium.woff") format("woff");
-}
+}*/
 
 $thin: "Product Sans Thin";
 $normal: "Product Sans";
-$medium: "Product Sans Medium";
 $bold: "Product Sans Bold";
 
 * {
-  -webkit-tap-highlight-color: transparent;  
+  -webkit-tap-highlight-color: transparent;
 }
 
 .nomargin {

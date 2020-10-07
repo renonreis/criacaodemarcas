@@ -15,9 +15,9 @@
               <span class="price">R$ 298</span>
             </h2>
             <a
-              href="https://mpago.la/1DRtS2d"
+              href="https://www.mercadopago.com.br/checkout/v1/redirect?preference-id=654225927-36501e75-7dd9-40f8-aa1b-795404545e50"
               target="_blank"
-              class="btn"
+              class="btn solicite-marca"
               >Solicitar criação de marca</a
             >
             <p>Parcele no cartão em até 3x sem juros</p>
@@ -715,9 +715,9 @@
           </div>
           <div class="cell">
             <a
-              href="https://mpago.la/1DRtS2d"
+              href="https://www.mercadopago.com.br/checkout/v1/redirect?preference-id=654225927-36501e75-7dd9-40f8-aa1b-795404545e50"
               target="_blank"
-              class="btn"
+              class="btn solicite-marca"
               >Quero minha marca</a
             >
           </div>
@@ -1158,9 +1158,9 @@
             <span class="price">R$ 298</span>
           </h2>
           <a
-            href="https://mpago.la/1DRtS2d"
+            href="https://www.mercadopago.com.br/checkout/v1/redirect?preference-id=654225927-36501e75-7dd9-40f8-aa1b-795404545e50"
             target="_blank"
-            class="btn"
+            class="btn solicite-marca"
             >Compre agora</a
           >
           <p>Parcele no cartão em até 3x sem juros</p>
@@ -1312,7 +1312,6 @@
 <style lang="scss">
 $thin: "Product Sans Thin";
 $normal: "Product Sans";
-$medium: "Product Sans Medium";
 $bold: "Product Sans Bold";
 
 main {
@@ -1487,7 +1486,7 @@ main {
       margin: 0;
     }
     h3 {
-      font-family: $medium;
+      font-family: $normal;
       font-size: 18px;
       margin-top: 10px;
       letter-spacing: 0;
