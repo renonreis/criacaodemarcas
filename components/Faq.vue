@@ -20,6 +20,9 @@ export default {
 .faq.open .accordion-title::before {
   content: '-';
 }
+.faq .accordion-title {
+  padding: 0.75rem 2.5rem 0.75rem 1rem;
+}
 .faq .accordion-content {
   transition: all 0.3s ease-in;
   display: block;

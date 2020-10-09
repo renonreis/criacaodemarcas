@@ -7,20 +7,13 @@
           <div class="cell large-12" style>
             <h1>Criação de marcas</h1>
             <h2>
-              A criação da sua marca elaborada por especialistas.
-              <span>
-                Condição especial: De
-                <del>R$ 440</del> por
-              </span>
-              <span class="price">R$ 298</span>
+              A criação da sua marca elaborada por especialistas. Oferecemos o
+              melhor custo benefício do mercado
             </h2>
-            <a
-              href="https://www.mercadopago.com.br/checkout/v1/redirect?preference-id=654225927-36501e75-7dd9-40f8-aa1b-795404545e50"
-              target="_blank"
-              class="btn solicite-marca"
-              >Solicitar criação de marca</a
+            <n-link to="/fale-com-especialista" class="btn solicite-marca"
+              >Fale com nosso especialista</n-link
             >
-            <p>Parcele no cartão em até 3x sem juros</p>
+            <p>Entre em contato e fale com nossa equipe</p>
             <ul class="items">
               <li>
                 <picture>
@@ -170,8 +163,7 @@
         </div>
         <div class="cell large-6">
           <h2>
-            Sua empresa precisa de uma
-            <br />marca profissional
+            Sua empresa precisa de uma marca profissional
           </h2>
           <p>
             Uma marca profissional adequada a sua área de atuação e público alvo
@@ -193,8 +185,7 @@
         <div class="grid-x">
           <div class="cell text-center">
             <h2>
-              Conheça o potencial da nossa equipe
-              <br />através do nosso portfólio
+              Conheça o potencial da nossa equipe através do nosso portfólio
             </h2>
             <p>
               Materiais de qualidade e design diferenciado para aumentar suas
@@ -714,11 +705,8 @@
             </ul>
           </div>
           <div class="cell">
-            <a
-              href="https://www.mercadopago.com.br/checkout/v1/redirect?preference-id=654225927-36501e75-7dd9-40f8-aa1b-795404545e50"
-              target="_blank"
-              class="btn solicite-marca"
-              >Quero minha marca</a
+            <n-link to="/fale-com-especialista" class="btn solicite-marca"
+              >Fale com nosso especialista</n-link
             >
           </div>
         </div>
@@ -1151,19 +1139,13 @@
         </div>
         <div class="cell condicao">
           <h2>
-            <span>
-              Condição especial: De
-              <del>R$ 440</del> por
-            </span>
-            <span class="price">R$ 298</span>
+            Entre em contato e solicite uma proposta agora mesmo.<br />
+            Temos uma condição especial para você!
           </h2>
-          <a
-            href="https://www.mercadopago.com.br/checkout/v1/redirect?preference-id=654225927-36501e75-7dd9-40f8-aa1b-795404545e50"
-            target="_blank"
-            class="btn solicite-marca"
-            >Compre agora</a
+          <n-link to="/fale-com-especialista" class="btn solicite-marca"
+            >Fale com nosso especialista</n-link
           >
-          <p>Parcele no cartão em até 3x sem juros</p>
+          <p>Entre em contato e fale com nossa equipe</p>
           <ul class="items">
             <li>
               <picture>
@@ -1335,6 +1317,7 @@ main {
     font-family: $normal;
     font-size: 17px;
     letter-spacing: 0;
+    line-height: 36px;
     span {
       color: #e4d3ff;
     }
@@ -1363,6 +1346,9 @@ main {
 .content-empresa {
   .grid-x {
     margin: 20px 0 60px;
+  }
+  h2 {
+    max-width: 450px;
   }
 }
 
@@ -1475,6 +1461,10 @@ main {
   .grid-x {
     padding: 90px 0;
   }
+  h2 {
+    max-width: 570px;
+    margin: 0 auto 0.5rem;
+  }
 }
 
 .purple-bg {
@@ -1532,7 +1522,7 @@ main {
   .btn {
     background-color: #572b8c;
     color: #ffffff;
-    width: 235px;
+    min-width: 235px;
     &:hover {
       background-color: #55ffc5;
       color: #43237a;
@@ -1636,7 +1626,7 @@ main {
     margin-top: 20px;
     h2 {
       font-family: $normal;
-      font-size: 20px;
+      font-size: 18px;
       letter-spacing: 0;
       span {
         color: #653c95;
@@ -1674,11 +1664,11 @@ main {
       padding: 10px 15px;
       transition: all 0.3s linear;
     }
-    a {      
+    a {
       &:hover {
         .box {
           opacity: 0.75;
-        }        
+        }
       }
     }
     p {

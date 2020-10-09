@@ -5,8 +5,11 @@
       <div class="grid-container">
         <div class="grid-x align-bottom text-center">
           <div class="cell large-12" style>
-            <h1>Contato</h1>
-            <h2>Converse com a nossa equipe</h2>
+            <h1>Fale com nosso especialista</h1>
+            <h2>
+              Receba em alguns minutos uma proposta com uma condição especial
+              por e-mail e também por WhatsApp.
+            </h2>
           </div>
         </div>
       </div>
