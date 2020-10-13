@@ -286,7 +286,7 @@
           ></span>
         </a>
       </div>
-    </div>
+    </div>    
   </footer>
 </template>
 

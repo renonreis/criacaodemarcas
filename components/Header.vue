@@ -75,10 +75,27 @@
               <nav>
                 <ul class="menu dropdown align-right" data-dropdown-menu>
                   <li class="mega-menu">
-                    <n-link to="#">Serviços de Marketing Digital</n-link>
+                    <n-link to="#">Serviços de Marketing Digital <span class="iconify" data-icon="dashicons:arrow-down-alt2" data-inline="false"style="vertical-align: middle;
+}"></span></n-link>
                     <ul class="menu boxMegamenu">
                       <li class="">
                         <div class="grid-x text-left">
+                          <div class="cell large-12 text-center">
+                            <h2>
+                              Confira outros serviços prestados pelo Grupo
+                              <picture>
+                              <source
+                                srcset="~/assets/img/webp/marca-evonline.webp"
+                                type="image/webp"
+                              />
+                              <source
+                                srcset="~/assets/img/marca-evonline.png"
+                                type="image/png"
+                              />
+                              <img loading="lazy" src="~/assets/img/marca-evonline.png" style="vertical-align: unset;"/>
+                            </picture>
+                            </h2>
+                          </div>
                           <div class="cell large-4">
                             <a
                               href="https://www.evonline.com.br/criacao-de-websites/"
@@ -387,6 +404,9 @@
                     </ul>
                   </li>
                   <li>
+                    <n-link to="/contato">Contato</n-link>
+                  </li>
+                  <li>
                     <a
                       href="https://uweb.app/criacaodemarcas"
                       target="_blank"
@@ -410,10 +430,7 @@
                         />
                       </picture>
                     </a>
-                  </li>
-                  <li>
-                    <n-link to="/contato" class="btn-contato">Contato</n-link>
-                  </li>
+                  </li>                  
                   <li>
                     <n-link
                       to="/fale-com-especialista"
@@ -598,6 +615,11 @@ header {
     position: absolute !important;
     top: 89px;
     width: 100%;
+    h2 {
+      font-family: 'Product Sans';
+      color: #606478;
+      font-size: 21px;
+    }    
     .grid-x {
       height: auto;
     }
@@ -713,6 +735,11 @@ header {
 @media screen and (max-width: 767px) {
   header {
     text-align: center;
+    .sticky {
+      .active {
+        display: none;
+      }
+    }
     .topbar {
       text-align: center;
       .text-right {

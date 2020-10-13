@@ -7,8 +7,7 @@
           <div class="cell large-12" style>
             <h1>Fale com nosso especialista</h1>
             <h2>
-              Receba em alguns minutos uma proposta com uma condição especial
-              por e-mail e também por WhatsApp.
+              Receba em breve uma proposta com uma condição especial por e-mail e também por WhatsApp
             </h2>
           </div>
         </div>
