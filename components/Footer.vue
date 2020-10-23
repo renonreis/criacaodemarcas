@@ -26,9 +26,8 @@
               proporcionar um serviço de qualidade para impactar e estimular seu
               público alvo na geração de novos negócios.
             </p>
-            <n-link to="/fale-com-especialista" class="btn solicite-marca"
-              >Solicitar criação de marca</n-link
-            >
+            <n-link to="/proposta" class="btn solicite-marca"
+            >Receber proposta via WhatsApp</n-link>
           </div>
           <div class="cell medium-7 large-7">
             <div class="grid-container full">
@@ -271,7 +270,9 @@
     </div>
     <div class="float-mobile">
       <div>
-        <a href="/fale-com-especialista" class="btn">Solicitar criação de marca</a>
+        <n-link to="/proposta" class="btn">
+          Receber proposta via WhatsApp
+        </n-link>
       </div>
       <div>
         <a
@@ -510,6 +511,7 @@ footer {
       display: block;      
       margin: 0;
       line-height: 48px;
+      font-size: 13px;
     }
     .whats-mobile {
       background-color: #56FFC6;

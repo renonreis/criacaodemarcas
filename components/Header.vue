@@ -432,11 +432,9 @@
                     </a>
                   </li>                  
                   <li>
-                    <n-link
-                      to="/fale-com-especialista"
-                      class="btn-marca solicite-marca"
-                      >Solicitar criação de marca</n-link
-                    >
+                    <n-link to="/proposta" class="btn-marca solicite-marca">
+                      Receber proposta via WhatsApp
+                    </n-link>                                        
                   </li>
                 </ul>
               </nav>

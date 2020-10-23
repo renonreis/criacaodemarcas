@@ -7,13 +7,11 @@
           <div class="cell large-12" style>
             <h1>Criação de marcas</h1>
             <h2>
-              A criação da sua marca elaborada por especialistas. Oferecemos o
-              melhor custo benefício do mercado
+              Somos especialistas em criar marcas para empresas que querem se destacar no mercado.
             </h2>
-            <n-link to="/fale-com-especialista" class="btn solicite-marca"
-              >Fale com nosso especialista</n-link
-            >
-            <p>Entre em contato e fale com nossa equipe</p>
+            <n-link to="/proposta" class="btn solicite-marca"
+            >Receber proposta via WhatsApp</n-link>
+            <p>Oferecemos o melhor custo benefício do mercado</p>
             <ul class="items">
               <li>
                 <picture>
@@ -521,7 +519,7 @@
               impressão e para utilização nos meios digitais.
             </p>
           </div>
-          <div class="cell small-6 medium-2 large-2 text-center">
+          <div class="cell small-4 medium-2 large-2 text-center">
             <picture>
               <source
                 srcset="~/assets/img/webp/icon-jpg.webp"
@@ -532,7 +530,7 @@
             </picture>
             <h3 class="white">Imagem</h3>
           </div>
-          <div class="cell small-6 medium-2 large-2 text-center">
+          <div class="cell small-4 medium-2 large-2 text-center">
             <picture>
               <source
                 srcset="~/assets/img/webp/icon-png.webp"
@@ -543,7 +541,7 @@
             </picture>
             <h3 class="white">Fundo transparente</h3>
           </div>
-          <div class="cell small-6 medium-2 large-2 text-center">
+          <div class="cell small-4 medium-2 large-2 text-center">
             <picture>
               <source
                 srcset="~/assets/img/webp/icon-cdr.webp"
@@ -554,7 +552,7 @@
             </picture>
             <h3 class="white">CorelDraw</h3>
           </div>
-          <div class="cell small-6 medium-2 large-2 text-center">
+          <div class="cell small-4 medium-2 large-2 text-center">
             <picture>
               <source
                 srcset="~/assets/img/webp/icon-ai.webp"
@@ -565,7 +563,7 @@
             </picture>
             <h3 class="white">Illustrator</h3>
           </div>
-          <div class="cell small-6 medium-2 large-2 text-center">
+          <div class="cell small-4 medium-2 large-2 text-center">
             <picture>
               <source
                 srcset="~/assets/img/webp/icon-pdf.webp"
@@ -576,7 +574,7 @@
             </picture>
             <h3 class="white">Apresentação</h3>
           </div>
-          <div class="cell small-6 medium-2 large-2 text-center">
+          <div class="cell small-4 medium-2 large-2 text-center">
             <picture>
               <source
                 srcset="~/assets/img/webp/icon-eps.webp"
@@ -705,9 +703,8 @@
             </ul>
           </div>
           <div class="cell">
-            <n-link to="/fale-com-especialista" class="btn solicite-marca"
-              >Fale com nosso especialista</n-link
-            >
+            <n-link to="/proposta" class="btn solicite-marca"
+            >Receber proposta via WhatsApp</n-link>
           </div>
         </div>
       </div>
@@ -1142,9 +1139,8 @@
             Entre em contato e solicite uma proposta agora mesmo.<br />
             Temos uma condição especial para você!
           </h2>
-          <n-link to="/fale-com-especialista" class="btn solicite-marca"
-            >Fale com nosso especialista</n-link
-          >
+          <n-link to="/proposta" class="btn solicite-marca"
+            >Receber proposta via WhatsApp</n-link>
           <p>Entre em contato e fale com nossa equipe</p>
           <ul class="items">
             <li>
@@ -1459,7 +1455,7 @@ main {
 .portfolio {
   background-color: #fbf8f1;
   .grid-x {
-    padding: 90px 0;
+    padding: 90px 0 0;
   }
   h2 {
     max-width: 570px;
@@ -1693,6 +1689,9 @@ main {
       li {
         border: 0;
         margin-bottom: 20px;
+        &:last-child {
+          display: none;
+        }
       }
     }
   }
@@ -1709,7 +1708,16 @@ main {
       margin-bottom: 35px;
     }
   }
+  .purple-bg {
+    h3 {
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+  }
   .new-grid {
+    .grid-x {
+      padding: 45px 0 0;
+    }
     .box-vantagens {
       display: none;
       &.mobile {
