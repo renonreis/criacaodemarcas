@@ -20,8 +20,7 @@
               />
             </picture>
           </a>
-          <h2>Receba uma <span> Ligação </span> da nossa <br/>
-          equipe de atendimento</h2>
+          <h2>Receba uma <span> Ligação </span> da nossa equipe de atendimento</h2>
           <iframe frameborder="0" scrolling="no" src="https://app.ummense.com/form/91e40b8b-d099-467a-ae26-3332885bd61e?iframe=1" width="100%" height="600"></iframe>
         </div>
       </div>
@@ -86,6 +85,7 @@ main {
       margin: 0 auto;
       h2 {
         padding-top: 25%;
+        max-width: 475px;
         span {
           background-color: #422179;
           color: #55ffc5;

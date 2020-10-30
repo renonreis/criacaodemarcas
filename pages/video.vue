@@ -5,7 +5,7 @@
       <div class="grid-container">
         <div class="grid-x align-bottom text-center">
           <div class="cell large-12" style>
-            <iframe width="1050" height="590" src="https://www.youtube.com/embed/0sgNKWXlHV0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="350" src="https://www.youtube.com/embed/0sgNKWXlHV0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <n-link to="/me-ligue" class="btn outline solicite-marca"
             >Quero receber ligação</n-link>
             <n-link to="/proposta" class="btn solicite-marca"
@@ -33,10 +33,11 @@ main {
     background-color: #ffffff;
     .grid-x {
       min-height: 550px;
-      padding: 210px 0 80px;
+      padding: 80px 0 80px;
       color: #ffffff;
       iframe {
         border: 2px solid #ffffff;
+        max-width: 1050px;
       }
       .btn {
         background-color: #55ffc5;
@@ -88,6 +89,12 @@ main {
       background-position: bottom center;
       background-repeat: no-repeat;
       background-position-y: -58px;
+      .grid-x {
+        padding: 210px 0 80px;
+        iframe {
+          height: 590px;
+        }
+      }
     }
   }
 }
