@@ -33,7 +33,7 @@ export default {
           open: false,
         },
         {
-          title: 'Qual o prazo de entrega para apresentação da minha marca?',
+          title: 'Qual o prazo de entrega para apresentação da minha logo?',
           text: 'Para que possamos lhe entregar um serviço profissional pedimos o prazo de 72 horas úteis. Este é um período que consideramos apropriado para prestar um serviço de qualidade. Você receberá a arte da criação da sua marca aplicada em diversos materiais para que você possa apreciar melhor o serviço de criação. Caso deseje alguma alteração ou uma nova versão, pedimos o prazo de até 72 horas úteis para lhe entregar o que foi solicitado. Após a marca aprovada, iremos preparar o fechamento dos arquivos para lhe entregar sua logo em diversos formatos, este processo de preparação leva até 48 horas úteis.',
           open: false,
         },
@@ -63,7 +63,7 @@ export default {
           open: false,
         },
         {
-          title: 'Quantas logos vou receber?',
+          title: 'Quantas logomarcas vou receber?',
           text: 'Nossa proposta de trabalho é lhe entregar um serviço profissional elaborado por um especialista em criação de marcas, por isso desenvolvemos um trabalho específico e concentrado em uma opção para melhor atingir seu público alvo. Caso você deseje alterações ou novas versões, sem problemas! Estamos aqui para isso.',
           open: false,
         },
@@ -73,7 +73,7 @@ export default {
           open: false,
         },
         {
-          title: 'Quero reformular minha marca, vocês fazem?',
+          title: 'Quero reformular minha logo, vocês fazem?',
           text: 'Sim, nossa equipe de especialistas vai compreender as necessidades do seu negócio para elaborar uma marca forte e impactante para melhor atingir seu público alvo.',
           open: false,
         },
@@ -88,7 +88,7 @@ export default {
           open: false,
         },
         {
-          title: 'Vocês fazem somente marcas?',
+          title: 'Vocês fazem somente logomarcas?',
           text: 'Nós também criamos Cartões de visita, Criação de nomes para empresas, Materiais de Papelaria (Pasta, Envelope, Papel timbrado e Crachá), ',
           open: false,
         },
@@ -123,6 +123,29 @@ export default {
 <style lang="scss">
 :last-child:not(.is-active) > .accordion-title {
   border-bottom: 0px solid #f1eedd;
+}
+
+@media screen and (min-width: 768px) {
+  .accordion {
+    max-height: 330px;
+    overflow-y: auto;
+    margin: 0;
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: #f7f7f7; 
+    }
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: #cccccc; 
+    }
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      background: #555; 
+    }   
+  }
 }
 
 </style>

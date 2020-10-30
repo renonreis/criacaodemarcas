@@ -75,8 +75,7 @@
               <nav>
                 <ul class="menu dropdown align-right" data-dropdown-menu>
                   <li class="mega-menu">
-                    <n-link to="#">Serviços de Marketing Digital <span class="iconify" data-icon="dashicons:arrow-down-alt2" data-inline="false"style="vertical-align: middle;
-}"></span></n-link>
+                    <n-link to="#" class="servicos">Serviços de Marketing Digital <span class="iconify" data-icon="dashicons:arrow-down-alt2" data-inline="false" style="vertical-align: middle;"></span></n-link>
                     <ul class="menu boxMegamenu">
                       <li class="">
                         <div class="grid-x text-left">
@@ -404,7 +403,7 @@
                     </ul>
                   </li>
                   <li>
-                    <n-link to="/contato">Contato</n-link>
+                    <n-link to="/contato" class="contato">Contato</n-link>
                   </li>
                   <li>
                     <a
@@ -432,8 +431,13 @@
                     </a>
                   </li>                  
                   <li>
+                    <n-link to="/me-ligue" class="btn-marca outline solicite-marca">
+                      Quero receber ligação
+                    </n-link>                                        
+                  </li>
+                  <li>
                     <n-link to="/proposta" class="btn-marca solicite-marca">
-                      Receber proposta via WhatsApp
+                      Quero receber proposta
                     </n-link>                                        
                   </li>
                 </ul>
@@ -469,9 +473,10 @@ header {
   background-color: #613aa0;
   z-index: 999;
   .topbar {
-    background-color: #613aa0;
+    background-color: #272c3a;
     color: #e4d3ff;
     p {
+      font-size: 14px;
       margin: 0;
       line-height: 42px;
     }
@@ -482,8 +487,7 @@ header {
       vertical-align: -3px;
     }
     .evonline {
-      color: #ffffff;
-      opacity: 0.5;
+      color: #e4d3ff;
       &:hover {
         color: #55ffc5;
         opacity: 1;
@@ -524,6 +528,11 @@ header {
       .grid-x {
         min-height: 65px;
       }
+      .client-area,
+      .servicos,
+      .contato {
+        display: none;
+      }
       .btn-marca {
         display: block;
       }
@@ -558,8 +567,15 @@ header {
         border-radius: 6px;
         color: #43237a;
         line-height: 38px;
-        margin-left: 20px;
+        margin-left: 9px;
+        min-width: 225px;
         padding: 0 25px;
+        text-align: center;
+        &.outline {
+          border: 2px solid #55ffc5;
+          background-color: transparent;
+          color: #55ffc5;
+        }
         &:hover {
           background-color: #ffffff;
           border-color: #ffffff;
@@ -732,9 +748,10 @@ header {
 }
 @media screen and (max-width: 767px) {
   header {
+    background-color: #401e78;
     text-align: center;
     .sticky {
-      .active {
+      &.active {
         display: none;
       }
     }

@@ -59,6 +59,24 @@
                       >
                     </li>
                   </ul>
+                  <a href="https://www.ummense.com/promo/evonline" target="_blank" class="selo-ummense">
+                    <picture>
+                      <source
+                        srcset="~/assets/img/webp/selo-ummense.webp"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="~/assets/img/selo-ummense.png"
+                        type="image/png"
+                      />
+                      <img
+                        class="selo-ummense"
+                        loading="lazy"
+                        src="~/assets/img/selo-ummense.png"
+                        alt
+                      />
+                    </picture>
+                  </a> 
                 </div>
                 <div class="cell medium-4 large-4">
                   <h3>Localização</h3>
@@ -83,16 +101,16 @@
                   <h3>Pagamento</h3>
                   <picture>
                     <source
-                      srcset="~/assets/img/webp/img-pagamentos.webp"
+                      srcset="~/assets/img/webp/formas-de-pagamento-para-comprar-logo.webp"
                       type="image/webp"
                     />
                     <source
-                      srcset="~/assets/img/img-pagamentos.png"
+                      srcset="~/assets/img/formas-de-pagamento-para-comprar-logo.png"
                       type="image/png"
                     />
                     <img
                       loading="lazy"
-                      src="~/assets/img/img-pagamentos.png"
+                      src="~/assets/img/formas-de-pagamento-para-comprar-logo.png"
                       alt
                     />
                   </picture>
@@ -194,7 +212,7 @@
                   data-icon="icons8:copyright"
                   data-inline="false"
                 ></span>
-                2020 - Criação de Marcas &nbsp;|&nbsp; Atendemos todo o Brasil
+                2020 - Criação de Marcas - CNPJ:20.012.672/0001-24 <span class="divider">&nbsp;|&nbsp;</span> Atendemos todo o Brasil
                 <span
                   class="iconify"
                   data-icon="twemoji:flag-for-flag-brazil"
@@ -268,10 +286,10 @@
         </picture>
       </a>
     </div>
-    <div class="float-mobile">
+    <div class="float-mobile" :class="{ activeWhats: scrollPosition > 200 }">
       <div>
         <n-link to="/proposta" class="btn">
-          Receber proposta via WhatsApp
+          Quer receber proposta
         </n-link>
       </div>
       <div>
@@ -290,7 +308,23 @@
     </div>    
   </footer>
 </template>
-
+<script>
+export default {
+  data() {
+    return {
+      scrollPosition: null,
+    };
+  },
+  methods: {
+    updateScroll() {
+      this.scrollPosition = window.scrollY;
+    },
+  },
+  mounted() {
+    window.addEventListener("scroll", this.updateScroll);
+  },
+};
+</script>
 <style lang="scss">
 $thin: "Product Sans Thin";
 $normal: "Product Sans";
@@ -304,6 +338,9 @@ footer {
   background-repeat: no-repeat;
   .footer {
     padding: 95px 0;
+    .selo-ummense {
+      margin: 60px 0 30px;
+    }
   }
   h3 {
     color: #422179;
@@ -434,6 +471,9 @@ footer {
   footer {
     text-align: center;
     margin-bottom: 68px;
+    .cell {
+      padding: 0 !important;
+    }
     .selo {
       display: block;
       .ummense,
@@ -464,16 +504,21 @@ footer {
       padding: 15px 0;
     }
     .footer {
-      padding: 50px 0;
+      padding: 50px 0.9375rem;
     }
     .subfooter {
-      padding: 25px 0;
+      padding: 15px 0;
       .menu-footer {
         display: flex;
         flex-direction: column;
         li {
           display: block;
           border: 0;
+          max-width: 250px;
+          margin: 0 auto;
+          .divider {
+            display: none;
+          }
           &:nth-child(1) {
             order: 1;
           }
@@ -495,23 +540,26 @@ footer {
     }
   }
   .float-mobile {
-    background-color: #411e78;
+    background-color: #ffffff;
     bottom: 0;
+    display: none;
     line-height: 48px;
-    position: fixed;
-    width: 100%;
-    display: grid;
     grid-template-columns: 3fr 1fr;
     grid-gap: 10px;
     padding: 10px;
+    position: fixed;
+    width: 100%;
+    &.activeWhats {
+      display: grid;
+    }
     .btn {
-      background: #ffffff;
+      background: #411e78;
       border-radius: 6px;
-      color: #411e78;
+      color: #ffffff;
       display: block;      
       margin: 0;
       line-height: 48px;
-      font-size: 13px;
+      padding: 0 10px;
     }
     .whats-mobile {
       background-color: #56FFC6;
