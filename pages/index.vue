@@ -1119,6 +1119,7 @@
                 />
                 <img
                   loading="lazy"
+                  class="video-home"
                   src="~/assets/img/video-criacao-de-logos.jpg"
                   alt
                 />
@@ -1691,7 +1692,7 @@ main {
     padding: 90px 0 0;
   }
   h2 {
-    max-width: 570px;
+    max-width: 650px;
     margin: 0 auto 0.5rem;
   }
 }
@@ -1837,6 +1838,13 @@ main {
         padding-left: 20px;
         margin: 0;
       }
+    }
+  }
+  .video-home {
+    opacity: 0.8;
+    transition: all 0.3s;
+    &:hover {
+      opacity: 1;
     }
   }
 }
