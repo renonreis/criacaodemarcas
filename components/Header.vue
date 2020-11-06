@@ -3,16 +3,9 @@
     <div class="topbar hide-for-small-only">
       <div class="grid-container">
         <div class="grid-x grid-margin-x align-middle">
-          <div class="cell small-12 medium-8 large-8">
+          <div class="cell small-12 medium-8 large-6">
             <p>
-              Serviço especializado de Criação de Marcas | Uma empresa do Grupo
-              <a
-                href="https://www.evonline.com.br/"
-                target="_blank"
-                class="evonline"
-                >Evonline</a
-              >
-              | Atendemos todo o Brasil
+              Serviço especializado de Criação de Marcas | Atendemos todo o Brasil
               <span
                 class="iconify"
                 data-icon="twemoji:flag-for-flag-brazil"
@@ -20,9 +13,13 @@
               ></span>
             </p>
           </div>
-          <div class="cell small-12 medium-4 large-4 text-right">
+          <div class="cell small-12 medium-4 large-6   text-right">
             <p>
-              Fale com nossa equipe:
+              Fale com nossa equipe: 
+              <a href="tel:4130770000">
+                <span class="iconify" data-icon="ant-design:phone-outlined" data-inline="false"></span>
+                41 3077.0000
+              </a> | 
               <a href="https://api.whatsapp.com/send?phone=5541988492754">
                 <span
                   class="iconify"
@@ -58,6 +55,38 @@
                   />
                 </picture>
               </a>
+              <picture>
+                  <source
+                    srcset="~/assets/img/webp/img-satisfacao.webp"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="~/assets/img/img-satisfacao.png"
+                    type="image/png"
+                  />
+                  <img
+                    loading="lazy"
+                    src="~/assets/img/img-satisfacao.png"
+                    alt
+                    class="satisfacao"
+                  />
+                </picture>
+                <picture>
+                  <source
+                    srcset="~/assets/img/webp/img-black-november.webp"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="~/assets/img/img-black-november.png"
+                    type="image/png"
+                  />
+                  <img
+                    loading="lazy"
+                    src="~/assets/img/img-black-november.png"
+                    alt
+                    class="black-november"
+                  />
+                </picture>
             </div>
             <div
               class="cell small-4 medium-6 large-3 text-right hide-for-large"
@@ -80,6 +109,7 @@
                       <li class="">
                         <div class="grid-x text-left">
                           <div class="cell large-12 text-center">
+                            <p>A CriaçãodeMarcas.com é um núcleo especializado de Criação de Marcas do Grupo Evonline</p>
                             <h2>
                               Confira outros serviços prestados pelo Grupo
                               <picture>
@@ -476,7 +506,7 @@ header {
     background-color: #272c3a;
     color: #e4d3ff;
     p {
-      font-size: 14px;
+      font-size: 15px;
       margin: 0;
       line-height: 42px;
     }
@@ -514,6 +544,10 @@ header {
   }
   .sticky {
     transition: all 0.3s;
+    .satisfacao,
+    .black-november {
+      display: none;
+    }
     &.is-stuck {
       background-color: #412176;
       box-shadow: 0 0 15px 5px #00000010;
@@ -527,6 +561,18 @@ header {
       z-index: 99;
       .grid-x {
         min-height: 65px;
+      }
+      .satisfacao {
+        display: block;
+        position: absolute;
+        left: 325px;
+        top: 20px;
+      }
+      .black-november {
+        display: block;
+        position: absolute;
+        right: 470px;
+        top: 10px;
       }
       .client-area,
       .servicos,
@@ -744,6 +790,11 @@ header {
         font-size: 16px;
       }
     }
+  }
+}
+@media screen and (max-width: 1139px) {
+  .black-november {
+    right: 5px !important;
   }
 }
 @media screen and (max-width: 767px) {

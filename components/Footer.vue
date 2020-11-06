@@ -333,9 +333,7 @@ $bold: "Product Sans Bold";
 
 //FOOTER
 footer {
-  background-image: url("~assets/img/detalhe-footer.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
+  
   .footer {
     padding: 95px 0;
     .selo-ummense {
@@ -408,8 +406,7 @@ footer {
 }
 
 .whats-float {
-  bottom: 50%;
-  margin-bottom: -90px;
+  bottom: 0px;
   position: fixed;
   right: 0;
   z-index: 99;

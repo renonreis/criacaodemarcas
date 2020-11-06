@@ -5,6 +5,22 @@
       <div class="grid-container">
         <div class="grid-x align-bottom text-center banner">
           <div class="cell large-12">
+            <picture>
+              <source
+                srcset="~/assets/img/webp/black-november.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="~/assets/img/black-november.png"
+                type="image/png"
+              />
+              <img
+                loading="lazy"
+                src="~/assets/img/black-november.png"
+                alt
+                class="black-november"
+              />
+            </picture>
             <p class="text-white">Somos especialistas em</p>
             <h1>Criação de marcas</h1>            
             <n-link to="/me-ligue" class="btn outline solicite-marca"
@@ -1455,13 +1471,55 @@ Vocês são criativos, lógicos e profissionais competentes! Parte do nosso suce
         </div>
       </div>
     </div>
-    <div class="equipe" v-if="false">
-      <div class="grid-container">
+    <div class="equipe">
+      <div class="grid-container full">
         <div class="grid-x text-center">
           <div class="cell title">
             <h2>
               Uma empresa do grupo
+              <picture>
+                <source
+                  srcset="~/assets/img/webp/marca-evonline-grupo.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/marca-evonline-grupo.png"
+                  type="image/png"
+                />
+                <img
+                  loading="lazy"
+                  src="~/assets/img/marca-evonline-grupo.png"
+                  alt
+                /> 
+              </picture>
             </h2>
+            <p>Mais de 16 anos de experiência</p>
+            <picture>
+              <source
+                media="(max-width: 768px)"
+                srcset="~/assets/img/img-empresa-mobile.jpg"
+                type="image/webp"
+              />
+              <source
+                media="(max-width: 768px)"
+                srcset="~/assets/img/webp/img-empresa-mobile.webp"
+                type="image/jpg"
+              />
+              <source
+                srcset="~/assets/img/webp/img-empresa.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="~/assets/img/img-empresa.jpg"
+                type="image/png"
+              />
+              <img
+                loading="lazy"
+                src="~/assets/img/img-empresa.jpg"
+                alt
+                class="equipe-empresa"
+              /> 
+            </picture>
           </div>
         </div>
       </div>
@@ -1482,6 +1540,11 @@ main {
   .home-banner {
     background-color: #401e78;
     padding-top: 42px;
+    .black-november {
+      position: absolute;
+      top: -130px;
+      left: 220px;
+    }
     .banner {
       min-height: 530px;
       padding: 0 0 115px;
@@ -1531,7 +1594,7 @@ main {
   h2 {
     color: #55ffc5;
     font-family: $normal;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 0;
     line-height: 24px;
     margin: 0;
@@ -2068,6 +2131,14 @@ main {
         }
       }
     }
+    .equipe {
+      order: 12;
+      .equipe-empresa {
+        &:before {
+          content: url("~assets/img/webp/img-equipe-mobile.webp");
+        }
+      }
+    }
     footer {
       order: 13;
     }
@@ -2162,6 +2233,16 @@ main {
       background-position: top center;
       background-position-y: 42px;
       background-repeat: no-repeat;
+    }
+  }
+  .yellow-bg {
+    .solicite-marca {
+      position: relative;
+      &:before {
+        content: url("~assets/img/img-solicite.png");
+        left: -150px;
+        position: absolute;
+      }
     }
   }
   .new-grid {
