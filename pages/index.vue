@@ -1494,32 +1494,60 @@ Vocês são criativos, lógicos e profissionais competentes! Parte do nosso suce
               </picture>
             </h2>
             <p>Mais de 16 anos de experiência</p>
-            <picture>
-              <source
-                media="(max-width: 768px)"
-                srcset="~/assets/img/img-empresa-mobile.jpg"
-                type="image/webp"
-              />
-              <source
-                media="(max-width: 768px)"
-                srcset="~/assets/img/webp/img-empresa-mobile.webp"
-                type="image/jpg"
-              />
-              <source
-                srcset="~/assets/img/webp/img-empresa.webp"
-                type="image/webp"
-              />
-              <source
-                srcset="~/assets/img/img-empresa.jpg"
-                type="image/png"
-              />
-              <img
-                loading="lazy"
-                src="~/assets/img/img-empresa.jpg"
-                alt
-                class="equipe-empresa"
-              /> 
-            </picture>
+            <div class="evonline-grupo">
+              <picture>
+                <source
+                  media="(max-width: 480px)"
+                  srcset="~/assets/img/img-empresa-mobile.jpg"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 480px)"
+                  srcset="~/assets/img/webp/img-empresa-mobile.webp"
+                  type="image/jpg"
+                />
+                <source
+                  srcset="~/assets/img/webp/img-empresa.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/img-empresa.jpg"
+                  type="image/png"
+                />
+                <img
+                  loading="lazy"
+                  src="~/assets/img/img-empresa.jpg"
+                  alt
+                  class="equipe-empresa"
+                /> 
+              </picture>
+              <picture>
+                <source
+                  media="(max-width: 480px)"
+                  srcset="~/assets/img/img-equipe-mobile.png"
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 480px)"
+                  srcset="~/assets/img/webp/img-equipe-mobile.webp"
+                  type="image/jpg"
+                />
+                <source
+                  srcset="~/assets/img/webp/img-equipe-desktop.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/img-equipe-desktop.png"
+                  type="image/png"
+                />
+                <img
+                  loading="lazy"
+                  src="~/assets/img/img-equipe-desktop.png"
+                  alt
+                  class="equipe-fotos"
+                /> 
+              </picture>
+            </div>
           </div>
         </div>
       </div>
@@ -2062,6 +2090,47 @@ main {
   }
 }
 
+.equipe {
+  p {
+    margin-bottom: 40px;
+  }
+  .evonline-grupo {
+    position: relative;
+    min-height: 161px;
+    .equipe-empresa {
+      position: absolute;
+      min-width: 2560px;
+      margin-left: -1280px;
+    }
+    .equipe-fotos {
+      position: absolute;
+      left: 50%;
+      min-width: 1205px;
+      margin-left: -603px;
+      top: 50%;
+      margin-top: -108px;
+    }
+}
+}
+
+@media screen and (max-width: 480px) {
+  .equipe {
+    .evonline-grupo {
+      min-height: 161px;
+      .equipe-empresa {
+        min-width: 480px;
+        position: absolute;
+        left: 50%;
+        margin-left: -240px;
+      }
+      .equipe-fotos {         
+        min-width: 461px;
+        margin-left: -230px;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 767px) {
   main {
     display: flex;
@@ -2132,12 +2201,7 @@ main {
       }
     }
     .equipe {
-      order: 12;
-      .equipe-empresa {
-        &:before {
-          content: url("~assets/img/webp/img-equipe-mobile.webp");
-        }
-      }
+      order: 12;      
     }
     footer {
       order: 13;
