@@ -34,7 +34,7 @@ export default {
         },
         {
           title: 'Qual o prazo de entrega para apresentação da minha logo?',
-          text: 'Para que possamos lhe entregar um serviço profissional pedimos o prazo de 72 horas úteis. Este é um período que consideramos apropriado para prestar um serviço de qualidade. Você receberá a arte da criação da sua marca aplicada em diversos materiais para que você possa apreciar melhor o serviço de criação. Caso deseje alguma alteração ou uma nova versão, pedimos o prazo de até 72 horas úteis para lhe entregar o que foi solicitado. Após a marca aprovada, iremos preparar o fechamento dos arquivos para lhe entregar sua logo em diversos formatos, este processo de preparação leva até 48 horas úteis.',
+          text: 'Para que possamos lhe entregar um serviço profissional pedimos o prazo de 5 dias úteis. Este é um período que consideramos apropriado para prestar um serviço de qualidade. Você receberá a arte da criação da sua marca aplicada em diversos materiais para que você possa apreciar melhor o serviço de criação. Caso deseje alguma alteração ou uma nova versão, pedimos o prazo de até 5 dias úteis para lhe entregar o que foi solicitado. Após a marca aprovada, iremos preparar o fechamento dos arquivos para lhe entregar sua logo em diversos formatos, este processo de preparação leva até 72 horas úteis.',
           open: false,
         },
         {
