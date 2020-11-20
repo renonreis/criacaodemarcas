@@ -86,7 +86,7 @@
                   alt
                 />
               </picture>
-              Entrega rápida 72 horas
+              Entrega rápida 5 dias úteis
             </li>
             <li>
               <picture>
@@ -225,8 +225,8 @@
             <p>
               Nosso processo criativo é eficiente e isso nos possibilita criar
               seu logotipo com agilidade e profissionalismo. Nosso compromisso é
-              apresentar sua logo em até 72 horas úteis, caso aprovado faremos
-              os fechamentos dos arquivos para entrega em até 48 horas úteis.
+              apresentar sua logo em até 5 dias úteis, caso aprovado faremos
+              os fechamentos dos arquivos para entrega em até 72 horas úteis.
             </p>
           </div>
           <div class="cell">
@@ -1077,7 +1077,7 @@ Vocês são criativos, lógicos e profissionais competentes! Parte do nosso suce
                   alt
                 />
               </picture>
-              Entrega rápida 72 horas
+              Entrega rápida 5 dias úteis
             </li>
             <li>
               <picture>

@@ -25,7 +25,7 @@
                   >Preencher briefing</a
                 >
                 <p>
-                  O prazo de 72 horas para apresentar o serviço contratado
+                  O prazo de 5 dias úteis para apresentar o serviço contratado
                   inicia após efetivação do pagamento e preenchimento do
                   Briefing.
                 </p>
