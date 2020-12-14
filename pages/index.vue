@@ -5,22 +5,6 @@
       <div class="grid-container">
         <div class="grid-x align-bottom text-center banner">
           <div class="cell large-12">
-            <picture>
-              <source
-                srcset="~/assets/img/webp/black-november.webp"
-                type="image/webp"
-              />
-              <source
-                srcset="~/assets/img/black-november.png"
-                type="image/png"
-              />
-              <img
-                loading="lazy"
-                src="~/assets/img/black-november.png"
-                alt
-                class="black-november"
-              />
-            </picture>
             <p class="text-white">Somos especialistas em</p>
             <h1>Criação de marcas</h1>            
             <n-link to="/me-ligue" class="btn outline solicite-marca"

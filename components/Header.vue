@@ -71,22 +71,7 @@
                     class="satisfacao"
                   />
                 </picture>
-                <picture>
-                  <source
-                    srcset="~/assets/img/webp/img-black-november.webp"
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="~/assets/img/img-black-november.png"
-                    type="image/png"
-                  />
-                  <img
-                    loading="lazy"
-                    src="~/assets/img/img-black-november.png"
-                    alt
-                    class="black-november"
-                  />
-                </picture>
+                
             </div>
             <div
               class="cell small-4 medium-6 large-3 text-right hide-for-large"
