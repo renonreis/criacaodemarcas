@@ -820,7 +820,7 @@
         </div>
       </div>
     </div>
-    <div class="grid-container brindes">
+    <div class="grid-container brindes" v-if="false">
       <div class="grid-x grid-padding-x text-center ">
         <div class="cell title">
           <h2 class="nomargin">Conheça outros serviços gráficos</h2>

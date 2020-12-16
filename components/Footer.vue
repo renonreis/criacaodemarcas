@@ -62,17 +62,17 @@
                   <a href="https://www.ummense.com/promo/evonline" target="_blank" class="selo-ummense">
                     <picture>
                       <source
-                        srcset="~/assets/img/webp/selo-ummense.webp"
+                        srcset="~/assets/img/webp/selo-premium-ummense.webp"
                         type="image/webp"
                       />
                       <source
-                        srcset="~/assets/img/selo-ummense.png"
+                        srcset="~/assets/img/selo-premium-ummense.jpg"
                         type="image/png"
                       />
                       <img
                         class="selo-ummense"
                         loading="lazy"
-                        src="~/assets/img/selo-ummense.png"
+                        src="~/assets/img/selo-premium-ummense.jpg"
                         alt
                       />
                     </picture>
