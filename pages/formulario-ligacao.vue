@@ -23,40 +23,43 @@
           <h2>Receba uma <span> Ligação </span> da nossa equipe de atendimento</h2>
           <form>
           <div class="grid-container">
-            <div class="grid-x grid-padding-x">
-              <div class="medium-12 cell">
-                <label>
-                  <input type="text" placeholder="Seu nome" required>
-                </label>
+              <div class="grid-x grid-padding-x">
+                <form action="" class="form-ligacao">
+                  <div class="medium-12 cell">
+                    <label>
+                      <input type="text" placeholder="Seu nome" required>
+                    </label>
+                  </div>
+                  <div class="medium-12 cell">
+                    <label>
+                      <input type="text" placeholder="Seu WhatsApp" required>
+                    </label>
+                  </div>
+                  <div class="medium-12 cell">
+                    <label>
+                      <input type="text" placeholder="Seu telefone fixo" required>
+                    </label>
+                  </div>
+                  <div class="medium-12 cell">
+                    <label>
+                      <select>
+                        <option value="" disabled selected>Seu horário de preferência</option>
+                        <option value="husker">Qualquer Horário</option>
+                        <option value="starbuck">Manhã</option>
+                        <option value="hotdog">Tarde</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="medium-12 cell">
+                    <label>
+                      <input type="email" placeholder="Seu email" required>
+                    </label>
+                  </div>
+                  <div class="medium-12 cell">
+                    <input type="submit" class="button" value="Receber ligação">
+                  </div>
+                </form>
               </div>
-              <div class="medium-12 cell">
-                <label>
-                  <input type="text" placeholder="Seu WhatsApp" required>
-                </label>
-              </div>
-              <div class="medium-12 cell">
-                <label>
-                  <input type="text" placeholder="Seu telefone fixo" required>
-                </label>
-              </div>
-              <div class="medium-12 cell">
-                <label>Select Menu
-                  <select>
-                    <option value="husker">Qualquer Horário</option>
-                    <option value="starbuck">Manhã</option>
-                    <option value="hotdog">Tarde</option>
-                  </select>
-                </label>
-              </div>
-              <div class="medium-12 cell">
-                <label>
-                  <input type="email" placeholder="Seu email" required>
-                </label>
-              </div>
-              <div class="medium-12 cell">
-                <input type="submit" class="button" value="Receber ligação">
-              </div>
-            </div>
           </div>
         </form>
         </div>
@@ -109,6 +112,64 @@ html,
 body,
 main {
   height: 100%;
+}
+
+.form-ligacao {
+  width: 100%;
+  max-width: 450px;
+  margin: 25px 0;
+  input {
+    border: 0;
+    border-bottom: 3px solid #f2f2f2;
+    box-shadow: none;
+    font-size: 18px;
+    height: auto;
+    line-height: 31px;
+    padding: 0.5rem 0;
+    &:focus {
+      border: 0;
+      border-bottom: 3px solid #422179;
+      box-shadow: none;
+    }
+    &::-webkit-input-placeholder { /* Edge */
+      color: #484848;
+      opacity: 1;
+    }
+
+    &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: #484848;
+      opacity: 1;
+    }
+    &::placeholder {
+      color: #484848;
+      opacity: 1;
+    }
+  }
+  select {
+    border: 0;
+    border-bottom: 3px solid #f2f2f2;
+    box-shadow: none;
+    font-size: 18px;
+    height: auto;
+    line-height: 50px;
+    padding-left: 0;
+  }
+  .button {
+    background-color: #422179;
+    color: #55ffc5;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 0;
+    font-size: 18px;
+    line-height: 34px;
+    width: 100%;
+    outline: none;
+    transition: all 0.3s;
+    &:hover {
+      background-color: #55ffc5;
+      color: #422179;
+    }
+  }
 }
 
 .propostas {
