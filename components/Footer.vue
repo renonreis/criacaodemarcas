@@ -45,9 +45,9 @@
                       <n-link to="/servicos-de-papelaria"
                         >Serviços de papelaria</n-link
                       >
-                    </li>
+                    </li>                                    
                     <li>
-                      <n-link to="/contato">Contato</n-link>
+                      <n-link to="/marcas-de-sucesso" class="contato">Marcas de Sucesso</n-link>
                     </li>
                     <li>
                       <a
@@ -58,6 +58,9 @@
                         >Área do cliente</a
                       >
                     </li>
+                    <li>
+                      <n-link to="/contato">Contato</n-link>
+                    </li>    
                   </ul>
                   <a href="https://www.ummense.com/promo/evonline" target="_blank" class="selo-ummense">
                     <picture>
@@ -305,7 +308,8 @@
           ></span>
         </a>
       </div>
-    </div>    
+    </div>
+    <CookieControl/>
   </footer>
 </template>
 <script>

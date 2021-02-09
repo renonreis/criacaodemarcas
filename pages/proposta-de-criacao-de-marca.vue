@@ -136,9 +136,9 @@
           </div>
           <div class="cell large-4 adquira">
             <h3>Adquira já</h3>
-            <p class="price"><span class="por">R$ 480,00</span></p>
-            <p class="parcelas">Parcele no cartão sem juros em 3x de R$ 160,00</p>
-            <a href="https://mpago.la/1DMNJq4" target="_blank" class="btn-compre">
+            <p class="price"><span class="por">R$ 660,00</span></p>
+            <p class="parcelas">Parcele no cartão sem juros em 3x de R$ 220,00</p>
+            <a href="https://www.mercadopago.com.br/checkout/v1/payment/redirect/58ebffa0-7957-45c3-bdba-2b4a4a6770be/express/?preference-id=654225927-f337ed6a-4206-4ba8-aa50-ef4fda098b3c&p=85042fff4deaf1b668ea7c5b6e8beb22" target="_blank" class="btn-compre">
               Compre agora
               <picture>
                 <source
@@ -230,10 +230,7 @@ export default {};
   max-width: 1920px;
   margin: 0 auto;
   overflow: auto;
-  padding: 6%;
-  .video {
-
-  }
+  padding: 2% 6%;
   h1 {
     margin-top: 70px;
   }
@@ -408,7 +405,6 @@ export default {};
           display: block;
           font-size: 30px;
           font-weight: 700;
-          vertical-align: middle;
         }
       }
       .parcelas {
