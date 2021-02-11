@@ -58,9 +58,11 @@
             />
           </picture>
         </n-link>
-      </div>          
+      </div>             
     </div>
-  </main>
+    <CookieControl locale="pt">            
+  </CookieControl>
+  </main>  
 </template>
 
 <script>

@@ -1942,6 +1942,30 @@ main {
       &.mobile {
         display: block;
         text-align: center;
+        &:before {
+          content: 'Antes';
+          color: #484848;
+          font-size: 16px;
+          font-weight: 700;
+          position: absolute;
+          top: -25px;
+          left: 25%;
+          width: 50px;
+          margin-left: -25px;
+          text-align: center;
+        }
+        &:after {
+          content: 'Depois';
+          color: #484848;
+          font-size: 16px;
+          font-weight: 700;
+          position: absolute;
+          top: -25px;
+          right: 25%;
+          width: 50px;
+          margin-right: -25px;
+          text-align: center;
+        }
       }
     }
   }

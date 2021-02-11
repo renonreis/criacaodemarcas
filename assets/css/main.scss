@@ -145,3 +145,27 @@ h6 {
     padding: 0 30px;
   }
 }
+
+/* COOKIES */
+.cookieControl__BarContainer {
+  align-items: center !important;
+  flex-direction: row !important;
+  h3 {
+    display: none;
+  }
+  p {
+    margin: 0 !important;
+  }
+}
+.cookieControl__BarButtons {
+  margin: 0 !important;
+  button:first-child {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cookieControl__Bar--bottom-left {
+    top: 0 !important;
+    bottom: unset !important;
+  }
+}

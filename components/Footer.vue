@@ -309,7 +309,8 @@
         </a>
       </div>
     </div>
-    <CookieControl/>
+    <CookieControl locale="pt">            
+    </CookieControl>
   </footer>
 </template>
 <script>

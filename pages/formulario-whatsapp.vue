@@ -84,6 +84,8 @@
         </n-link>
       </div>          
     </div>
+    <CookieControl locale="pt">            
+    </CookieControl>
   </main>
 </template>
 
