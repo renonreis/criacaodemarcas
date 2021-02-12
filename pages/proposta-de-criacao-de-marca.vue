@@ -213,6 +213,8 @@
           </p>
         </div>
       </div>
+      <CookieControl locale="pt">            
+      </CookieControl>
     </div>
   </main>
 </template>
