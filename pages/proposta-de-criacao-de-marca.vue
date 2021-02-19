@@ -35,7 +35,7 @@
                 <source srcset="~/assets/img/icon-condicao-2.png" type="image/png" />
                 <img loading="lazy" src="~/assets/img/icon-condicao-2.png" alt />
               </picture>
-              Apresentação em até 72 horas
+              Apresentação em até 5 dias úteis
             </p>
             <p>
               <picture>
@@ -136,9 +136,9 @@
           </div>
           <div class="cell large-4 adquira">
             <h3>Adquira já</h3>
-            <p class="price"><span class="por">3x R$ 220,00</span></p>
-            <p class="parcelas">Parcele no cartão sem juros ou à vista R$ 660,00</p>
-            <a href="https://www.mercadopago.com.br/checkout/v1/payment/redirect/58ebffa0-7957-45c3-bdba-2b4a4a6770be/express/?preference-id=654225927-f337ed6a-4206-4ba8-aa50-ef4fda098b3c&p=85042fff4deaf1b668ea7c5b6e8beb22" target="_blank" class="btn-compre">
+            <p class="price"><span class="por">{{ preco }}</span></p>
+            <p class="parcelas">{{ parcela }}</p>
+            <a :href="link" target="_blank" class="btn-compre">
               Compre agora
               <picture>
                 <source
@@ -175,9 +175,9 @@
       </div>
       <div class="grid-x mobile-rodape">
         <div class="cell">
-          <p class="price"><span class="por">R$ 480,00</span></p>
-          <p class="parcelas">Parcele no cartão sem juros em 3x de R$ 160,00</p>
-          <a href="https://mpago.la/1DMNJq4" target="_blank" class="btn-compre">
+          <p class="price"><span class="por">{{ preco }}</span></p>
+          <p class="parcelas">{{ parcela }}</p>
+          <a :href="link" target="_blank" class="btn-compre">
             Compre agora
             <picture>
               <source
@@ -213,14 +213,20 @@
           </p>
         </div>
       </div>
-      <CookieControl locale="pt">            
-      </CookieControl>
     </div>
   </main>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      preco: '3x R$ 220,00',
+      parcela: 'Parcele no cartão sem juros ou à vista R$ 660,00',
+      link: 'https://www.mercadopago.com.br/checkout/v1/payment/redirect/2d721cab-3a7a-4275-a23c-63c360d5701b/payment-option-form/?preference-id=654225927-f337ed6a-4206-4ba8-aa50-ef4fda098b3c&p=85042fff4deaf1b668ea7c5b6e8beb22#/',
+    }    
+  },
+};
 </script>
 
 <style lang="scss">
