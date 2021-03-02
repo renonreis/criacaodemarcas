@@ -364,11 +364,23 @@ footer {
   .sub-footer {
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width: 768px) {
+      display: block;
+      .selo {
+        margin-right: 0px;
+      }
+      .box {
+        margin: 35px auto 0 auto;
+      }
+    }
   }
   .selo {
     display: flex;
     margin-top: 35px;
     justify-content: space-between;
+    @media screen and (max-width: 1240px){
+      margin-right: 20px;
+    } 
     a {
       img {
         box-shadow: 5px 5px 5px 0px #eeeeee;
@@ -395,11 +407,16 @@ footer {
       font-size: 16px;
       margin: 0;
       padding: 0 15px;
-      width: 65%;
+      width: 50%;
+      @media screen and (min-width: 1240px){
+        width: 65%;
+      } 
       &:last-child {
         padding: 0;
         text-align: right;
-        width: 35%;
+        @media screen and (min-width: 1240px){
+          width: 35%;
+        } 
       }
       a:nth-child(1) {
         margin-right: 13px;
