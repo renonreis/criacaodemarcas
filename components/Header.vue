@@ -41,32 +41,32 @@
               <a href="/">
                 <picture>
                   <source
-                    srcset="~/assets/img/webp/logo-criacao-marcas.webp"
+                    srcset="~/assets/img/webp/criacao-de-marcas-com.webp"
                     type="image/webp"
                   />
                   <source
-                    srcset="~/assets/img/logo-criacao-marcas.png"
+                    srcset="~/assets/img/criacao-de-marcas-com.png"
                     type="image/png"
                   />
                   <img
                     loading="lazy"
-                    src="~/assets/img/logo-criacao-marcas.png"
+                    src="~/assets/img/criacao-de-marcas-com.png"
                     alt
                   />
                 </picture>
               </a>
               <picture>
                   <source
-                    srcset="~/assets/img/webp/img-satisfacao.webp"
+                    srcset="~/assets/img/webp/fale-com-nossa-equipe.webp"
                     type="image/webp"
                   />
                   <source
-                    srcset="~/assets/img/img-satisfacao.png"
+                    srcset="~/assets/img/fale-com-nossa-equipe.png"
                     type="image/png"
                   />
                   <img
                     loading="lazy"
-                    src="~/assets/img/img-satisfacao.png"
+                    src="~/assets/img/fale-com-nossa-equipe.png"
                     alt
                     class="satisfacao"
                   />
@@ -548,12 +548,15 @@ header {
       top: 0;
       z-index: 99;
       .grid-x {
-        min-height: 65px;
+        min-height: 76px;
       }
       .satisfacao {
-        display: block;
+        display: none;
+        @media screen and (min-width: 1240px) {
+          display: block;
+        }
         position: absolute;
-        left: 325px;
+        left: 475px;
         top: 20px;
       }
       .black-november {

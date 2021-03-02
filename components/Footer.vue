@@ -4,22 +4,24 @@
       <div class="grid-container">
         <div class="grid-x grid-padding-x">
           <div class="cell small-12 medium-5 large-5">
-            <picture>
-              <source
-                srcset="~/assets/img/webp/logo-criacao-marcas-default.webp"
-                type="image/webp"
-              />
-              <source
-                srcset="~/assets/img/logo-criacao-marcas-default.png"
-                type="image/png"
-              />
-              <img
-                class="logo-footer"
-                loading="lazy"
-                src="~/assets/img/logo-criacao-marcas-default.png"
-                alt
-              />
-            </picture>
+            <a href="/">
+              <picture>
+                <source
+                  srcset="~/assets/img/webp/criacao-de-marcas-grupo-evonline.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="~/assets/img/criacao-de-marcas-grupo-evonline.png"
+                  type="image/png"
+                />
+                <img
+                  class="logo-footer"
+                  loading="lazy"
+                  src="~/assets/img/criacao-de-marcas-grupo-evonline.png"
+                  alt
+                />
+              </picture>
+            </a>
             <p>
               Nós da CriaçãodeMarcas.com somos especializados em criação de
               marcas para empresas, produtos e serviços. Nosso trabalho é
@@ -61,25 +63,7 @@
                     <li>
                       <n-link to="/contato">Contato</n-link>
                     </li>    
-                  </ul>
-                  <a href="https://www.ummense.com/promo/evonline" target="_blank" class="selo-ummense">
-                    <picture>
-                      <source
-                        srcset="~/assets/img/webp/selo-premium-ummense.webp"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="~/assets/img/selo-premium-ummense.jpg"
-                        type="image/png"
-                      />
-                      <img
-                        class="selo-ummense"
-                        loading="lazy"
-                        src="~/assets/img/selo-premium-ummense.jpg"
-                        alt
-                      />
-                    </picture>
-                  </a> 
+                  </ul>                  
                 </div>
                 <div class="cell medium-4 large-4">
                   <h3>Localização</h3>
@@ -89,12 +73,23 @@
                   </p>
                   <h3>Contato</h3>
                   <a
+                    href="tel:30770000"
+                    target="_blank"
+                  >
+                    <span
+                      class="iconify"
+                      data-icon="clarity:phone-handset-solid"
+                      data-inline="false"
+                    ></span>
+                    41 3077.0000
+                  </a><br/>
+                  <a
                     href="https://api.whatsapp.com/send?phone=5541988492754"
                     target="_blank"
                   >
                     <span
                       class="iconify"
-                      data-icon="mdi:whatsapp"
+                      data-icon="clarity:phone-handset-solid"
                       data-inline="false"
                     ></span>
                     41 98849.2754
@@ -121,50 +116,33 @@
               </div>
             </div>
           </div>
-          <div class="cell large-5" v-if="false">
+          <div class="cell sub-footer">
             <div class="selo">
-              <picture>
-                <source
-                  srcset="~/assets/img/webp/selo-ummense.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="~/assets/img/selo-ummense.png"
-                  type="image/png"
-                />
-                <img
-                  class="ummense"
-                  loading="lazy"
-                  src="~/assets/img/selo-ummense.png"
-                  alt
-                />
-              </picture>
-              <picture>
-                <source
-                  srcset="~/assets/img/webp/selo-tratativa.webp"
-                  type="image/webp"
-                />
-                <source
-                  srcset="~/assets/img/selo-tratativa.png"
-                  type="image/png"
-                />
-                <img
-                  class="tratativa"
-                  loading="lazy"
-                  src="~/assets/img/selo-tratativa.png"
-                  alt
-                />
-              </picture>
+              <a href="https://www.ummense.com/promo/evonline" target="_blank" class="">
+                <picture>
+                  <source
+                    srcset="~/assets/img/webp/selo-premium-ummense.webp"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="~/assets/img/selo-premium-ummense.jpg"
+                    type="image/png"
+                  />
+                  <img
+                    class=""
+                    loading="lazy"
+                    src="~/assets/img/selo-premium-ummense.jpg"
+                    alt
+                  />
+                </picture>
+              </a>              
             </div>
-          </div>
-          <div class="cell medium-7 large-7" v-if="false">
             <div class="box">
               <p>
-                Deseja acompanhar o andamento em tempo real dos serviços
-                contratados? Baixe nosso App:
+                Baixe o nosso aplicativo em seu celular e acompanhe o andamento dos serviços
               </p>
               <p>
-                <a href="#">
+                <a href="https://play.google.com/store/apps/details?id=com.uapp.criacaodemarcas" target="_blank">
                   <picture>
                     <source
                       srcset="~/assets/img/webp/apple-store.webp"
@@ -181,7 +159,7 @@
                     />
                   </picture>
                 </a>
-                <a href="#">
+                <a href="https://apps.apple.com/us/app/cria%C3%A7%C3%A3odemarcas-com/id1553137119" target="_blank">
                   <picture>
                     <source
                       srcset="~/assets/img/webp/google-play.webp"
@@ -215,7 +193,7 @@
                   data-icon="icons8:copyright"
                   data-inline="false"
                 ></span>
-                2020 - Criação de Marcas <span class="divider">&nbsp;|&nbsp;</span> CNPJ: 20.012.672/0001-24 <span class="divider">&nbsp;|&nbsp;</span> Atendemos todo o Brasil
+                2021 - Criação de Marcas <span class="divider">&nbsp;|&nbsp;</span> CNPJ: 20.012.672/0001-24 <span class="divider">&nbsp;|&nbsp;</span> Atendemos todo o Brasil
                 <span
                   class="iconify"
                   data-icon="twemoji:flag-for-flag-brazil"
@@ -231,26 +209,33 @@
             </ul>
           </div>
           <div class="cell large-4 text-right social">
-            <p v-if="false">
+            <p>
               Siga-nos
-              <a href>
+              <a href="https://www.facebook.com/Ummense" target="_blank">
                 <span
                   class="iconify"
                   data-icon="ant-design:facebook-filled"
                   data-inline="false"
                 ></span>
               </a>
-              <a href>
+              <a href="https://www.instagram.com/ummense/" target="_blank">
                 <span
                   class="iconify"
                   data-icon="ant-design:instagram-outlined"
                   data-inline="false"
                 ></span>
               </a>
-              <a href>
+              <a href="https://br.linkedin.com/company/ummense" target="_blank">
                 <span
                   class="iconify"
                   data-icon="ant-design:linkedin-filled"
+                  data-inline="false"
+                ></span>
+              </a>
+              <a href="https://www.youtube.com/c/Ummense" target="_blank">
+                <span 
+                  class="iconify" 
+                  data-icon="ant-design:youtube-filled" 
                   data-inline="false"
                 ></span>
               </a>
@@ -259,6 +244,7 @@
               href="https://www.evonline.com.br/"
               target="_blank"
               class="evonline"
+              v-if="false"
             >
               Uma empresa do Grupo
               <picture>
@@ -375,10 +361,19 @@ footer {
   .logo-footer {
     margin-bottom: 15px;
   }
+  .sub-footer {
+    display: flex;
+    justify-content: space-between;
+  }
   .selo {
     display: flex;
     margin-top: 35px;
     justify-content: space-between;
+    a {
+      img {
+        box-shadow: 5px 5px 5px 0px #eeeeee;
+      }
+    }
     .ummense {
       margin-right: 20px;
     }
@@ -394,14 +389,17 @@ footer {
     margin-top: 35px;
     min-height: 75px;
     padding: 10px 15px;
+    width: 80%;
     p {
-      font-size: 14px;
+      color: #572b8c;
+      font-size: 16px;
       margin: 0;
       padding: 0 15px;
-      width: 50%;
+      width: 65%;
       &:last-child {
         padding: 0;
         text-align: right;
+        width: 35%;
       }
       a:nth-child(1) {
         margin-right: 13px;

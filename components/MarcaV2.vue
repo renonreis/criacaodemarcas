@@ -520,13 +520,13 @@
         left: 0;
         top: -60px;
       }
-      &:after {
+      /*&:after {
         content: url("~assets/img/marcas/webp/img-custo.webp");
         position: absolute;
         left: -150px;
         top: -75px;
         pointer-events: none;
-      }
+      }*/
     }
   }
   .col2 {

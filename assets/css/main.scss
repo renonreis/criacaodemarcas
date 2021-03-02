@@ -150,11 +150,18 @@ h6 {
 .cookieControl__BarContainer {
   align-items: center !important;
   flex-direction: row !important;
+  @media screen and (max-width: 768px) {
+    padding: 10px 15px !important;
+  }
   h3 {
     display: none;
   }
   p {
+    @media screen and (max-width: 768px) {
+      font-size: 12px !important;
+    }
     margin: 0 !important;
+    text-align: left;
   }
 }
 .cookieControl__BarButtons {

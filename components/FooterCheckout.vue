@@ -11,7 +11,7 @@
                   data-icon="icons8:copyright"
                   data-inline="false"
                 ></span>
-                2020 - Criação de Marcas &nbsp;|&nbsp; Atendemos todo o Brasil
+                2021 - Criação de Marcas &nbsp;|&nbsp; Atendemos todo o Brasil
                 <span
                   class="iconify"
                   data-icon="twemoji:flag-for-flag-brazil"
