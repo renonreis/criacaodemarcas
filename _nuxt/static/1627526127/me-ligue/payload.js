@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/me-ligue", {data:[{}],fetch:[],mutations:void 0});
