@@ -61,24 +61,24 @@ export default {
     '@nuxtjs/gtm',
     ['nuxt-cookie-control', {
       css: true,
- 
+
       //enable or disable css variables polyfill
       cssPolyfill: true,
-  
+
       //if you want to tree-shake locales set locales you want to use
       locales: ['pt'],
-  
+
       //modal opener (cookie control)
       controlButton: false,
-  
+
       //block iframes to prevent them from adding additional cookies
       blockIframe: false,
-  
+
       //position of cookie bar:
       //'top-left', 'top-right', 'top-full',
       //'bottom-left', 'bottom-right', 'bottom-full'
       barPosition: 'bottom-left',
-  
+
       //default colors
       //if you want to disable colors set colors property to false
       colors: {
@@ -86,15 +86,15 @@ export default {
         barBackground: '#eee',
         barButtonColor: '#fff',
         barButtonHoverColor: '#43237a',
-        barButtonBackground: '#43237a',        
-        barButtonHoverBackground: '#55ffc5',        
-        modalButtonHoverBackground: '#55ffc5',        
+        barButtonBackground: '#43237a',
+        barButtonHoverBackground: '#55ffc5',
+        modalButtonHoverBackground: '#55ffc5',
       },
-  
+
       //default texts
       text: {
         barDescription: 'Ao navegar no site, você aceita os cookies que usamos para melhorar sua experiência. ',
-        acceptAll: 'Entendi',  
+        acceptAll: 'Entendi',
       }
     }]
   ],
@@ -112,9 +112,13 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {
-    
+
   },
   router: {
-    linkActiveClass: 'active-link'
+    linkActiveClass: 'active-link',
+    target: 'static',
+    router: {
+      base: '/dist/'
+    }
   }
 };
