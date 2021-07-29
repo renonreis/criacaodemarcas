@@ -117,8 +117,6 @@ export default {
   router: {
     linkActiveClass: 'active-link',
     target: 'static',
-    router: {
-      base: '/dist/'
-    }
+    base: '/criacao-de-marcas/'
   }
 };
