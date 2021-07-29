@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import FAQ from "@/components/FAQ";
+import FAQ from "@/components/Faq";
 
 export default {
   components: {
