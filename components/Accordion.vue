@@ -25,7 +25,7 @@ export default {
     FAQ,
   },
   data() {
-    return {      
+    return {
       faqs: [
         {
           title: 'Como funciona o acompanhamento da criação da minha marca?',
@@ -101,7 +101,7 @@ export default {
           title: 'Qual a importância da sua empresa ou produto ter uma marca profissional?',
           text: 'Uma marca forte e impactante aumenta muito suas chances de vender mais seus produtos ou serviços. Além de produzir um estímulo de compra no seu público alvo, revela ao consumidor profissionalismo e isso possibilita aumentar sua margem de lucro. Outro grande benefício é que suas campanhas de marketing passam a converter mais resultados para seu negócio.',
           open: false,
-        },       
+        },
       ],
     };
   },
@@ -135,16 +135,16 @@ export default {
     }
     /* Track */
     &::-webkit-scrollbar-track {
-      background: #f7f7f7; 
+      background: #f7f7f7;
     }
     /* Handle */
     &::-webkit-scrollbar-thumb {
-      background: #cccccc; 
+      background: #cccccc;
     }
     /* Handle on hover */
     &::-webkit-scrollbar-thumb:hover {
-      background: #555; 
-    }   
+      background: #555;
+    }
   }
 }
 
