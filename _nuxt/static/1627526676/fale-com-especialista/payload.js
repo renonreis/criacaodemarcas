@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/fale-com-especialista", {data:[{}],fetch:[],mutations:void 0});
