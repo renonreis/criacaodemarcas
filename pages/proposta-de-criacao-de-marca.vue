@@ -223,7 +223,7 @@ export default {
     return {
       preco: '3x R$ 220,00',
       parcela: 'Parcele no cartão sem juros ou à vista R$ 660,00',
-      link: 'https://www.mercadopago.com.br/checkout/v1/payment/redirect/2d721cab-3a7a-4275-a23c-63c360d5701b/payment-option-form/?preference-id=654225927-f337ed6a-4206-4ba8-aa50-ef4fda098b3c&p=85042fff4deaf1b668ea7c5b6e8beb22#/',
+      link: 'https://www.mercadopago.com.br/checkout/v1/payment/redirect/c0657763-8ff3-49b7-827f-600544e38427/payment-option-form/?preference-id=791037386-69f3a2ee-cfae-47e2-a601-4051d787f33c&source=link&p=29fed98cfe24618a0777465a34423b42#/',
     }    
   },
 };
