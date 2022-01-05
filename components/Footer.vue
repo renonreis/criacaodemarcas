@@ -99,16 +99,16 @@
                   <h3>Pagamento</h3>
                   <picture>
                     <source
-                      srcset="~/assets/img/webp/formas-de-pagamento-para-comprar-logo.webp"
+                      srcset="~/assets/img/webp/pagamentos.webp"
                       type="image/webp"
                     />
                     <source
-                      srcset="~/assets/img/formas-de-pagamento-para-comprar-logo.png"
+                      srcset="~/assets/img/pagamentos.png"
                       type="image/png"
                     />
                     <img
                       loading="lazy"
-                      src="~/assets/img/formas-de-pagamento-para-comprar-logo.png"
+                      src="~/assets/img/pagamentos.png"
                       alt
                     />
                   </picture>

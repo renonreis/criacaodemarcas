@@ -181,9 +181,9 @@
             Compre agora
             <picture>
               <source
-                srcset="~/assets/img/video/webp/img-mercado-pago.webp" type="image/webp" />
-              <source srcset="~/assets/img/video/img-mercado-pago.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/video/img-mercado-pago.png" alt />
+                srcset="~/assets/img/video/webp/juno.webp" type="image/webp" />
+              <source srcset="~/assets/img/video/juno.png" type="image/png" />
+              <img loading="lazy" src="~/assets/img/video/juno.png" alt />
             </picture>
           </a>
         </div>
@@ -223,7 +223,7 @@ export default {
     return {
       preco: '3x R$ 220,00',
       parcela: 'Parcele no cartão sem juros ou à vista R$ 660,00',
-      link: 'https://www.mercadopago.com.br/checkout/v1/payment/redirect/c0657763-8ff3-49b7-827f-600544e38427/payment-option-form/?preference-id=791037386-69f3a2ee-cfae-47e2-a601-4051d787f33c&source=link&p=29fed98cfe24618a0777465a34423b42#/',
+      link: 'https://checkout.juno.com.br/#/paymentLink/9C4F4208F312752F/copy',
     }    
   },
 };
