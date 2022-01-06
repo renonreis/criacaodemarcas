@@ -141,10 +141,7 @@
             <a :href="link" target="_blank" class="btn-compre">
               Compre agora
               <picture>
-                <source
-                  srcset="~/assets/img/video/webp/img-mercado-pago.webp" type="image/webp" />
-                <source srcset="~/assets/img/video/img-mercado-pago.png" type="image/png" />
-                <img loading="lazy" src="~/assets/img/video/img-mercado-pago.png" alt />
+                
               </picture>
             </a>
           </div>
