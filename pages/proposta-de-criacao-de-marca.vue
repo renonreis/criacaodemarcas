@@ -181,9 +181,9 @@
             Compre agora
             <picture>
               <source
-                srcset="~/assets/img/video/webp/juno.webp" type="image/webp" />
-              <source srcset="~/assets/img/video/juno.png" type="image/png" />
-              <img loading="lazy" src="~/assets/img/video/juno.png" alt />
+                srcset="" type="image/webp" />
+              <source srcset="" type="image/png" />
+              <img loading="lazy" src="" alt />
             </picture>
           </a>
         </div>
@@ -221,9 +221,9 @@
 export default {
   data() {
     return {
-      preco: '3x R$ 220,00',
-      parcela: 'Parcele no cartão sem juros ou à vista R$ 660,00',
-      link: 'https://checkout.juno.com.br/#/paymentLink/9C4F4208F312752F/copy',
+      preco: '3x R$ 330,00',
+      parcela: 'Parcele no cartão sem juros ou à vista R$ 990,00',
+      link: 'https://checkout.juno.com.br/#/paymentLink/A10C0BC615B87D45/copy',
     }    
   },
 };
