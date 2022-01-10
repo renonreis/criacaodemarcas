@@ -193,7 +193,7 @@
                   data-icon="icons8:copyright"
                   data-inline="false"
                 ></span>
-                2021 - Criação de Marcas <span class="divider">&nbsp;|&nbsp;</span> CNPJ: 20.012.672/0001-24 <span class="divider">&nbsp;|&nbsp;</span> Atendemos todo o Brasil
+                2022 - Criação de Marcas <span class="divider">&nbsp;|&nbsp;</span> CNPJ: 20.012.672/0001-24 <span class="divider">&nbsp;|&nbsp;</span> Atendemos todo o Brasil
                 <span
                   class="iconify"
                   data-icon="twemoji:flag-for-flag-brazil"
