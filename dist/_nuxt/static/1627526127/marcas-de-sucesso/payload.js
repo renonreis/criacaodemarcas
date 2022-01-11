@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/marcas-de-sucesso", {data:[{}],fetch:[],mutations:void 0});

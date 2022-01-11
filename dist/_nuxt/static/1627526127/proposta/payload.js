@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/proposta", {data:[{}],fetch:[],mutations:void 0});

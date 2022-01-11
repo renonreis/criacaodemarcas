@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/proposta-de-criacao-de-marca", {data:[{}],fetch:[],mutations:void 0});
