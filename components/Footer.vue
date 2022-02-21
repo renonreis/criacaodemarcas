@@ -53,7 +53,7 @@
                     </li>
                     <li>
                       <a
-                        href="https://uweb.app/criacaodemarcas"
+                        href="https://uweb.app/evonline/login"
                         target="_blank"
                         class="client-area"
                         title="Acompanhe o trabalho de criação em tempo real"
@@ -142,7 +142,7 @@
                 Baixe o nosso aplicativo em seu celular e acompanhe o andamento dos serviços
               </p>
               <p>
-                <a href="https://apps.apple.com/us/app/cria%C3%A7%C3%A3odemarcas-com/id1553137119" target="_blank">
+                <a href="https://https://apps.apple.com/app/evonline-marketing-digital/id1495994925" target="_blank">
                   <picture>
                     <source
                       srcset="~/assets/img/webp/apple-store.webp"
@@ -159,7 +159,7 @@
                     />
                   </picture>
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.uapp.criacaodemarcas" target="_blank">
+                <a href="https://https://play.google.com/store/apps/details?id=com.uapp.evonline" target="_blank">
                   <picture>
                     <source
                       srcset="~/assets/img/webp/google-play.webp"

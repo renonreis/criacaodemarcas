@@ -22,7 +22,7 @@
           </a>
           <h2>Receba em seu <span><span class="iconify" data-icon="ri:whatsapp-fill" data-inline="false"></span>WhatsApp </span> nossa Proposta
           para criar a marca da sua empresa</h2>
-          <iframe frameborder="0" scrolling="no" src="https://app.ummense.com/form/91d5dcf9-a92e-43d6-a93b-0a286ab22329?iframe=1" width="100%" height="500px"></iframe>
+          <iframe frameborder="0" scrolling="no" src="https://app.ummense.com/form/1ec8f519-4769-65d6-8a34-0a7cd410799c?iframe=1" width="100%" height="500px" style="background: transparent !important;" ></iframe>
         </div>
       </div>
       <div class="cell medium-6 text-right cases">
@@ -75,6 +75,18 @@ html,
 body,
 main {
   height: 100%;
+}
+
+.v-text-field__slot {
+    background: #fff !important;
+}
+
+.category-form-list[data-v-6db5f2cc] {
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent !important;
 }
 
 .propostas {

@@ -425,7 +425,7 @@
                   </li>
                   <li>
                     <a
-                      href="https://uweb.app/criacaodemarcas"
+                      href="https://uweb.app/evonline/login"
                       target="_blank"
                       class="client-area"
                       title="Acompanhe o trabalho de criação em tempo real"
@@ -448,11 +448,6 @@
                       </picture>
                     </a>
                   </li>                  
-                  <li>
-                    <n-link to="/me-ligue" class="btn-marca outline solicite-marca">
-                      Quero receber ligação
-                    </n-link>                                        
-                  </li>
                   <li>
                     <n-link to="/proposta" class="btn-marca solicite-marca">
                       Quero receber proposta
@@ -556,7 +551,7 @@ header {
           display: block;
         }
         position: absolute;
-        left: 475px;
+        left: 700px;
         top: 20px;
       }
       .black-november {

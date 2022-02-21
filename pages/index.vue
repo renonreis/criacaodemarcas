@@ -6,9 +6,7 @@
         <div class="grid-x align-bottom text-center banner">
           <div class="cell large-12">
             <p class="text-white">Somos especialistas em</p>
-            <h1>Criação de marcas</h1>            
-            <n-link to="/me-ligue" class="btn outline solicite-marca"
-            >Quero receber ligação</n-link>
+            <h1>Criação de marcas</h1> 
             <n-link to="/proposta" class="btn solicite-marca"
             >Quero receber proposta</n-link>
           </div>
@@ -1133,17 +1131,6 @@ Vocês são criativos, lógicos e profissionais competentes! Parte do nosso suce
             </li>
           </ul>
         </div>
-        <div class="cell cw">
-          <a href="https://www.coachingwalking.com.br/" target="_blank">
-            <div class="box">
-              <p class="nomargin">
-                <span>Ganhe um bônus:</span> Ao adquirir a criação da sua marca,
-                você terá acesso completo ao
-                <span class="textcw">Treinamento Coaching Walking</span>
-              </p>
-            </div>
-          </a>
-        </div>
       </div>
     </div>
     <div class="equipe">
@@ -1168,7 +1155,7 @@ Vocês são criativos, lógicos e profissionais competentes! Parte do nosso suce
                 /> 
               </picture>
             </h2>
-            <p>Mais de 16 anos de experiência</p>
+            <p>Mais de 18 anos de experiência</p>
             <div class="evonline-grupo">
               <picture>
                 <source
@@ -1208,16 +1195,16 @@ Vocês são criativos, lógicos e profissionais competentes! Parte do nosso suce
                   type="image/jpg"
                 />
                 <source
-                  srcset="~/assets/img/webp/img-equipe-desktop.webp"
+                  srcset="~/assets/img/webp/evonline-equipes.webp"
                   type="image/webp"
                 />
                 <source
-                  srcset="~/assets/img/img-equipe-desktop.png"
+                  srcset="~/assets/img/evonline-equipes.png"
                   type="image/png"
                 />
                 <img
                   loading="lazy"
-                  src="~/assets/img/img-equipe-desktop.png"
+                  src="~/assets/img/evonline-equipes.png"
                   alt
                   class="equipe-fotos"
                 /> 
